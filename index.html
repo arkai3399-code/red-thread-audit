@@ -1,0 +1,9 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>赤い糸 · 全経路点検</title><link rel="stylesheet" href="style.css"><script src="viewer.js" defer></script></head><body>
+<header class="masthead"><a class="wordmark" href="./">赤い糸<span>DEVELOPMENT OBSERVATORY</span></a><div class="mast-note">操作から、内部ロジックまで。<br><span>静的推定＋自動テストの観測記録</span></div><button id="refresh">再読み込み</button></header>
+<main><section class="headline"><div><p class="eyebrow">SYSTEM / 01</p><h1>全経路点検</h1><p id="revision">点検データを読み込み中…</p></div><div class="health" id="health" role="status" aria-live="polite"></div></section>
+<div id="alerts" aria-live="polite"></div><section class="metrics" id="metrics" aria-label="点検の集計"></section>
+<nav class="tabs" aria-label="点検対象"><button data-tab="routes" aria-pressed="true">画面経路</button><button data-tab="overview">全体図</button><button data-tab="api">API・内部処理</button><button data-tab="tasks">定時タスク</button><button data-tab="issues">問題一覧</button><button data-tab="verify">要確認</button><button data-tab="changes">今回の変更</button><button data-tab="tests">テスト結果</button></nav>
+<div class="tools"><label><span>絞り込み</span><input id="search" type="search" placeholder="画面名・ボタン名・処理名を検索"></label><button id="run" hidden>全テストを再実行</button><span id="checked"></span></div>
+<section id="content" aria-live="polite"></section><footer><p>静的解析は実行時トレースではありません。未検証・動的な分岐・本番稼働版は要確認として表示します。</p><p>● 接続・検証結果を表示　/　個人情報・認証情報・対象ソース本文は公開しません</p></footer></main>
+<dialog id="source"><div class="dialog-title"><h2>点検時点のソース</h2><button id="close">閉じる</button></div><p id="source-title"></p><pre id="source-code"></pre></dialog>
+</body></html>
