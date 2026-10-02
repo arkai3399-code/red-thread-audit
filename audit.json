@@ -3,8 +3,8 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-02T10:27:23.722Z",
-  "workerStatus": "queued",
+  "checkedAt": "2026-10-02T10:29:31.091Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8024,11 +8024,7 @@
     "baseline": false,
     "added": 0,
     "removed": 0,
-    "files": [
-      "dist/app.js",
-      "dist/styles.css",
-      "tests/browser-diagnosis.cjs"
-    ],
+    "files": [],
     "removedFiles": []
   },
   "fileHashes": {
@@ -8111,15 +8107,23 @@
   ],
   "tests": {
     "unit": {
-      "status": "pending",
-      "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6"
+      "status": "passed",
+      "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
+      "startedAt": "2026-10-02T10:29:34.737Z",
+      "finishedAt": "2026-10-02T10:29:39.434Z",
+      "total": 1416,
+      "passed": 1416,
+      "failed": 0,
+      "skipped": 0,
+      "failures": [],
+      "reason": null
     },
     "browser": {
-      "status": "pending",
-      "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6"
+      "status": "running",
+      "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-10-02T10:27:27.548Z",
-  "publishError": null,
-  "pendingSource": true
+  "heartbeatAt": "2026-10-02T10:29:39.440Z"
 }
