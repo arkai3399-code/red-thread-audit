@@ -4,7 +4,7 @@
   "fingerprint": "e0713b6dffaef88485147db76da8d2b06d519c64f81d20340d409d3345029922",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
   "checkedAt": "2026-10-02T09:07:56.487Z",
-  "workerStatus": "testing",
+  "workerStatus": "idle",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8041,16 +8041,18 @@
       "reason": null
     },
     "browser": {
-      "status": "running",
+      "status": "passed",
       "fingerprint": "e0713b6dffaef88485147db76da8d2b06d519c64f81d20340d409d3345029922",
       "startedAt": "2026-10-02T09:08:04.048Z",
       "total": 15,
-      "passed": 14,
+      "passed": 15,
       "failed": 0,
       "failures": [],
-      "completed": 14
+      "completed": 15,
+      "finishedAt": "2026-10-02T09:15:08.457Z"
     }
   },
-  "heartbeatAt": "2026-10-02T09:14:42.250Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-02T09:15:08.458Z",
+  "publishError": null,
+  "pendingSource": false
 }
