@@ -8127,9 +8127,23 @@
     "browser": {
       "status": "running",
       "fingerprint": "233291bd0fe3bc253c2063b8b1fbcb258b624dac707fede3307fd07e4e026793",
-      "total": 0,
-      "completed": 0
+      "startedAt": "2026-10-02T10:21:34.868Z",
+      "total": 16,
+      "passed": 1,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-chat-layout.cjs",
+          "source": {
+            "file": "tests/browser-chat-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-02T10:21:34.863Z"
+  "heartbeatAt": "2026-10-02T10:22:33.906Z",
+  "publishError": null
 }
