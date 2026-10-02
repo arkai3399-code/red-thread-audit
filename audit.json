@@ -8129,7 +8129,7 @@
       "fingerprint": "233291bd0fe3bc253c2063b8b1fbcb258b624dac707fede3307fd07e4e026793",
       "startedAt": "2026-10-02T10:21:34.868Z",
       "total": 16,
-      "passed": 1,
+      "passed": 3,
       "failed": 1,
       "failures": [
         {
@@ -8141,9 +8141,9 @@
           "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 2
+      "completed": 4
     }
   },
-  "heartbeatAt": "2026-10-02T10:22:33.906Z",
+  "heartbeatAt": "2026-10-02T10:23:08.065Z",
   "publishError": null
 }
