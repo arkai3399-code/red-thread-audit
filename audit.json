@@ -2,8 +2,8 @@
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "e0713b6dffaef88485147db76da8d2b06d519c64f81d20340d409d3345029922",
-  "toolHash": "accb77ee860a02581daf65266c75ba33e47f0836837a80f12081eb8d3e82d943",
-  "checkedAt": "2026-10-02T08:59:15.266Z",
+  "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
+  "checkedAt": "2026-10-02T09:04:55.604Z",
   "workerStatus": "idle",
   "syncMode": "local",
   "source": {
@@ -8031,8 +8031,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "e0713b6dffaef88485147db76da8d2b06d519c64f81d20340d409d3345029922",
-      "startedAt": "2026-10-02T08:59:16.249Z",
-      "finishedAt": "2026-10-02T08:59:17.401Z",
+      "startedAt": "2026-10-02T09:04:56.469Z",
+      "finishedAt": "2026-10-02T09:04:57.837Z",
       "total": 1408,
       "passed": 1408,
       "failed": 0,
@@ -8052,6 +8052,6 @@
       "finishedAt": "2026-10-02T08:49:23.547Z"
     }
   },
-  "heartbeatAt": "2026-10-02T09:04:24.807Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-02T09:05:35.765Z",
+  "pendingSource": false
 }
