@@ -8124,11 +8124,20 @@
       "startedAt": "2026-10-03T07:07:31.807Z",
       "total": 16,
       "passed": 5,
-      "failed": 0,
-      "failures": [],
-      "completed": 5
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 6
     }
   },
-  "heartbeatAt": "2026-10-03T07:10:18.603Z",
+  "heartbeatAt": "2026-10-03T07:10:59.312Z",
   "publishError": null
 }
