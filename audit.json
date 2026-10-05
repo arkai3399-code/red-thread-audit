@@ -8133,12 +8133,12 @@
       "fingerprint": "e6606d63dc7296a3f0661c1a48bc17589c83946ce0c20ea9a80a9fb909e8d6e0",
       "startedAt": "2026-10-05T08:11:24.705Z",
       "total": 17,
-      "passed": 10,
+      "passed": 12,
       "failed": 0,
       "failures": [],
-      "completed": 10
+      "completed": 12
     }
   },
-  "heartbeatAt": "2026-10-05T08:15:12.654Z",
+  "heartbeatAt": "2026-10-05T08:16:27.497Z",
   "publishError": null
 }
