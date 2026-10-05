@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
-  "fingerprint": "5ea837940713882fd3b4cacca56c9b5f921c1778807a9923d3e571f1fd35fe8e",
+  "fingerprint": "0352ad93669247f7d57bc654f3b42d8f95b22f4b2f6b6735081138feaab2854a",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-05T09:21:28.128Z",
-  "workerStatus": "idle",
+  "checkedAt": "2026-10-05T09:48:10.448Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8199,77 +8199,14 @@
         "file": "dist/model.js",
         "line": 22
       }
-    },
-    {
-      "id": "test:browser",
-      "level": "verify",
-      "automatic": true,
-      "stale": true,
-      "title": "ブラウザ操作のテストが失敗",
-      "description": "前回の失敗が再現しないか、検証未実行です。根拠とテスト結果を再確認してください。",
-      "source": {
-        "file": "tests/browser-layout.cjs",
-        "line": 1
-      }
     }
   ],
   "changes": {
     "baseline": false,
-    "added": 2,
+    "added": 0,
     "removed": 0,
     "files": [
-      "dist/app.js",
-      "dist/compatibility.js",
-      "dist/model.js",
-      "dist/panda-personality/compatibility-source-manifest.js",
-      "dist/panda-personality/src/data/mbtiNames.js",
-      "dist/panda-personality/src/engines/mbtiEngine.js",
-      "dist/panda-personality/src/lib/birthTimeShape.js",
-      "dist/panda-personality/src/logic/compatCalc.js",
-      "dist/personality.js",
-      "dist/registration-demo.js",
-      "dist/styles.css",
-      "dist/test-scenarios.js",
-      "package.json",
-      "tests/account-coverage.test.mjs",
-      "tests/browser-chat-layout.cjs",
-      "tests/browser-compatibility.cjs",
-      "tests/browser-diagnosis.cjs",
-      "tests/browser-endless.cjs",
-      "tests/browser-entry.cjs",
-      "tests/browser-journey.cjs",
-      "tests/browser-layout.cjs",
-      "tests/browser-message-access.cjs",
-      "tests/browser-mypage.cjs",
-      "tests/browser-photo-editor.cjs",
-      "tests/browser-policy.cjs",
-      "tests/browser-prematch.cjs",
-      "tests/browser-profile-completion.cjs",
-      "tests/browser-registration-demo.cjs",
-      "tests/browser-search.cjs",
-      "tests/browser-smoke.cjs",
-      "tests/browser-spec-sync.cjs",
-      "tests/browser-test-accounts.cjs",
-      "tests/compatibility-model.test.mjs",
-      "tests/compatibility.test.mjs",
-      "tests/diagnosis-values.test.mjs",
-      "tests/endless-candidates.test.mjs",
-      "tests/female-prematch.test.mjs",
-      "tests/fixture-url.cjs",
-      "tests/message-access.test.mjs",
-      "tests/messages.test.mjs",
-      "tests/nonface-review.test.mjs",
-      "tests/permission-accounts.test.mjs",
-      "tests/personality.test.mjs",
-      "tests/prematch-basic.test.mjs",
-      "tests/profile-completion.test.mjs",
-      "tests/registration-demo.test.mjs",
-      "tests/review-lifecycle.test.mjs",
-      "tests/search.test.mjs",
-      "tests/skeleton.test.mjs",
-      "tests/spec-sync.test.mjs",
-      "tests/test-accounts.test.mjs",
-      "tests/test-scenarios.test.mjs"
+      "dist/registration-demo.js"
     ],
     "removedFiles": []
   },
@@ -8292,7 +8229,7 @@
     "dist/panda-personality/src/logic/compatCalc.js": "0c2e4c5d19fc032e721c94ff6fa91fcdab07eab583c1613fe5012d5e20111d16",
     "dist/personality.js": "5bfac2b99af0ee7223413adc86467d278a9163da67ecb33ac5b6a2ea8cd48a89",
     "dist/profile-presentation.js": "4bb6f09c1d1c9aafdb72972b45f3c733a3824c33296423b9ae65ef3af9670700",
-    "dist/registration-demo.js": "8351a679c6ede5edb995ab879a2a2b07218d57ffc641a0605399c33c7f9c0072",
+    "dist/registration-demo.js": "4a7978aaedb97716c0f84f552693897598cc9f3c229d630e7db9672f82ff818d",
     "dist/registration-questions.js": "a9fdfd1b49a0079d2346c2e6e657e2f914bc82a4d41dec3e99f7a24675f8992e",
     "dist/search.js": "bc51361f5ae9d153712227ee0cd5a5e86fe8ff7ddaa8205a357eaa14e3e9b6aa",
     "dist/styles.css": "1dba8a4a098410da2d3074d530d9e8515f32f6c7c16b1a64588dd53e2de39d14",
@@ -8366,9 +8303,9 @@
   "tests": {
     "unit": {
       "status": "passed",
-      "fingerprint": "5ea837940713882fd3b4cacca56c9b5f921c1778807a9923d3e571f1fd35fe8e",
-      "startedAt": "2026-10-05T09:21:32.448Z",
-      "finishedAt": "2026-10-05T09:21:38.397Z",
+      "fingerprint": "0352ad93669247f7d57bc654f3b42d8f95b22f4b2f6b6735081138feaab2854a",
+      "startedAt": "2026-10-05T09:48:13.992Z",
+      "finishedAt": "2026-10-05T09:48:19.556Z",
       "total": 1473,
       "passed": 1473,
       "failed": 0,
@@ -8377,18 +8314,11 @@
       "reason": null
     },
     "browser": {
-      "status": "passed",
-      "fingerprint": "5ea837940713882fd3b4cacca56c9b5f921c1778807a9923d3e571f1fd35fe8e",
-      "startedAt": "2026-10-05T09:21:38.413Z",
-      "total": 18,
-      "passed": 18,
-      "failed": 0,
-      "failures": [],
-      "completed": 18,
-      "finishedAt": "2026-10-05T09:29:25.624Z"
+      "status": "running",
+      "fingerprint": "0352ad93669247f7d57bc654f3b42d8f95b22f4b2f6b6735081138feaab2854a",
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-10-05T09:29:25.624Z",
-  "publishError": null,
-  "pendingSource": false
+  "heartbeatAt": "2026-10-05T09:48:19.560Z"
 }
