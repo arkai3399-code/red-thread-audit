@@ -8316,12 +8316,21 @@
       "fingerprint": "186233aef3a120fbbae290fc84e4e289a2115dde76d1257f17dbdbfa8796caea",
       "startedAt": "2026-10-05T11:15:49.426Z",
       "total": 18,
-      "passed": 5,
-      "failed": 0,
-      "failures": [],
-      "completed": 5
+      "passed": 6,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 7
     }
   },
-  "heartbeatAt": "2026-10-05T11:18:44.782Z",
+  "heartbeatAt": "2026-10-05T11:19:37.108Z",
   "publishError": null
 }
