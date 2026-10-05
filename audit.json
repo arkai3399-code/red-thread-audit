@@ -8317,11 +8317,20 @@
       "startedAt": "2026-10-05T14:44:58.053Z",
       "total": 18,
       "passed": 6,
-      "failed": 0,
-      "failures": [],
-      "completed": 6
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 7
     }
   },
-  "heartbeatAt": "2026-10-05T14:48:21.672Z",
+  "heartbeatAt": "2026-10-05T14:48:55.445Z",
   "publishError": null
 }
