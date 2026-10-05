@@ -8123,12 +8123,21 @@
       "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
       "startedAt": "2026-10-05T04:25:24.263Z",
       "total": 16,
-      "passed": 4,
-      "failed": 0,
-      "failures": [],
-      "completed": 4
+      "passed": 5,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 6
     }
   },
-  "heartbeatAt": "2026-10-05T04:27:38.057Z",
+  "heartbeatAt": "2026-10-05T04:28:17.418Z",
   "publishError": null
 }
