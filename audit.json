@@ -8318,12 +8318,12 @@
       "fingerprint": "0352ad93669247f7d57bc654f3b42d8f95b22f4b2f6b6735081138feaab2854a",
       "startedAt": "2026-10-05T09:48:19.567Z",
       "total": 18,
-      "passed": 7,
+      "passed": 9,
       "failed": 0,
       "failures": [],
-      "completed": 7
+      "completed": 9
     }
   },
-  "heartbeatAt": "2026-10-05T09:51:32.714Z",
+  "heartbeatAt": "2026-10-05T09:52:29.289Z",
   "publishError": null
 }
