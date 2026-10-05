@@ -3,8 +3,8 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "186233aef3a120fbbae290fc84e4e289a2115dde76d1257f17dbdbfa8796caea",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-05T19:24:29.158Z",
-  "workerStatus": "idle",
+  "checkedAt": "2026-10-05T20:34:24.915Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -7911,18 +7911,6 @@
         "file": "dist/model.js",
         "line": 22
       }
-    },
-    {
-      "id": "test:browser",
-      "level": "bug",
-      "automatic": true,
-      "stale": false,
-      "title": "ブラウザ操作のテストが失敗",
-      "description": "1件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
-      "source": {
-        "file": "tests/browser-layout.cjs",
-        "line": 1
-      }
     }
   ],
   "verify": [
@@ -8314,8 +8302,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "186233aef3a120fbbae290fc84e4e289a2115dde76d1257f17dbdbfa8796caea",
-      "startedAt": "2026-10-05T19:24:33.636Z",
-      "finishedAt": "2026-10-05T19:24:38.926Z",
+      "startedAt": "2026-10-05T20:34:29.266Z",
+      "finishedAt": "2026-10-05T20:34:34.932Z",
       "total": 1475,
       "passed": 1475,
       "failed": 0,
@@ -8324,27 +8312,11 @@
       "reason": null
     },
     "browser": {
-      "status": "failed",
+      "status": "running",
       "fingerprint": "186233aef3a120fbbae290fc84e4e289a2115dde76d1257f17dbdbfa8796caea",
-      "startedAt": "2026-10-05T19:24:38.940Z",
-      "total": 18,
-      "passed": 17,
-      "failed": 1,
-      "failures": [
-        {
-          "name": "tests/browser-layout.cjs",
-          "source": {
-            "file": "tests/browser-layout.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        }
-      ],
-      "completed": 18,
-      "finishedAt": "2026-10-05T19:34:22.208Z"
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-10-05T19:34:22.208Z",
-  "publishError": null,
-  "pendingSource": false
+  "heartbeatAt": "2026-10-05T20:34:34.938Z"
 }
