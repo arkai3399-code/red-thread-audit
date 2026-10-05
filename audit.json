@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
-  "fingerprint": "e6606d63dc7296a3f0661c1a48bc17589c83946ce0c20ea9a80a9fb909e8d6e0",
+  "fingerprint": "64c522b3b01e0f595784ec8a6a9e0a019833ac5053e1ed48d31c4847f0175150",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-05T08:11:17.795Z",
-  "workerStatus": "idle",
+  "checkedAt": "2026-10-05T08:32:27.429Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -5314,20 +5314,20 @@
     {
       "name": "constructor",
       "file": "dist/model.js",
-      "line": 14,
+      "line": 20,
       "source": {
         "file": "dist/model.js",
-        "line": 14
+        "line": 20
       },
       "callers": []
     },
     {
       "name": "reset",
       "file": "dist/model.js",
-      "line": 20,
+      "line": 26,
       "source": {
         "file": "dist/model.js",
-        "line": 20
+        "line": 26
       },
       "callers": [
         {
@@ -5345,10 +5345,10 @@
     {
       "name": "export",
       "file": "dist/model.js",
-      "line": 33,
+      "line": 39,
       "source": {
         "file": "dist/model.js",
-        "line": 33
+        "line": 39
       },
       "callers": [
         {
@@ -5371,10 +5371,10 @@
     {
       "name": "restore",
       "file": "dist/model.js",
-      "line": 36,
+      "line": 42,
       "source": {
         "file": "dist/model.js",
-        "line": 36
+        "line": 42
       },
       "callers": [
         {
@@ -5385,22 +5385,32 @@
       ]
     },
     {
-      "name": "ensureTestAccounts",
+      "name": "migrateDemoValueAnswers",
       "file": "dist/model.js",
-      "line": 45,
+      "line": 52,
       "source": {
         "file": "dist/model.js",
-        "line": 45
+        "line": 52
+      },
+      "callers": []
+    },
+    {
+      "name": "ensureTestAccounts",
+      "file": "dist/model.js",
+      "line": 76,
+      "source": {
+        "file": "dist/model.js",
+        "line": 76
       },
       "callers": []
     },
     {
       "name": "testAccounts",
       "file": "dist/model.js",
-      "line": 87,
+      "line": 118,
       "source": {
         "file": "dist/model.js",
-        "line": 87
+        "line": 118
       },
       "callers": [
         {
@@ -5413,10 +5423,10 @@
     {
       "name": "accountState",
       "file": "dist/model.js",
-      "line": 90,
+      "line": 121,
       "source": {
         "file": "dist/model.js",
-        "line": 90
+        "line": 121
       },
       "callers": [
         {
@@ -5454,10 +5464,10 @@
     {
       "name": "selectTestAccount",
       "file": "dist/model.js",
-      "line": 109,
+      "line": 140,
       "source": {
         "file": "dist/model.js",
-        "line": 109
+        "line": 140
       },
       "callers": [
         {
@@ -5470,50 +5480,50 @@
     {
       "name": "migrateReviewData",
       "file": "dist/model.js",
-      "line": 114,
+      "line": 145,
       "source": {
         "file": "dist/model.js",
-        "line": 114
+        "line": 145
       },
       "callers": []
     },
     {
       "name": "importReviewState",
       "file": "dist/model.js",
-      "line": 123,
+      "line": 154,
       "source": {
         "file": "dist/model.js",
-        "line": 123
+        "line": 154
       },
       "callers": []
     },
     {
       "name": "incomeExpiry",
       "file": "dist/model.js",
-      "line": 164,
+      "line": 195,
       "source": {
         "file": "dist/model.js",
-        "line": 164
+        "line": 195
       },
       "callers": []
     },
     {
       "name": "reviewKind",
       "file": "dist/model.js",
-      "line": 169,
+      "line": 200,
       "source": {
         "file": "dist/model.js",
-        "line": 169
+        "line": 200
       },
       "callers": []
     },
     {
       "name": "reviewRecord",
       "file": "dist/model.js",
-      "line": 175,
+      "line": 206,
       "source": {
         "file": "dist/model.js",
-        "line": 175
+        "line": 206
       },
       "callers": [
         {
@@ -5531,20 +5541,20 @@
     {
       "name": "validateReviewHeads",
       "file": "dist/model.js",
-      "line": 178,
+      "line": 209,
       "source": {
         "file": "dist/model.js",
-        "line": 178
+        "line": 209
       },
       "callers": []
     },
     {
       "name": "reviewHistory",
       "file": "dist/model.js",
-      "line": 193,
+      "line": 224,
       "source": {
         "file": "dist/model.js",
-        "line": 193
+        "line": 224
       },
       "callers": [
         {
@@ -5557,50 +5567,50 @@
     {
       "name": "pendingReview",
       "file": "dist/model.js",
-      "line": 197,
+      "line": 228,
       "source": {
         "file": "dist/model.js",
-        "line": 197
+        "line": 228
       },
       "callers": []
     },
     {
       "name": "newReviewRecord",
       "file": "dist/model.js",
-      "line": 206,
+      "line": 237,
       "source": {
         "file": "dist/model.js",
-        "line": 206
+        "line": 237
       },
       "callers": []
     },
     {
       "name": "publishReviewedPhoto",
       "file": "dist/model.js",
-      "line": 220,
+      "line": 251,
       "source": {
         "file": "dist/model.js",
-        "line": 220
+        "line": 251
       },
       "callers": []
     },
     {
       "name": "reviewEvent",
       "file": "dist/model.js",
-      "line": 236,
+      "line": 267,
       "source": {
         "file": "dist/model.js",
-        "line": 236
+        "line": 267
       },
       "callers": []
     },
     {
       "name": "applyReviewResult",
       "file": "dist/model.js",
-      "line": 244,
+      "line": 275,
       "source": {
         "file": "dist/model.js",
-        "line": 244
+        "line": 275
       },
       "callers": [
         {
@@ -5618,20 +5628,20 @@
     {
       "name": "revokeVerification",
       "file": "dist/model.js",
-      "line": 287,
+      "line": 318,
       "source": {
         "file": "dist/model.js",
-        "line": 287
+        "line": 318
       },
       "callers": []
     },
     {
       "name": "uid",
       "file": "dist/model.js",
-      "line": 313,
+      "line": 344,
       "source": {
         "file": "dist/model.js",
-        "line": 313
+        "line": 344
       },
       "callers": [
         {
@@ -5644,10 +5654,10 @@
     {
       "name": "user",
       "file": "dist/model.js",
-      "line": 316,
+      "line": 347,
       "source": {
         "file": "dist/model.js",
-        "line": 316
+        "line": 347
       },
       "callers": [
         {
@@ -5705,10 +5715,10 @@
     {
       "name": "active",
       "file": "dist/model.js",
-      "line": 322,
+      "line": 353,
       "source": {
         "file": "dist/model.js",
-        "line": 322
+        "line": 353
       },
       "callers": [
         {
@@ -5731,30 +5741,30 @@
     {
       "name": "requireActive",
       "file": "dist/model.js",
-      "line": 325,
+      "line": 356,
       "source": {
         "file": "dist/model.js",
-        "line": 325
+        "line": 356
       },
       "callers": []
     },
     {
       "name": "requiredProfileChecks",
       "file": "dist/model.js",
-      "line": 329,
+      "line": 360,
       "source": {
         "file": "dist/model.js",
-        "line": 329
+        "line": 360
       },
       "callers": []
     },
     {
       "name": "complete",
       "file": "dist/model.js",
-      "line": 333,
+      "line": 364,
       "source": {
         "file": "dist/model.js",
-        "line": 333
+        "line": 364
       },
       "callers": [
         {
@@ -5787,10 +5797,10 @@
     {
       "name": "profileCompletion",
       "file": "dist/model.js",
-      "line": 336,
+      "line": 367,
       "source": {
         "file": "dist/model.js",
-        "line": 336
+        "line": 367
       },
       "callers": [
         {
@@ -5803,10 +5813,10 @@
     {
       "name": "score",
       "file": "dist/model.js",
-      "line": 343,
+      "line": 374,
       "source": {
         "file": "dist/model.js",
-        "line": 343
+        "line": 374
       },
       "callers": [
         {
@@ -5834,10 +5844,10 @@
     {
       "name": "diagnostic",
       "file": "dist/model.js",
-      "line": 346,
+      "line": 377,
       "source": {
         "file": "dist/model.js",
-        "line": 346
+        "line": 377
       },
       "callers": [
         {
@@ -5850,10 +5860,10 @@
     {
       "name": "subscription",
       "file": "dist/model.js",
-      "line": 349,
+      "line": 380,
       "source": {
         "file": "dist/model.js",
-        "line": 349
+        "line": 380
       },
       "callers": [
         {
@@ -5866,10 +5876,10 @@
     {
       "name": "hasBasic",
       "file": "dist/model.js",
-      "line": 352,
+      "line": 383,
       "source": {
         "file": "dist/model.js",
-        "line": 352
+        "line": 383
       },
       "callers": [
         {
@@ -5887,30 +5897,30 @@
     {
       "name": "hasPremium",
       "file": "dist/model.js",
-      "line": 355,
+      "line": 386,
       "source": {
         "file": "dist/model.js",
-        "line": 355
+        "line": 386
       },
       "callers": []
     },
     {
       "name": "expiredBasic",
       "file": "dist/model.js",
-      "line": 358,
+      "line": 389,
       "source": {
         "file": "dist/model.js",
-        "line": 358
+        "line": 389
       },
       "callers": []
     },
     {
       "name": "plan",
       "file": "dist/model.js",
-      "line": 361,
+      "line": 392,
       "source": {
         "file": "dist/model.js",
-        "line": 361
+        "line": 392
       },
       "callers": [
         {
@@ -5923,20 +5933,20 @@
     {
       "name": "addSubscription",
       "file": "dist/model.js",
-      "line": 364,
+      "line": 395,
       "source": {
         "file": "dist/model.js",
-        "line": 364
+        "line": 395
       },
       "callers": []
     },
     {
       "name": "purchase",
       "file": "dist/model.js",
-      "line": 373,
+      "line": 404,
       "source": {
         "file": "dist/model.js",
-        "line": 373
+        "line": 404
       },
       "callers": [
         {
@@ -5949,10 +5959,10 @@
     {
       "name": "stopRenewal",
       "file": "dist/model.js",
-      "line": 383,
+      "line": 414,
       "source": {
         "file": "dist/model.js",
-        "line": 383
+        "line": 414
       },
       "callers": [
         {
@@ -5965,30 +5975,30 @@
     {
       "name": "setPlan",
       "file": "dist/model.js",
-      "line": 391,
+      "line": 422,
       "source": {
         "file": "dist/model.js",
-        "line": 391
+        "line": 422
       },
       "callers": []
     },
     {
       "name": "syncPlans",
       "file": "dist/model.js",
-      "line": 406,
+      "line": 437,
       "source": {
         "file": "dist/model.js",
-        "line": 406
+        "line": 437
       },
       "callers": []
     },
     {
       "name": "privateMode",
       "file": "dist/model.js",
-      "line": 413,
+      "line": 444,
       "source": {
         "file": "dist/model.js",
-        "line": 413
+        "line": 444
       },
       "callers": [
         {
@@ -6011,10 +6021,10 @@
     {
       "name": "setPrivate",
       "file": "dist/model.js",
-      "line": 416,
+      "line": 447,
       "source": {
         "file": "dist/model.js",
-        "line": 416
+        "line": 447
       },
       "callers": [
         {
@@ -6027,10 +6037,10 @@
     {
       "name": "matched",
       "file": "dist/model.js",
-      "line": 423,
+      "line": 454,
       "source": {
         "file": "dist/model.js",
-        "line": 423
+        "line": 454
       },
       "callers": [
         {
@@ -6063,10 +6073,10 @@
     {
       "name": "liked",
       "file": "dist/model.js",
-      "line": 426,
+      "line": 457,
       "source": {
         "file": "dist/model.js",
-        "line": 426
+        "line": 457
       },
       "callers": [
         {
@@ -6089,10 +6099,10 @@
     {
       "name": "blocked",
       "file": "dist/model.js",
-      "line": 429,
+      "line": 460,
       "source": {
         "file": "dist/model.js",
-        "line": 429
+        "line": 460
       },
       "callers": [
         {
@@ -6105,10 +6115,10 @@
     {
       "name": "eligible",
       "file": "dist/model.js",
-      "line": 432,
+      "line": 463,
       "source": {
         "file": "dist/model.js",
-        "line": 432
+        "line": 463
       },
       "callers": [
         {
@@ -6126,20 +6136,20 @@
     {
       "name": "publicTo",
       "file": "dist/model.js",
-      "line": 435,
+      "line": 466,
       "source": {
         "file": "dist/model.js",
-        "line": 435
+        "line": 466
       },
       "callers": []
     },
     {
       "name": "canView",
       "file": "dist/model.js",
-      "line": 438,
+      "line": 469,
       "source": {
         "file": "dist/model.js",
-        "line": 438
+        "line": 469
       },
       "callers": [
         {
@@ -6197,20 +6207,20 @@
     {
       "name": "hidden",
       "file": "dist/model.js",
-      "line": 441,
+      "line": 472,
       "source": {
         "file": "dist/model.js",
-        "line": 441
+        "line": 472
       },
       "callers": []
     },
     {
       "name": "cap",
       "file": "dist/model.js",
-      "line": 444,
+      "line": 475,
       "source": {
         "file": "dist/model.js",
-        "line": 444
+        "line": 475
       },
       "callers": [
         {
@@ -6223,20 +6233,20 @@
     {
       "name": "used",
       "file": "dist/model.js",
-      "line": 447,
+      "line": 478,
       "source": {
         "file": "dist/model.js",
-        "line": 447
+        "line": 478
       },
       "callers": []
     },
     {
       "name": "remaining",
       "file": "dist/model.js",
-      "line": 450,
+      "line": 481,
       "source": {
         "file": "dist/model.js",
-        "line": 450
+        "line": 481
       },
       "callers": [
         {
@@ -6249,30 +6259,30 @@
     {
       "name": "setUsage",
       "file": "dist/model.js",
-      "line": 453,
+      "line": 484,
       "source": {
         "file": "dist/model.js",
-        "line": 453
+        "line": 484
       },
       "callers": []
     },
     {
       "name": "activity",
       "file": "dist/model.js",
-      "line": 458,
+      "line": 489,
       "source": {
         "file": "dist/model.js",
-        "line": 458
+        "line": 489
       },
       "callers": []
     },
     {
       "name": "searchPermissions",
       "file": "dist/model.js",
-      "line": 462,
+      "line": 493,
       "source": {
         "file": "dist/model.js",
-        "line": 462
+        "line": 493
       },
       "callers": [
         {
@@ -6285,10 +6295,10 @@
     {
       "name": "searchPreferences",
       "file": "dist/model.js",
-      "line": 465,
+      "line": 496,
       "source": {
         "file": "dist/model.js",
-        "line": 465
+        "line": 496
       },
       "callers": [
         {
@@ -6306,10 +6316,10 @@
     {
       "name": "validateSearch",
       "file": "dist/model.js",
-      "line": 468,
+      "line": 499,
       "source": {
         "file": "dist/model.js",
-        "line": 468
+        "line": 499
       },
       "callers": [
         {
@@ -6322,10 +6332,10 @@
     {
       "name": "saveSearchPreferences",
       "file": "dist/model.js",
-      "line": 496,
+      "line": 527,
       "source": {
         "file": "dist/model.js",
-        "line": 496
+        "line": 527
       },
       "callers": [
         {
@@ -6338,10 +6348,10 @@
     {
       "name": "clearUnavailableSearch",
       "file": "dist/model.js",
-      "line": 503,
+      "line": 534,
       "source": {
         "file": "dist/model.js",
-        "line": 503
+        "line": 534
       },
       "callers": [
         {
@@ -6354,10 +6364,10 @@
     {
       "name": "discover",
       "file": "dist/model.js",
-      "line": 509,
+      "line": 540,
       "source": {
         "file": "dist/model.js",
-        "line": 509
+        "line": 540
       },
       "callers": [
         {
@@ -6375,10 +6385,10 @@
     {
       "name": "refillDiscover",
       "file": "dist/model.js",
-      "line": 524,
+      "line": 555,
       "source": {
         "file": "dist/model.js",
-        "line": 524
+        "line": 555
       },
       "callers": [
         {
@@ -6391,20 +6401,20 @@
     {
       "name": "addDemoCandidate",
       "file": "dist/model.js",
-      "line": 542,
+      "line": 573,
       "source": {
         "file": "dist/model.js",
-        "line": 542
+        "line": 573
       },
       "callers": []
     },
     {
       "name": "incoming",
       "file": "dist/model.js",
-      "line": 579,
+      "line": 610,
       "source": {
         "file": "dist/model.js",
-        "line": 579
+        "line": 610
       },
       "callers": [
         {
@@ -6417,10 +6427,10 @@
     {
       "name": "outgoing",
       "file": "dist/model.js",
-      "line": 582,
+      "line": 613,
       "source": {
         "file": "dist/model.js",
-        "line": 582
+        "line": 613
       },
       "callers": [
         {
@@ -6438,40 +6448,40 @@
     {
       "name": "matches",
       "file": "dist/model.js",
-      "line": 585,
+      "line": 616,
       "source": {
         "file": "dist/model.js",
-        "line": 585
+        "line": 616
       },
       "callers": []
     },
     {
       "name": "checkLike",
       "file": "dist/model.js",
-      "line": 588,
+      "line": 619,
       "source": {
         "file": "dist/model.js",
-        "line": 588
+        "line": 619
       },
       "callers": []
     },
     {
       "name": "match",
       "file": "dist/model.js",
-      "line": 602,
+      "line": 633,
       "source": {
         "file": "dist/model.js",
-        "line": 602
+        "line": 633
       },
       "callers": []
     },
     {
       "name": "like",
       "file": "dist/model.js",
-      "line": 612,
+      "line": 643,
       "source": {
         "file": "dist/model.js",
-        "line": 612
+        "line": 643
       },
       "callers": [
         {
@@ -6504,10 +6514,10 @@
     {
       "name": "skip",
       "file": "dist/model.js",
-      "line": 626,
+      "line": 657,
       "source": {
         "file": "dist/model.js",
-        "line": 626
+        "line": 657
       },
       "callers": [
         {
@@ -6520,10 +6530,10 @@
     {
       "name": "saveProfile",
       "file": "dist/model.js",
-      "line": 632,
+      "line": 663,
       "source": {
         "file": "dist/model.js",
-        "line": 632
+        "line": 663
       },
       "callers": [
         {
@@ -6536,20 +6546,20 @@
     {
       "name": "fillSample",
       "file": "dist/model.js",
-      "line": 656,
+      "line": 687,
       "source": {
         "file": "dist/model.js",
-        "line": 656
+        "line": 687
       },
       "callers": []
     },
     {
       "name": "reviewsComplete",
       "file": "dist/model.js",
-      "line": 659,
+      "line": 690,
       "source": {
         "file": "dist/model.js",
-        "line": 659
+        "line": 690
       },
       "callers": [
         {
@@ -6572,20 +6582,20 @@
     {
       "name": "assertReviews",
       "file": "dist/model.js",
-      "line": 664,
+      "line": 695,
       "source": {
         "file": "dist/model.js",
-        "line": 664
+        "line": 695
       },
       "callers": []
     },
     {
       "name": "nonFacePhotos",
       "file": "dist/model.js",
-      "line": 672,
+      "line": 703,
       "source": {
         "file": "dist/model.js",
-        "line": 672
+        "line": 703
       },
       "callers": [
         {
@@ -6598,20 +6608,20 @@
     {
       "name": "visibleNonFace",
       "file": "dist/model.js",
-      "line": 676,
+      "line": 707,
       "source": {
         "file": "dist/model.js",
-        "line": 676
+        "line": 707
       },
       "callers": []
     },
     {
       "name": "submitNonFace",
       "file": "dist/model.js",
-      "line": 682,
+      "line": 713,
       "source": {
         "file": "dist/model.js",
-        "line": 682
+        "line": 713
       },
       "callers": [
         {
@@ -6624,10 +6634,10 @@
     {
       "name": "submitInitialReview",
       "file": "dist/model.js",
-      "line": 701,
+      "line": 732,
       "source": {
         "file": "dist/model.js",
-        "line": 701
+        "line": 732
       },
       "callers": [
         {
@@ -6645,10 +6655,10 @@
     {
       "name": "resubmitIdentityReview",
       "file": "dist/model.js",
-      "line": 722,
+      "line": 753,
       "source": {
         "file": "dist/model.js",
-        "line": 722
+        "line": 753
       },
       "callers": [
         {
@@ -6661,10 +6671,10 @@
     {
       "name": "submitFacePhoto",
       "file": "dist/model.js",
-      "line": 735,
+      "line": 766,
       "source": {
         "file": "dist/model.js",
-        "line": 735
+        "line": 766
       },
       "callers": [
         {
@@ -6677,10 +6687,10 @@
     {
       "name": "submitReview",
       "file": "dist/model.js",
-      "line": 741,
+      "line": 772,
       "source": {
         "file": "dist/model.js",
-        "line": 741
+        "line": 772
       },
       "callers": [
         {
@@ -6693,20 +6703,20 @@
     {
       "name": "setReview",
       "file": "dist/model.js",
-      "line": 770,
+      "line": 801,
       "source": {
         "file": "dist/model.js",
-        "line": 770
+        "line": 801
       },
       "callers": []
     },
     {
       "name": "incomeReviewState",
       "file": "dist/model.js",
-      "line": 817,
+      "line": 848,
       "source": {
         "file": "dist/model.js",
-        "line": 817
+        "line": 848
       },
       "callers": [
         {
@@ -6719,10 +6729,10 @@
     {
       "name": "incomeVerified",
       "file": "dist/model.js",
-      "line": 833,
+      "line": 864,
       "source": {
         "file": "dist/model.js",
-        "line": 833
+        "line": 864
       },
       "callers": [
         {
@@ -6740,10 +6750,10 @@
     {
       "name": "conversation",
       "file": "dist/model.js",
-      "line": 841,
+      "line": 872,
       "source": {
         "file": "dist/model.js",
-        "line": 841
+        "line": 872
       },
       "callers": [
         {
@@ -6761,10 +6771,10 @@
     {
       "name": "messageStats",
       "file": "dist/model.js",
-      "line": 844,
+      "line": 875,
       "source": {
         "file": "dist/model.js",
-        "line": 844
+        "line": 875
       },
       "callers": [
         {
@@ -6787,20 +6797,20 @@
     {
       "name": "assertConversation",
       "file": "dist/model.js",
-      "line": 848,
+      "line": 879,
       "source": {
         "file": "dist/model.js",
-        "line": 848
+        "line": 879
       },
       "callers": []
     },
     {
       "name": "canReadMessages",
       "file": "dist/model.js",
-      "line": 854,
+      "line": 885,
       "source": {
         "file": "dist/model.js",
-        "line": 854
+        "line": 885
       },
       "callers": [
         {
@@ -6813,20 +6823,20 @@
     {
       "name": "canReadReceivedMessages",
       "file": "dist/model.js",
-      "line": 857,
+      "line": 888,
       "source": {
         "file": "dist/model.js",
-        "line": 857
+        "line": 888
       },
       "callers": []
     },
     {
       "name": "canAccessMessageHistory",
       "file": "dist/model.js",
-      "line": 865,
+      "line": 896,
       "source": {
         "file": "dist/model.js",
-        "line": 865
+        "line": 896
       },
       "callers": [
         {
@@ -6839,30 +6849,30 @@
     {
       "name": "canReadMessageBody",
       "file": "dist/model.js",
-      "line": 877,
+      "line": 908,
       "source": {
         "file": "dist/model.js",
-        "line": 877
+        "line": 908
       },
       "callers": []
     },
     {
       "name": "projectMessages",
       "file": "dist/model.js",
-      "line": 889,
+      "line": 920,
       "source": {
         "file": "dist/model.js",
-        "line": 889
+        "line": 920
       },
       "callers": []
     },
     {
       "name": "prematchMessages",
       "file": "dist/model.js",
-      "line": 901,
+      "line": 932,
       "source": {
         "file": "dist/model.js",
-        "line": 901
+        "line": 932
       },
       "callers": [
         {
@@ -6875,10 +6885,10 @@
     {
       "name": "readMessages",
       "file": "dist/model.js",
-      "line": 905,
+      "line": 936,
       "source": {
         "file": "dist/model.js",
-        "line": 905
+        "line": 936
       },
       "callers": [
         {
@@ -6901,10 +6911,10 @@
     {
       "name": "checkSendMessage",
       "file": "dist/model.js",
-      "line": 911,
+      "line": 942,
       "source": {
         "file": "dist/model.js",
-        "line": 911
+        "line": 942
       },
       "callers": [
         {
@@ -6917,10 +6927,10 @@
     {
       "name": "sendMessage",
       "file": "dist/model.js",
-      "line": 932,
+      "line": 963,
       "source": {
         "file": "dist/model.js",
-        "line": 932
+        "line": 963
       },
       "callers": [
         {
@@ -6938,10 +6948,10 @@
     {
       "name": "acceptConversation",
       "file": "dist/model.js",
-      "line": 959,
+      "line": 990,
       "source": {
         "file": "dist/model.js",
-        "line": 959
+        "line": 990
       },
       "callers": [
         {
@@ -6954,10 +6964,10 @@
     {
       "name": "conversationPeers",
       "file": "dist/model.js",
-      "line": 971,
+      "line": 1002,
       "source": {
         "file": "dist/model.js",
-        "line": 971
+        "line": 1002
       },
       "callers": [
         {
@@ -6970,10 +6980,10 @@
     {
       "name": "canViewFace",
       "file": "dist/model.js",
-      "line": 977,
+      "line": 1008,
       "source": {
         "file": "dist/model.js",
-        "line": 977
+        "line": 1008
       },
       "callers": [
         {
@@ -6996,30 +7006,30 @@
     {
       "name": "evaluatePhotoUnlock",
       "file": "dist/model.js",
-      "line": 980,
+      "line": 1011,
       "source": {
         "file": "dist/model.js",
-        "line": 980
+        "line": 1011
       },
       "callers": []
     },
     {
       "name": "prepareMessageDemo",
       "file": "dist/model.js",
-      "line": 988,
+      "line": 1019,
       "source": {
         "file": "dist/model.js",
-        "line": 988
+        "line": 1019
       },
       "callers": []
     },
     {
       "name": "hide",
       "file": "dist/model.js",
-      "line": 1010,
+      "line": 1041,
       "source": {
         "file": "dist/model.js",
-        "line": 1010
+        "line": 1041
       },
       "callers": [
         {
@@ -7032,10 +7042,10 @@
     {
       "name": "unhide",
       "file": "dist/model.js",
-      "line": 1015,
+      "line": 1046,
       "source": {
         "file": "dist/model.js",
-        "line": 1015
+        "line": 1046
       },
       "callers": [
         {
@@ -7048,20 +7058,20 @@
     {
       "name": "preserveMessageScope",
       "file": "dist/model.js",
-      "line": 1018,
+      "line": 1049,
       "source": {
         "file": "dist/model.js",
-        "line": 1018
+        "line": 1049
       },
       "callers": []
     },
     {
       "name": "block",
       "file": "dist/model.js",
-      "line": 1024,
+      "line": 1055,
       "source": {
         "file": "dist/model.js",
-        "line": 1024
+        "line": 1055
       },
       "callers": [
         {
@@ -7074,10 +7084,10 @@
     {
       "name": "evidence",
       "file": "dist/model.js",
-      "line": 1037,
+      "line": 1068,
       "source": {
         "file": "dist/model.js",
-        "line": 1037
+        "line": 1068
       },
       "callers": [
         {
@@ -7090,10 +7100,10 @@
     {
       "name": "report",
       "file": "dist/model.js",
-      "line": 1042,
+      "line": 1073,
       "source": {
         "file": "dist/model.js",
-        "line": 1042
+        "line": 1073
       },
       "callers": [
         {
@@ -7106,10 +7116,10 @@
     {
       "name": "visit",
       "file": "dist/model.js",
-      "line": 1049,
+      "line": 1080,
       "source": {
         "file": "dist/model.js",
-        "line": 1049
+        "line": 1080
       },
       "callers": [
         {
@@ -7127,10 +7137,10 @@
     {
       "name": "footprints",
       "file": "dist/model.js",
-      "line": 1055,
+      "line": 1086,
       "source": {
         "file": "dist/model.js",
-        "line": 1055
+        "line": 1086
       },
       "callers": [
         {
@@ -7148,10 +7158,10 @@
     {
       "name": "emit",
       "file": "dist/model.js",
-      "line": 1058,
+      "line": 1089,
       "source": {
         "file": "dist/model.js",
-        "line": 1058
+        "line": 1089
       },
       "callers": [
         {
@@ -7164,10 +7174,10 @@
     {
       "name": "notifications",
       "file": "dist/model.js",
-      "line": 1063,
+      "line": 1094,
       "source": {
         "file": "dist/model.js",
-        "line": 1063
+        "line": 1094
       },
       "callers": [
         {
@@ -7180,10 +7190,10 @@
     {
       "name": "tick",
       "file": "dist/model.js",
-      "line": 1066,
+      "line": 1097,
       "source": {
         "file": "dist/model.js",
-        "line": 1066
+        "line": 1097
       },
       "callers": [
         {
@@ -7201,10 +7211,10 @@
     {
       "name": "advance",
       "file": "dist/model.js",
-      "line": 1092,
+      "line": 1123,
       "source": {
         "file": "dist/model.js",
-        "line": 1092
+        "line": 1123
       },
       "callers": [
         {
@@ -7217,10 +7227,10 @@
     {
       "name": "startAuth",
       "file": "dist/model.js",
-      "line": 1098,
+      "line": 1129,
       "source": {
         "file": "dist/model.js",
-        "line": 1098
+        "line": 1129
       },
       "callers": [
         {
@@ -7243,10 +7253,10 @@
     {
       "name": "verifyAuth",
       "file": "dist/model.js",
-      "line": 1108,
+      "line": 1139,
       "source": {
         "file": "dist/model.js",
-        "line": 1108
+        "line": 1139
       },
       "callers": [
         {
@@ -7259,20 +7269,20 @@
     {
       "name": "newRegistration",
       "file": "dist/model.js",
-      "line": 1124,
+      "line": 1155,
       "source": {
         "file": "dist/model.js",
-        "line": 1124
+        "line": 1155
       },
       "callers": []
     },
     {
       "name": "confirmDiagnosis",
       "file": "dist/model.js",
-      "line": 1130,
+      "line": 1161,
       "source": {
         "file": "dist/model.js",
-        "line": 1130
+        "line": 1161
       },
       "callers": [
         {
@@ -7285,20 +7295,20 @@
     {
       "name": "age",
       "file": "dist/model.js",
-      "line": 1141,
+      "line": 1172,
       "source": {
         "file": "dist/model.js",
-        "line": 1141
+        "line": 1172
       },
       "callers": []
     },
     {
       "name": "validateDiagnosis",
       "file": "dist/model.js",
-      "line": 1145,
+      "line": 1176,
       "source": {
         "file": "dist/model.js",
-        "line": 1145
+        "line": 1176
       },
       "callers": [
         {
@@ -7311,10 +7321,10 @@
     {
       "name": "requestCorrection",
       "file": "dist/model.js",
-      "line": 1151,
+      "line": 1182,
       "source": {
         "file": "dist/model.js",
-        "line": 1151
+        "line": 1182
       },
       "callers": [
         {
@@ -7327,10 +7337,10 @@
     {
       "name": "decideCorrection",
       "file": "dist/model.js",
-      "line": 1159,
+      "line": 1190,
       "source": {
         "file": "dist/model.js",
-        "line": 1159
+        "line": 1190
       },
       "callers": [
         {
@@ -7343,10 +7353,10 @@
     {
       "name": "schedule",
       "file": "dist/model.js",
-      "line": 1175,
+      "line": 1206,
       "source": {
         "file": "dist/model.js",
-        "line": 1175
+        "line": 1206
       },
       "callers": [
         {
@@ -7364,10 +7374,10 @@
     {
       "name": "canReadSchedule",
       "file": "dist/model.js",
-      "line": 1178,
+      "line": 1209,
       "source": {
         "file": "dist/model.js",
-        "line": 1178
+        "line": 1209
       },
       "callers": [
         {
@@ -7385,30 +7395,30 @@
     {
       "name": "checkSchedule",
       "file": "dist/model.js",
-      "line": 1181,
+      "line": 1212,
       "source": {
         "file": "dist/model.js",
-        "line": 1181
+        "line": 1212
       },
       "callers": []
     },
     {
       "name": "ensureSchedule",
       "file": "dist/model.js",
-      "line": 1187,
+      "line": 1218,
       "source": {
         "file": "dist/model.js",
-        "line": 1187
+        "line": 1218
       },
       "callers": []
     },
     {
       "name": "addCandidate",
       "file": "dist/model.js",
-      "line": 1190,
+      "line": 1221,
       "source": {
         "file": "dist/model.js",
-        "line": 1190
+        "line": 1221
       },
       "callers": [
         {
@@ -7421,10 +7431,10 @@
     {
       "name": "chooseCandidate",
       "file": "dist/model.js",
-      "line": 1205,
+      "line": 1236,
       "source": {
         "file": "dist/model.js",
-        "line": 1205
+        "line": 1236
       },
       "callers": [
         {
@@ -7437,10 +7447,10 @@
     {
       "name": "extendSchedule",
       "file": "dist/model.js",
-      "line": 1216,
+      "line": 1247,
       "source": {
         "file": "dist/model.js",
-        "line": 1216
+        "line": 1247
       },
       "callers": [
         {
@@ -7453,10 +7463,10 @@
     {
       "name": "propose",
       "file": "dist/model.js",
-      "line": 1224,
+      "line": 1255,
       "source": {
         "file": "dist/model.js",
-        "line": 1224
+        "line": 1255
       },
       "callers": [
         {
@@ -7469,10 +7479,10 @@
     {
       "name": "approveProposal",
       "file": "dist/model.js",
-      "line": 1235,
+      "line": 1266,
       "source": {
         "file": "dist/model.js",
-        "line": 1235
+        "line": 1266
       },
       "callers": [
         {
@@ -7485,10 +7495,10 @@
     {
       "name": "savePreferences",
       "file": "dist/model.js",
-      "line": 1248,
+      "line": 1279,
       "source": {
         "file": "dist/model.js",
-        "line": 1248
+        "line": 1279
       },
       "callers": [
         {
@@ -7501,10 +7511,10 @@
     {
       "name": "genreResult",
       "file": "dist/model.js",
-      "line": 1258,
+      "line": 1289,
       "source": {
         "file": "dist/model.js",
-        "line": 1258
+        "line": 1289
       },
       "callers": [
         {
@@ -7517,10 +7527,10 @@
     {
       "name": "projectMessagesForWithdrawn",
       "file": "dist/model.js",
-      "line": 1262,
+      "line": 1293,
       "source": {
         "file": "dist/model.js",
-        "line": 1262
+        "line": 1293
       },
       "callers": [
         {
@@ -7533,10 +7543,10 @@
     {
       "name": "withdraw",
       "file": "dist/model.js",
-      "line": 1265,
+      "line": 1296,
       "source": {
         "file": "dist/model.js",
-        "line": 1265
+        "line": 1296
       },
       "callers": [
         {
@@ -7549,10 +7559,10 @@
     {
       "name": "reregister",
       "file": "dist/model.js",
-      "line": 1280,
+      "line": 1311,
       "source": {
         "file": "dist/model.js",
-        "line": 1280
+        "line": 1311
       },
       "callers": [
         {
@@ -7565,10 +7575,10 @@
     {
       "name": "restrict",
       "file": "dist/model.js",
-      "line": 1286,
+      "line": 1317,
       "source": {
         "file": "dist/model.js",
-        "line": 1286
+        "line": 1317
       },
       "callers": [
         {
@@ -7581,10 +7591,10 @@
     {
       "name": "appeal",
       "file": "dist/model.js",
-      "line": 1292,
+      "line": 1323,
       "source": {
         "file": "dist/model.js",
-        "line": 1292
+        "line": 1323
       },
       "callers": [
         {
@@ -7597,10 +7607,10 @@
     {
       "name": "checkFailure",
       "file": "dist/model.js",
-      "line": 1298,
+      "line": 1329,
       "source": {
         "file": "dist/model.js",
-        "line": 1298
+        "line": 1329
       },
       "callers": [
         {
@@ -7618,20 +7628,20 @@
     {
       "name": "log",
       "file": "dist/model.js",
-      "line": 1304,
+      "line": 1335,
       "source": {
         "file": "dist/model.js",
-        "line": 1304
+        "line": 1335
       },
       "callers": []
     },
     {
       "name": "clock",
       "file": "dist/model.js",
-      "line": 17,
+      "line": 23,
       "source": {
         "file": "dist/model.js",
-        "line": 17
+        "line": 23
       },
       "callers": [
         {
@@ -7740,7 +7750,7 @@
       "stale": false,
       "source": {
         "file": "dist/model.js",
-        "line": 13
+        "line": 19
       }
     }
   ],
@@ -8018,19 +8028,7 @@
       "stale": false,
       "source": {
         "file": "dist/model.js",
-        "line": 13
-      }
-    },
-    {
-      "id": "test:browser",
-      "level": "verify",
-      "automatic": true,
-      "stale": true,
-      "title": "ブラウザ操作のテストが失敗",
-      "description": "前回の失敗が再現しないか、検証未実行です。根拠とテスト結果を再確認してください。",
-      "source": {
-        "file": "tests/browser-layout.cjs",
-        "line": 1
+        "line": 19
       }
     }
   ],
@@ -8040,19 +8038,18 @@
     "removed": 0,
     "files": [
       "dist/app.js",
-      "dist/domain.js",
       "dist/model.js",
-      "tests/browser-spec-sync.cjs",
-      "tests/spec-sync.test.mjs"
+      "tests/browser-diagnosis.cjs",
+      "tests/diagnosis-values.test.mjs"
     ],
     "removedFiles": []
   },
   "fileHashes": {
-    "dist/app.js": "ad68c2961e08ffd2d533c787a54350648e5047acdd158c68b6251e3d1438e643",
+    "dist/app.js": "800973e83508e272795a5aca620a69ffe72d212e76888e718fabe1229c03de34",
     "dist/data.js": "84f3beffe00e497a5bb08028b22cfc91a6807b7aa2b0e512b2de26ff55b7f752",
     "dist/domain.js": "efd46f69891219e82fc4177ceada50c278edcf7009c234934dd4cbea4d1af216",
     "dist/index.html": "50c41b3e5d465650dd701108b8e8b90efaa8145e556c7fb7a43188c96b4b4bd1",
-    "dist/model.js": "08dfb4d927b83b64e135927ba1d3ab36df076a1d3df6bcf0ea8e52815faaced5",
+    "dist/model.js": "04ad937a76b1ac6fcc946ea921a8be1522c10a6077a74d9096e7ecf8549b8288",
     "dist/panda-personality/source-manifest.js": "ae9d57516731bf5c7dc529d90ab97ac6d6616f59f2002158991420063e003058",
     "dist/panda-personality/src/data/genmeiText.js": "69883f3c76321401d3a31bf2822cf51ef6e8f9717d27928599b70b3b9c03e3b5",
     "dist/panda-personality/src/data/nikchuSelfProfiles.js": "7ab3c90dc35791b761b2506323d4c99b027e0b3923a9e68a4eaaf9cad7bdf56e",
@@ -8069,7 +8066,7 @@
     "server.mjs": "ec0b1ab8f43acb0b16f49995d0ab9eb01e0927ba3acfc2749fe745e2cfbce765",
     "tests/account-coverage.test.mjs": "493578eb8378805223a9839d70380a6d496f13c1cea6ac2a714393e8354e9052",
     "tests/browser-chat-layout.cjs": "af853867037129267bc1c2d1fb5c4a361b235af9037cb68aab803be53cb3df9d",
-    "tests/browser-diagnosis.cjs": "08c32cec4a9b307528971129662cf21fecf3a68e665bd9fc4939255eed98df4e",
+    "tests/browser-diagnosis.cjs": "868053e7072d323e3366421e20b7b6a2a45df39aef583d2fd8e71d6e0a809d2d",
     "tests/browser-endless.cjs": "4c3d8bb6a49aac05313c36258499d02e8ada2f98160ac74af8994ca322f221b9",
     "tests/browser-entry.cjs": "698cb97548884182e15202a04da520218b9be211c01e98bec94e13896f03ee9d",
     "tests/browser-journey.cjs": "dbc06739b2e8fae7d2168b1ceb53c84e3fbf76c09c4bb6a2d1806052867b97ac",
@@ -8085,7 +8082,7 @@
     "tests/browser-smoke.cjs": "54cf564a9b49835d83448e88c9410d8e5ba47201247747abf2c16257d55246f5",
     "tests/browser-spec-sync.cjs": "8a68411432e6c4c112f9017055d7d5acf32538f50aeec23bbfd2dc038b1d2728",
     "tests/browser-test-accounts.cjs": "d9bd7e15e6664dd5a87a04ac33127d45cef359f60c062e32e83ef43636b97b68",
-    "tests/diagnosis-values.test.mjs": "dc12b38b513f016058402dec05fc7505c262c92b15896795f59cda3e6b277709",
+    "tests/diagnosis-values.test.mjs": "40270d9885fa647aa4ff2ff8ad5ab649a6299f876ff24b7cedf86ed270b639e4",
     "tests/endless-candidates.test.mjs": "639f94dc4b5c569f2ce1dd6306c8b63189d57b5dfa30bd20fc57fc20c906ced8",
     "tests/female-prematch.test.mjs": "bf9146c863a90d99c3fe79b83d21a3872057fb838bacb218b83bc365a0ff0ed6",
     "tests/message-access.test.mjs": "32472ffd1d0e6679302dd7770cbc415bbb778eb9588b1a2edb00a1e6b4e30c9c",
@@ -8130,29 +8127,22 @@
   "tests": {
     "unit": {
       "status": "passed",
-      "fingerprint": "e6606d63dc7296a3f0661c1a48bc17589c83946ce0c20ea9a80a9fb909e8d6e0",
-      "startedAt": "2026-10-05T08:11:20.678Z",
-      "finishedAt": "2026-10-05T08:11:24.696Z",
-      "total": 1428,
-      "passed": 1428,
+      "fingerprint": "64c522b3b01e0f595784ec8a6a9e0a019833ac5053e1ed48d31c4847f0175150",
+      "startedAt": "2026-10-05T08:32:31.417Z",
+      "finishedAt": "2026-10-05T08:32:36.920Z",
+      "total": 1439,
+      "passed": 1439,
       "failed": 0,
       "skipped": 0,
       "failures": [],
       "reason": null
     },
     "browser": {
-      "status": "passed",
-      "fingerprint": "e6606d63dc7296a3f0661c1a48bc17589c83946ce0c20ea9a80a9fb909e8d6e0",
-      "startedAt": "2026-10-05T08:11:24.705Z",
-      "total": 17,
-      "passed": 17,
-      "failed": 0,
-      "failures": [],
-      "completed": 17,
-      "finishedAt": "2026-10-05T08:18:06.778Z"
+      "status": "running",
+      "fingerprint": "64c522b3b01e0f595784ec8a6a9e0a019833ac5053e1ed48d31c4847f0175150",
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-10-05T08:18:06.778Z",
-  "publishError": null,
-  "pendingSource": false
+  "heartbeatAt": "2026-10-05T08:32:36.927Z"
 }
