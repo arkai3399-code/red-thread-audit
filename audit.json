@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
-  "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
+  "fingerprint": "e6606d63dc7296a3f0661c1a48bc17589c83946ce0c20ea9a80a9fb909e8d6e0",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-05T07:47:22.332Z",
-  "workerStatus": "idle",
+  "checkedAt": "2026-10-05T08:11:17.795Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -48,6 +48,7 @@
       "tests/browser-registration-demo.cjs": false,
       "tests/browser-search.cjs": false,
       "tests/browser-smoke.cjs": false,
+      "tests/browser-spec-sync.cjs": false,
       "tests/browser-test-accounts.cjs": false,
       "tests/diagnosis-values.test.mjs": false,
       "tests/endless-candidates.test.mjs": false,
@@ -64,6 +65,7 @@
       "tests/review-lifecycle.test.mjs": true,
       "tests/search.test.mjs": true,
       "tests/skeleton.test.mjs": false,
+      "tests/spec-sync.test.mjs": false,
       "tests/test-accounts.test.mjs": true,
       "tests/test-scenarios.test.mjs": true
     }
@@ -5219,7 +5221,7 @@
     },
     {
       "file": "dist/domain.js",
-      "line": 7,
+      "line": 8,
       "target": "dist/registration-questions.js"
     },
     {
@@ -8018,33 +8020,27 @@
         "file": "dist/model.js",
         "line": 13
       }
-    },
-    {
-      "id": "test:browser",
-      "level": "verify",
-      "automatic": true,
-      "stale": true,
-      "title": "ブラウザ操作のテストが失敗",
-      "description": "前回の失敗が再現しないか、検証未実行です。根拠とテスト結果を再確認してください。",
-      "source": {
-        "file": "tests/browser-layout.cjs",
-        "line": 1
-      }
     }
   ],
   "changes": {
     "baseline": false,
     "added": 0,
     "removed": 0,
-    "files": [],
+    "files": [
+      "dist/app.js",
+      "dist/domain.js",
+      "dist/model.js",
+      "tests/browser-spec-sync.cjs",
+      "tests/spec-sync.test.mjs"
+    ],
     "removedFiles": []
   },
   "fileHashes": {
-    "dist/app.js": "2fe7a9effd90a1f7484719df150e3f0f7ed21ddc428601543d4d4ee3c7906117",
+    "dist/app.js": "ad68c2961e08ffd2d533c787a54350648e5047acdd158c68b6251e3d1438e643",
     "dist/data.js": "84f3beffe00e497a5bb08028b22cfc91a6807b7aa2b0e512b2de26ff55b7f752",
-    "dist/domain.js": "3ae84bb6b74c013ff88ea3833bef51c693ad6eae4e5e85348a0c8358113a051a",
+    "dist/domain.js": "efd46f69891219e82fc4177ceada50c278edcf7009c234934dd4cbea4d1af216",
     "dist/index.html": "50c41b3e5d465650dd701108b8e8b90efaa8145e556c7fb7a43188c96b4b4bd1",
-    "dist/model.js": "9c656080357c85bb7e8f7fd01b28c0d2ca4c91d19991ce015ea6f8987d39061a",
+    "dist/model.js": "08dfb4d927b83b64e135927ba1d3ab36df076a1d3df6bcf0ea8e52815faaced5",
     "dist/panda-personality/source-manifest.js": "ae9d57516731bf5c7dc529d90ab97ac6d6616f59f2002158991420063e003058",
     "dist/panda-personality/src/data/genmeiText.js": "69883f3c76321401d3a31bf2822cf51ef6e8f9717d27928599b70b3b9c03e3b5",
     "dist/panda-personality/src/data/nikchuSelfProfiles.js": "7ab3c90dc35791b761b2506323d4c99b027e0b3923a9e68a4eaaf9cad7bdf56e",
@@ -8075,6 +8071,7 @@
     "tests/browser-registration-demo.cjs": "603103caf8db8b2746eb9c7cde9442ad0a3e247a5d7a8f88d4ecda9ad5564e2f",
     "tests/browser-search.cjs": "f7a5134e35b51b0d7a32861e0bd9475cce803dba473cbe9137a07bcc85be8904",
     "tests/browser-smoke.cjs": "54cf564a9b49835d83448e88c9410d8e5ba47201247747abf2c16257d55246f5",
+    "tests/browser-spec-sync.cjs": "8a68411432e6c4c112f9017055d7d5acf32538f50aeec23bbfd2dc038b1d2728",
     "tests/browser-test-accounts.cjs": "d9bd7e15e6664dd5a87a04ac33127d45cef359f60c062e32e83ef43636b97b68",
     "tests/diagnosis-values.test.mjs": "dc12b38b513f016058402dec05fc7505c262c92b15896795f59cda3e6b277709",
     "tests/endless-candidates.test.mjs": "639f94dc4b5c569f2ce1dd6306c8b63189d57b5dfa30bd20fc57fc20c906ced8",
@@ -8091,12 +8088,13 @@
     "tests/review-lifecycle.test.mjs": "4e6bcc01dff2d7bad1f34faeb1940e66fe08c98aac05f3c70911b47e9091f1e4",
     "tests/search.test.mjs": "0256a38b4e88898773364bed50488301dfc4c7ed35ddb216670a1330ca22216f",
     "tests/skeleton.test.mjs": "f85c0b346b5796038eceaafa2f21e8e66ad0cf091f7b2d25f0a5b9d340697fc3",
+    "tests/spec-sync.test.mjs": "424884fd004738e922bd8db5a8586c742ce1d349b3da66566e43b94940f5cddb",
     "tests/test-accounts.test.mjs": "147a3752cef63bf6ad44478a079647e5a0f6dfde45ffba9f7fd90952edf8529e",
     "tests/test-scenarios.test.mjs": "1bcf42426c73346de51721d657ace73c5bb00c5a9be35608c33b1ee82388155b"
   },
   "coverage": {
-    "files": 53,
-    "parsed": 50,
+    "files": 55,
+    "parsed": 52,
     "operations": 233,
     "screens": 29,
     "dynamic": 28
@@ -8120,29 +8118,22 @@
   "tests": {
     "unit": {
       "status": "passed",
-      "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
-      "startedAt": "2026-10-05T07:47:25.984Z",
-      "finishedAt": "2026-10-05T07:47:31.032Z",
-      "total": 1416,
-      "passed": 1416,
+      "fingerprint": "e6606d63dc7296a3f0661c1a48bc17589c83946ce0c20ea9a80a9fb909e8d6e0",
+      "startedAt": "2026-10-05T08:11:20.678Z",
+      "finishedAt": "2026-10-05T08:11:24.696Z",
+      "total": 1428,
+      "passed": 1428,
       "failed": 0,
       "skipped": 0,
       "failures": [],
       "reason": null
     },
     "browser": {
-      "status": "passed",
-      "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
-      "startedAt": "2026-10-05T07:47:31.044Z",
-      "total": 16,
-      "passed": 16,
-      "failed": 0,
-      "failures": [],
-      "completed": 16,
-      "finishedAt": "2026-10-05T07:54:10.918Z"
+      "status": "running",
+      "fingerprint": "e6606d63dc7296a3f0661c1a48bc17589c83946ce0c20ea9a80a9fb909e8d6e0",
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-10-05T07:54:10.918Z",
-  "publishError": null,
-  "pendingSource": false
+  "heartbeatAt": "2026-10-05T08:11:24.701Z"
 }
