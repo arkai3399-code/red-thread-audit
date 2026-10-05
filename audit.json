@@ -8123,12 +8123,12 @@
       "fingerprint": "f21faf84d34f1ddf7c1862706cc350ca2d90c175b74c1f92a563ba4e95dde4b6",
       "startedAt": "2026-10-05T07:47:31.044Z",
       "total": 16,
-      "passed": 12,
+      "passed": 14,
       "failed": 0,
       "failures": [],
-      "completed": 12
+      "completed": 14
     }
   },
-  "heartbeatAt": "2026-10-05T07:52:47.696Z",
+  "heartbeatAt": "2026-10-05T07:53:33.024Z",
   "publishError": null
 }
