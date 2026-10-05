@@ -8142,12 +8142,12 @@
       "fingerprint": "64c522b3b01e0f595784ec8a6a9e0a019833ac5053e1ed48d31c4847f0175150",
       "startedAt": "2026-10-05T08:32:36.936Z",
       "total": 17,
-      "passed": 12,
+      "passed": 14,
       "failed": 0,
       "failures": [],
-      "completed": 12
+      "completed": 14
     }
   },
-  "heartbeatAt": "2026-10-05T08:38:22.398Z",
+  "heartbeatAt": "2026-10-05T08:39:32.931Z",
   "publishError": null
 }
