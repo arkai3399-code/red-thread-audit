@@ -8369,12 +8369,12 @@
       "fingerprint": "5ea837940713882fd3b4cacca56c9b5f921c1778807a9923d3e571f1fd35fe8e",
       "startedAt": "2026-10-05T09:21:38.413Z",
       "total": 18,
-      "passed": 7,
+      "passed": 9,
       "failed": 0,
       "failures": [],
-      "completed": 7
+      "completed": 9
     }
   },
-  "heartbeatAt": "2026-10-05T09:24:57.830Z",
+  "heartbeatAt": "2026-10-05T09:25:50.513Z",
   "publishError": null
 }
