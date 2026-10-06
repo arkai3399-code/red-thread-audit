@@ -8922,12 +8922,12 @@
       "fingerprint": "4e03317d644650b0a36c3992c619609fe051667a3d38481459bc8d9ffede32ee",
       "startedAt": "2026-10-06T09:24:38.330Z",
       "total": 22,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "failures": [],
-      "completed": 1
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-06T09:25:29.839Z",
+  "heartbeatAt": "2026-10-06T09:26:56.995Z",
   "publishError": null
 }
