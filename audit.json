@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
-  "fingerprint": "c6f50e1a77df97e0b6828beafd105da398a79280ed42d0fd32ca1683bff7561e",
+  "fingerprint": "4e03317d644650b0a36c3992c619609fe051667a3d38481459bc8d9ffede32ee",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-06T09:11:11.500Z",
-  "workerStatus": "testing",
+  "checkedAt": "2026-10-06T09:18:57.430Z",
+  "workerStatus": "queued",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8798,11 +8798,16 @@
     "baseline": false,
     "added": 0,
     "removed": 0,
-    "files": [],
+    "files": [
+      "dist/app.js",
+      "dist/styles.css",
+      "tests/browser-compatibility.cjs",
+      "tests/browser-partner-profile.cjs"
+    ],
     "removedFiles": []
   },
   "fileHashes": {
-    "dist/app.js": "9fe102f4554f798a509376074fd9c1e11ae4f2f4e9dae4fbcdc5ebd6f3c2e307",
+    "dist/app.js": "87deee8667f9331aea4ad873009abddc64ae49bdbc97f9c724526d821e97a77a",
     "dist/compatibility.js": "b3b9264cac766f8a3fd87a676960b2ac9112263fefdbbb8c13c053d246a42b48",
     "dist/data.js": "84f3beffe00e497a5bb08028b22cfc91a6807b7aa2b0e512b2de26ff55b7f752",
     "dist/demo-public-profiles.js": "c96d141023e116fd27cbf31f3150aebe9d86e778e350f8b817510dc4f40a7ae8",
@@ -8826,14 +8831,14 @@
     "dist/registration-demo.js": "1e9f32340cbdd02f6d36eac84294b2d5cf0ff5d42c710f6d0717e26c794f5fbd",
     "dist/registration-questions.js": "a9fdfd1b49a0079d2346c2e6e657e2f914bc82a4d41dec3e99f7a24675f8992e",
     "dist/search.js": "bc51361f5ae9d153712227ee0cd5a5e86fe8ff7ddaa8205a357eaa14e3e9b6aa",
-    "dist/styles.css": "ef4cf73da4714b080ed54845f002ecc803a12e73243b7d66ba3678c856d9cdff",
+    "dist/styles.css": "485e89f91e9bcc2cd458e6268c79aa3ae9bc19e56997ac151f4af54ea30334bd",
     "dist/test-scenarios.js": "5b0c503e9d796bd3adca65ff7665697ef559047c83271e3a79fe8c9fc03d66bd",
     "package.json": "d22e18a3de4ccee051aa507a26b1756f479572203359675c1d5e75e3b19ca7d7",
     "server.mjs": "ec0b1ab8f43acb0b16f49995d0ab9eb01e0927ba3acfc2749fe745e2cfbce765",
     "tests/account-coverage.test.mjs": "4c2cdbec6d15990ffb4297f69fac52dc7fab72c0ba956129abfefb600d3e6c1b",
     "tests/browser-billing-footprints-quota.cjs": "52f3b98c55a25a4050907942c272b5df985422f8070d3c8d3c223d7d7f0e2ebc",
     "tests/browser-chat-layout.cjs": "ecd56e4ea72e80f740bed57419f31efb7ebe9ab92905f94b6f225e41ea9c58d2",
-    "tests/browser-compatibility.cjs": "8c7d2596a08a2f4382a6bdc0e65352760b38a70bdc441d303f297be733dd5dc9",
+    "tests/browser-compatibility.cjs": "eada89548ea69560ba521521de85047c611e7f0b77d7e5ccd6882c2e760e8e61",
     "tests/browser-diagnosis.cjs": "e91dd0a95613ff455767af1d4652dc3c4fa8e1f16c95a67152f15d1431651b45",
     "tests/browser-endless.cjs": "7251546417a4ccd471358d2ced4223266fddb13f1456b91724ad14dc37e8d342",
     "tests/browser-entry.cjs": "1b1bcfd52b3d9ec9100885b9f6276f9d0666f33aa4f31f025fc12cc56b8bb6f1",
@@ -8842,7 +8847,7 @@
     "tests/browser-layout.cjs": "585fae26fa4be4584805d96c88e6b1ad195694fbed87a11d210374331696643f",
     "tests/browser-message-access.cjs": "f485a62f7e57f232d00b76affd6cd6ffd89f353d891b6e4eb7867d900d8e92e5",
     "tests/browser-mypage.cjs": "746d431ba885b589b4941befe466ccde375ddff67f7bf3d53b41f1f10ef5799f",
-    "tests/browser-partner-profile.cjs": "cfc2ed023d696efee86f2e89d6d8ba73f02c806291a9d4ab918adbff46a66fa6",
+    "tests/browser-partner-profile.cjs": "640b626babbf441e73328e88fe4d238a224d61eab080b73e73fe438281bafcb2",
     "tests/browser-photo-editor.cjs": "8cdf724b8ec0b4a9123bd767deb5ef5e487a7333c0d6a86fad42b9936c17ed21",
     "tests/browser-policy.cjs": "bfc230eb9489e0c59d3e59a7484913cf1539297b513e6de477d4cbf74b10b43e",
     "tests/browser-prematch.cjs": "3c16ff9e59d66a27599d106ba9de45ec06645fb48353721af32a6d37ae837ab9",
@@ -8906,28 +8911,15 @@
   ],
   "tests": {
     "unit": {
-      "status": "passed",
-      "fingerprint": "c6f50e1a77df97e0b6828beafd105da398a79280ed42d0fd32ca1683bff7561e",
-      "startedAt": "2026-10-06T09:11:16.311Z",
-      "finishedAt": "2026-10-06T09:11:23.267Z",
-      "total": 1606,
-      "passed": 1606,
-      "failed": 0,
-      "skipped": 0,
-      "failures": [],
-      "reason": null
+      "status": "pending",
+      "fingerprint": "4e03317d644650b0a36c3992c619609fe051667a3d38481459bc8d9ffede32ee"
     },
     "browser": {
-      "status": "running",
-      "fingerprint": "c6f50e1a77df97e0b6828beafd105da398a79280ed42d0fd32ca1683bff7561e",
-      "startedAt": "2026-10-06T09:11:23.279Z",
-      "total": 22,
-      "passed": 10,
-      "failed": 0,
-      "failures": [],
-      "completed": 10
+      "status": "pending",
+      "fingerprint": "4e03317d644650b0a36c3992c619609fe051667a3d38481459bc8d9ffede32ee"
     }
   },
-  "heartbeatAt": "2026-10-06T09:18:20.641Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-06T09:19:02.922Z",
+  "publishError": null,
+  "pendingSource": true
 }
