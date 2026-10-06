@@ -8969,12 +8969,12 @@
       "fingerprint": "b74580008ded462451e8f74b622052590e538a46f94c3ae8af766f2ea6c17a43",
       "startedAt": "2026-10-06T15:08:30.153Z",
       "total": 22,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "failures": [],
-      "completed": 1
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-06T15:09:55.342Z",
+  "heartbeatAt": "2026-10-06T15:11:54.530Z",
   "publishError": null
 }
