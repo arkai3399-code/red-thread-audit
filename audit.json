@@ -4,7 +4,7 @@
   "fingerprint": "eb7f2134572a49c499f57ef7701ecf2ce3aed4b5cb33628c67b64ed12f69183d",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
   "checkedAt": "2026-10-06T07:32:24.891Z",
-  "workerStatus": "testing",
+  "workerStatus": "idle",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8450,6 +8450,18 @@
         "file": "dist/model.js",
         "line": 22
       }
+    },
+    {
+      "id": "test:browser",
+      "level": "bug",
+      "automatic": true,
+      "stale": false,
+      "title": "ブラウザ操作のテストが失敗",
+      "description": "1件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
+      "source": {
+        "file": "tests/browser-layout.cjs",
+        "line": 1
+      }
     }
   ],
   "verify": [
@@ -8880,11 +8892,11 @@
       "reason": null
     },
     "browser": {
-      "status": "running",
+      "status": "failed",
       "fingerprint": "eb7f2134572a49c499f57ef7701ecf2ce3aed4b5cb33628c67b64ed12f69183d",
       "startedAt": "2026-10-06T07:32:37.221Z",
       "total": 21,
-      "passed": 19,
+      "passed": 20,
       "failed": 1,
       "failures": [
         {
@@ -8896,9 +8908,11 @@
           "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 20
+      "completed": 21,
+      "finishedAt": "2026-10-06T07:44:29.410Z"
     }
   },
-  "heartbeatAt": "2026-10-06T07:43:30.058Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-06T07:44:29.410Z",
+  "publishError": null,
+  "pendingSource": false
 }
