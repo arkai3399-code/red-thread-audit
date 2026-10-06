@@ -3,8 +3,8 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "b74580008ded462451e8f74b622052590e538a46f94c3ae8af766f2ea6c17a43",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-06T09:57:08.106Z",
-  "workerStatus": "idle",
+  "checkedAt": "2026-10-06T11:14:21.991Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8541,18 +8541,6 @@
         "file": "dist/model.js",
         "line": 23
       }
-    },
-    {
-      "id": "test:browser",
-      "level": "bug",
-      "automatic": true,
-      "stale": false,
-      "title": "ブラウザ操作のテストが失敗",
-      "description": "5件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
-      "source": {
-        "file": "tests/browser-chat-layout.cjs",
-        "line": 1
-      }
     }
   ],
   "verify": [
@@ -8857,14 +8845,7 @@
     "baseline": false,
     "added": 0,
     "removed": 0,
-    "files": [
-      "dist/app.js",
-      "dist/model.js",
-      "tests/browser-layout.cjs",
-      "tests/browser-prematch.cjs",
-      "tests/browser-upgrade-matches-counts.cjs",
-      "tests/pending-message-counts.test.mjs"
-    ],
+    "files": [],
     "removedFiles": []
   },
   "fileHashes": {
@@ -8974,8 +8955,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "b74580008ded462451e8f74b622052590e538a46f94c3ae8af766f2ea6c17a43",
-      "startedAt": "2026-10-06T09:57:13.689Z",
-      "finishedAt": "2026-10-06T09:57:21.083Z",
+      "startedAt": "2026-10-06T11:14:27.447Z",
+      "finishedAt": "2026-10-06T11:14:34.774Z",
       "total": 1650,
       "passed": 1650,
       "failed": 0,
@@ -8984,59 +8965,15 @@
       "reason": null
     },
     "browser": {
-      "status": "failed",
+      "status": "running",
       "fingerprint": "b74580008ded462451e8f74b622052590e538a46f94c3ae8af766f2ea6c17a43",
-      "startedAt": "2026-10-06T09:57:21.096Z",
+      "startedAt": "2026-10-06T11:14:34.789Z",
       "total": 22,
-      "passed": 17,
-      "failed": 5,
-      "failures": [
-        {
-          "name": "tests/browser-chat-layout.cjs",
-          "source": {
-            "file": "tests/browser-chat-layout.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        },
-        {
-          "name": "tests/browser-help.cjs",
-          "source": {
-            "file": "tests/browser-help.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-layout.cjs",
-          "source": {
-            "file": "tests/browser-layout.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        },
-        {
-          "name": "tests/browser-partner-profile.cjs",
-          "source": {
-            "file": "tests/browser-partner-profile.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        },
-        {
-          "name": "tests/browser-upgrade-matches-counts.cjs",
-          "source": {
-            "file": "tests/browser-upgrade-matches-counts.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        }
-      ],
-      "completed": 22,
-      "finishedAt": "2026-10-06T10:14:18.806Z"
+      "passed": 1,
+      "failed": 0,
+      "failures": [],
+      "completed": 1
     }
   },
-  "heartbeatAt": "2026-10-06T11:13:54.030Z",
-  "publishError": null,
-  "pendingSource": false
+  "heartbeatAt": "2026-10-06T11:15:36.205Z"
 }
