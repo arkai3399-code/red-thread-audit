@@ -8864,11 +8864,20 @@
       "startedAt": "2026-10-06T05:39:49.173Z",
       "total": 21,
       "passed": 1,
-      "failed": 0,
-      "failures": [],
-      "completed": 1
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-chat-layout.cjs",
+          "source": {
+            "file": "tests/browser-chat-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-06T05:40:49.711Z",
+  "heartbeatAt": "2026-10-06T05:41:41.058Z",
   "publishError": null
 }
