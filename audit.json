@@ -8560,9 +8560,14 @@
     "browser": {
       "status": "running",
       "fingerprint": "d513657f463e8f442fc15d925b1cfaadc6971939e118028f2259c492445d9bcc",
-      "total": 0,
-      "completed": 0
+      "startedAt": "2026-10-06T02:29:24.272Z",
+      "total": 20,
+      "passed": 1,
+      "failed": 0,
+      "failures": [],
+      "completed": 1
     }
   },
-  "heartbeatAt": "2026-10-06T02:29:24.266Z"
+  "heartbeatAt": "2026-10-06T02:30:56.878Z",
+  "publishError": null
 }
