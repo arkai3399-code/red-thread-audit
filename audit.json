@@ -8884,12 +8884,12 @@
       "fingerprint": "eb7f2134572a49c499f57ef7701ecf2ce3aed4b5cb33628c67b64ed12f69183d",
       "startedAt": "2026-10-06T07:32:37.221Z",
       "total": 21,
-      "passed": 6,
+      "passed": 8,
       "failed": 0,
       "failures": [],
-      "completed": 6
+      "completed": 8
     }
   },
-  "heartbeatAt": "2026-10-06T07:36:20.956Z",
+  "heartbeatAt": "2026-10-06T07:37:59.174Z",
   "publishError": null
 }
