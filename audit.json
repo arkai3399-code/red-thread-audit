@@ -8375,9 +8375,14 @@
     "browser": {
       "status": "running",
       "fingerprint": "6be06f2a5bc147308cb760599919665e644c1bf76975402cef03cd077395493e",
-      "total": 0,
-      "completed": 0
+      "startedAt": "2026-10-06T01:55:32.226Z",
+      "total": 19,
+      "passed": 1,
+      "failed": 0,
+      "failures": [],
+      "completed": 1
     }
   },
-  "heartbeatAt": "2026-10-06T01:55:32.220Z"
+  "heartbeatAt": "2026-10-06T01:56:59.079Z",
+  "publishError": null
 }
