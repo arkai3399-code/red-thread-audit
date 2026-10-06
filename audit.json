@@ -8885,11 +8885,20 @@
       "startedAt": "2026-10-06T07:32:37.221Z",
       "total": 21,
       "passed": 8,
-      "failed": 0,
-      "failures": [],
-      "completed": 8
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 9
     }
   },
-  "heartbeatAt": "2026-10-06T07:37:59.174Z",
+  "heartbeatAt": "2026-10-06T07:38:07.705Z",
   "publishError": null
 }
