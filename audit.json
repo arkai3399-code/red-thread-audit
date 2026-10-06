@@ -4,7 +4,7 @@
   "fingerprint": "b74580008ded462451e8f74b622052590e538a46f94c3ae8af766f2ea6c17a43",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
   "checkedAt": "2026-10-06T22:58:49.084Z",
-  "workerStatus": "testing",
+  "workerStatus": "idle",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8541,6 +8541,18 @@
         "file": "dist/model.js",
         "line": 23
       }
+    },
+    {
+      "id": "test:browser",
+      "level": "bug",
+      "automatic": true,
+      "stale": false,
+      "title": "ブラウザ操作のテストが失敗",
+      "description": "4件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
+      "source": {
+        "file": "tests/browser-help.cjs",
+        "line": 1
+      }
     }
   ],
   "verify": [
@@ -8965,12 +8977,12 @@
       "reason": null
     },
     "browser": {
-      "status": "running",
+      "status": "failed",
       "fingerprint": "b74580008ded462451e8f74b622052590e538a46f94c3ae8af766f2ea6c17a43",
       "startedAt": "2026-10-06T22:59:01.363Z",
       "total": 22,
-      "passed": 17,
-      "failed": 3,
+      "passed": 18,
+      "failed": 4,
       "failures": [
         {
           "name": "tests/browser-help.cjs",
@@ -8995,11 +9007,21 @@
             "line": 1
           },
           "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-upgrade-matches-counts.cjs",
+          "source": {
+            "file": "tests/browser-upgrade-matches-counts.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 20
+      "completed": 22,
+      "finishedAt": "2026-10-06T23:17:29.569Z"
     }
   },
-  "heartbeatAt": "2026-10-06T23:14:58.172Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-06T23:17:29.623Z",
+  "publishError": null,
+  "pendingSource": false
 }
