@@ -8969,12 +8969,21 @@
       "fingerprint": "b74580008ded462451e8f74b622052590e538a46f94c3ae8af766f2ea6c17a43",
       "startedAt": "2026-10-07T09:21:52.329Z",
       "total": 22,
-      "passed": 9,
-      "failed": 0,
-      "failures": [],
-      "completed": 9
+      "passed": 13,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-partner-profile.cjs",
+          "source": {
+            "file": "tests/browser-partner-profile.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 14
     }
   },
-  "heartbeatAt": "2026-10-07T09:29:51.048Z",
+  "heartbeatAt": "2026-10-07T09:31:36.362Z",
   "publishError": null
 }
