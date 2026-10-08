@@ -9050,11 +9050,12 @@
       "fingerprint": "440a32c606af60cb6963106e7beb74340b0526877206f34ee41c0dd801e72f6a",
       "startedAt": "2026-10-08T07:07:45.105Z",
       "total": 22,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "failures": [],
-      "completed": 1
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-08T07:08:32.438Z"
+  "heartbeatAt": "2026-10-08T07:10:26.106Z",
+  "publishError": null
 }
