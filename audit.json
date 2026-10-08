@@ -9243,7 +9243,7 @@
       "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193",
       "startedAt": "2026-10-08T22:35:24.336Z",
       "total": 23,
-      "passed": 2,
+      "passed": 5,
       "failed": 1,
       "failures": [
         {
@@ -9255,9 +9255,9 @@
           "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 3
+      "completed": 6
     }
   },
-  "heartbeatAt": "2026-10-08T22:38:23.078Z",
+  "heartbeatAt": "2026-10-08T22:40:22.881Z",
   "publishError": null
 }
