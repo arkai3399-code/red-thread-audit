@@ -3,8 +3,8 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-08T09:00:15.439Z",
-  "workerStatus": "queued",
+  "checkedAt": "2026-10-08T09:03:30.971Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -9115,21 +9115,9 @@
   ],
   "changes": {
     "baseline": false,
-    "added": 3,
+    "added": 0,
     "removed": 0,
-    "files": [
-      "dist/app.js",
-      "dist/model.js",
-      "dist/styles.css",
-      "package.json",
-      "tests/browser-chat-layout.cjs",
-      "tests/browser-message-approval.cjs",
-      "tests/browser-policy.cjs",
-      "tests/browser-prematch.cjs",
-      "tests/browser-upgrade-matches-counts.cjs",
-      "tests/message-approval.test.mjs",
-      "tests/prematch-basic.test.mjs"
-    ],
+    "files": [],
     "removedFiles": []
   },
   "fileHashes": {
@@ -9239,15 +9227,27 @@
   ],
   "tests": {
     "unit": {
-      "status": "pending",
-      "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193"
+      "status": "passed",
+      "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193",
+      "startedAt": "2026-10-08T09:03:36.257Z",
+      "finishedAt": "2026-10-08T09:03:43.401Z",
+      "total": 1698,
+      "passed": 1698,
+      "failed": 0,
+      "skipped": 0,
+      "failures": [],
+      "reason": null
     },
     "browser": {
-      "status": "pending",
-      "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193"
+      "status": "running",
+      "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193",
+      "startedAt": "2026-10-08T09:03:43.414Z",
+      "total": 23,
+      "passed": 1,
+      "failed": 0,
+      "failures": [],
+      "completed": 1
     }
   },
-  "heartbeatAt": "2026-10-08T09:03:26.751Z",
-  "publishError": null,
-  "pendingSource": true
+  "heartbeatAt": "2026-10-08T09:04:41.865Z"
 }
