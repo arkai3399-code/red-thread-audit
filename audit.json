@@ -3,8 +3,8 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "818fda9efb3990f4ced2f8b40823ef249f727999be893b0f01d39a95e07ba091",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-08T07:24:06.393Z",
-  "workerStatus": "idle",
+  "checkedAt": "2026-10-08T08:43:03.087Z",
+  "workerStatus": "testing",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8595,18 +8595,6 @@
         "file": "dist/model.js",
         "line": 23
       }
-    },
-    {
-      "id": "test:browser",
-      "level": "bug",
-      "automatic": true,
-      "stale": false,
-      "title": "ブラウザ操作のテストが失敗",
-      "description": "3件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
-      "source": {
-        "file": "tests/browser-message-access.cjs",
-        "line": 1
-      }
     }
   ],
   "verify": [
@@ -9021,8 +9009,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "818fda9efb3990f4ced2f8b40823ef249f727999be893b0f01d39a95e07ba091",
-      "startedAt": "2026-10-08T07:24:11.627Z",
-      "finishedAt": "2026-10-08T07:24:19.349Z",
+      "startedAt": "2026-10-08T08:43:08.464Z",
+      "finishedAt": "2026-10-08T08:43:15.870Z",
       "total": 1654,
       "passed": 1654,
       "failed": 0,
@@ -9031,43 +9019,25 @@
       "reason": null
     },
     "browser": {
-      "status": "failed",
+      "status": "running",
       "fingerprint": "818fda9efb3990f4ced2f8b40823ef249f727999be893b0f01d39a95e07ba091",
-      "startedAt": "2026-10-08T07:24:19.365Z",
+      "startedAt": "2026-10-08T08:43:15.885Z",
       "total": 22,
-      "passed": 19,
-      "failed": 3,
+      "passed": 4,
+      "failed": 1,
       "failures": [
         {
-          "name": "tests/browser-message-access.cjs",
+          "name": "tests/browser-chat-layout.cjs",
           "source": {
-            "file": "tests/browser-message-access.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-partner-profile.cjs",
-          "source": {
-            "file": "tests/browser-partner-profile.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        },
-        {
-          "name": "tests/browser-upgrade-matches-counts.cjs",
-          "source": {
-            "file": "tests/browser-upgrade-matches-counts.cjs",
+            "file": "tests/browser-chat-layout.cjs",
             "line": 1
           },
           "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 22,
-      "finishedAt": "2026-10-08T07:43:01.044Z"
+      "completed": 5
     }
   },
-  "heartbeatAt": "2026-10-08T07:45:09.649Z",
-  "publishError": null,
-  "pendingSource": false
+  "heartbeatAt": "2026-10-08T08:49:37.580Z",
+  "publishError": null
 }
