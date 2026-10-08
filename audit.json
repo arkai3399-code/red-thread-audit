@@ -9024,11 +9024,20 @@
       "startedAt": "2026-10-08T07:24:19.365Z",
       "total": 22,
       "passed": 9,
-      "failed": 0,
-      "failures": [],
-      "completed": 9
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-message-access.cjs",
+          "source": {
+            "file": "tests/browser-message-access.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 10
     }
   },
-  "heartbeatAt": "2026-10-08T07:31:56.114Z",
+  "heartbeatAt": "2026-10-08T07:33:56.132Z",
   "publishError": null
 }
