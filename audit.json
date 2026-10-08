@@ -9243,12 +9243,21 @@
       "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193",
       "startedAt": "2026-10-08T22:35:24.336Z",
       "total": 23,
-      "passed": 1,
-      "failed": 0,
-      "failures": [],
-      "completed": 1
+      "passed": 2,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-chat-layout.cjs",
+          "source": {
+            "file": "tests/browser-chat-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 3
     }
   },
-  "heartbeatAt": "2026-10-08T22:36:48.687Z",
+  "heartbeatAt": "2026-10-08T22:38:23.078Z",
   "publishError": null
 }
