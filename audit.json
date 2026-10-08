@@ -4,7 +4,7 @@
   "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
   "checkedAt": "2026-10-08T18:31:03.212Z",
-  "workerStatus": "testing",
+  "workerStatus": "idle",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -8813,6 +8813,18 @@
         "file": "dist/model.js",
         "line": 23
       }
+    },
+    {
+      "id": "test:browser",
+      "level": "bug",
+      "automatic": true,
+      "stale": false,
+      "title": "ブラウザ操作のテストが失敗",
+      "description": "6件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
+      "source": {
+        "file": "tests/browser-chat-layout.cjs",
+        "line": 1
+      }
     }
   ],
   "verify": [
@@ -9239,12 +9251,12 @@
       "reason": null
     },
     "browser": {
-      "status": "running",
+      "status": "failed",
       "fingerprint": "e450bd7513c8e5c623d92b6123e31ca15cb53733f31c9f41370b83f925f63193",
       "startedAt": "2026-10-08T18:31:16.122Z",
       "total": 23,
-      "passed": 16,
-      "failed": 5,
+      "passed": 17,
+      "failed": 6,
       "failures": [
         {
           "name": "tests/browser-chat-layout.cjs",
@@ -9285,11 +9297,21 @@
             "line": 1
           },
           "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-upgrade-matches-counts.cjs",
+          "source": {
+            "file": "tests/browser-upgrade-matches-counts.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 21
+      "completed": 23,
+      "finishedAt": "2026-10-08T18:52:05.834Z"
     }
   },
-  "heartbeatAt": "2026-10-08T18:49:38.264Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-08T18:52:05.877Z",
+  "publishError": null,
+  "pendingSource": false
 }
