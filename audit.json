@@ -9438,11 +9438,12 @@
       "fingerprint": "ef5c919b72d2bebdb1bf0c81acb90613b063ac05bdda28c7a5c080948dfcc751",
       "startedAt": "2026-10-09T06:35:49.590Z",
       "total": 25,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "failures": [],
-      "completed": 1
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-09T06:36:45.971Z"
+  "heartbeatAt": "2026-10-09T06:38:49.295Z",
+  "publishError": null
 }
