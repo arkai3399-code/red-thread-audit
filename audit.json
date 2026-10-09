@@ -9244,11 +9244,20 @@
       "startedAt": "2026-10-09T01:17:11.400Z",
       "total": 23,
       "passed": 9,
-      "failed": 0,
-      "failures": [],
-      "completed": 9
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-message-access.cjs",
+          "source": {
+            "file": "tests/browser-message-access.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 10
     }
   },
-  "heartbeatAt": "2026-10-09T01:25:03.580Z",
+  "heartbeatAt": "2026-10-09T01:27:03.600Z",
   "publishError": null
 }
