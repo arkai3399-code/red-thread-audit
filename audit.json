@@ -9386,11 +9386,28 @@
       "startedAt": "2026-10-09T04:14:01.199Z",
       "total": 24,
       "passed": 8,
-      "failed": 0,
-      "failures": [],
-      "completed": 8
+      "failed": 2,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-message-access.cjs",
+          "source": {
+            "file": "tests/browser-message-access.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 10
     }
   },
-  "heartbeatAt": "2026-10-09T04:20:33.772Z",
+  "heartbeatAt": "2026-10-09T04:23:38.272Z",
   "publishError": null
 }
