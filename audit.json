@@ -9385,11 +9385,12 @@
       "fingerprint": "6c30b6c13ece90844aed25fdca45f9a686437c851f6ca82d2efff3254f919501",
       "startedAt": "2026-10-09T04:14:01.199Z",
       "total": 24,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "failures": [],
-      "completed": 1
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-09T04:14:59.817Z"
+  "heartbeatAt": "2026-10-09T04:17:02.728Z",
+  "publishError": null
 }
