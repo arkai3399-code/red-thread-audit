@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
-  "fingerprint": "723906c1e0a6c1d1e0e1efae18de1dc42cf3d3225ffb3348693ed02321560be6",
+  "fingerprint": "6030c403199c8613efebc3fdce3a2aa33add918db10a8ed6d9803ae3935a6359",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-09T07:42:40.472Z",
-  "workerStatus": "testing",
+  "checkedAt": "2026-10-09T07:59:24.758Z",
+  "workerStatus": "queued",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -2465,6 +2465,27 @@
         },
         {
           "file": "dist/app.js",
+          "line": 629,
+          "owner": "settingsView",
+          "kind": "action",
+          "target": "go",
+          "label": "ボタン go",
+          "dynamic": false,
+          "id": "8a165709635886a3",
+          "source": {
+            "file": "dist/app.js",
+            "line": 629
+          },
+          "handler": {
+            "file": "dist/app.js",
+            "line": 924,
+            "effects": []
+          },
+          "effects": [],
+          "group": "settings"
+        },
+        {
+          "file": "dist/app.js",
           "line": 630,
           "owner": "settingsView",
           "kind": "navigation",
@@ -2489,61 +2510,6 @@
           "label": "プロフィールを編集",
           "dynamic": false,
           "id": "88a4cb0847fafbfd",
-          "source": {
-            "file": "dist/app.js",
-            "line": 630
-          },
-          "handler": null,
-          "effects": [],
-          "group": "settings"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 630,
-          "owner": "settingsView",
-          "kind": "navigation",
-          "target": "reviews",
-          "label": "本人確認・年収証明",
-          "dynamic": false,
-          "id": "888c807527cb0891",
-          "source": {
-            "file": "dist/app.js",
-            "line": 630
-          },
-          "handler": null,
-          "effects": [],
-          "group": "settings"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 630,
-          "owner": "settingsView",
-          "kind": "action",
-          "target": "go",
-          "label": "プラン詳細",
-          "dynamic": false,
-          "id": "dfc20b0d06ceda55",
-          "source": {
-            "file": "dist/app.js",
-            "line": 630
-          },
-          "handler": {
-            "file": "dist/app.js",
-            "line": 924,
-            "effects": []
-          },
-          "effects": [],
-          "group": "settings"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 630,
-          "owner": "settingsView",
-          "kind": "navigation",
-          "target": "plans",
-          "label": "プラン詳細",
-          "dynamic": false,
-          "id": "2b85a892a4485b26",
           "source": {
             "file": "dist/app.js",
             "line": 630
@@ -9320,13 +9286,16 @@
   ],
   "changes": {
     "baseline": false,
-    "added": 0,
-    "removed": 0,
-    "files": [],
+    "added": 1,
+    "removed": 3,
+    "files": [
+      "dist/app.js",
+      "dist/styles.css"
+    ],
     "removedFiles": []
   },
   "fileHashes": {
-    "dist/app.js": "5cc8b05f9696268ad354ed0f6dde6d2f317cb0719aa14cb401b11c0da3f4a69c",
+    "dist/app.js": "327099e2945ef86ff5b5bc5289c057fb114cd35c58b69afb00a4731c49c506d5",
     "dist/compatibility.js": "b3b9264cac766f8a3fd87a676960b2ac9112263fefdbbb8c13c053d246a42b48",
     "dist/data.js": "84f3beffe00e497a5bb08028b22cfc91a6807b7aa2b0e512b2de26ff55b7f752",
     "dist/demo-public-profiles.js": "c96d141023e116fd27cbf31f3150aebe9d86e778e350f8b817510dc4f40a7ae8",
@@ -9351,7 +9320,7 @@
     "dist/registration-demo.js": "1e9f32340cbdd02f6d36eac84294b2d5cf0ff5d42c710f6d0717e26c794f5fbd",
     "dist/registration-questions.js": "a9fdfd1b49a0079d2346c2e6e657e2f914bc82a4d41dec3e99f7a24675f8992e",
     "dist/search.js": "bc51361f5ae9d153712227ee0cd5a5e86fe8ff7ddaa8205a357eaa14e3e9b6aa",
-    "dist/styles.css": "ffa4339685cff71fe31d488e7fd854e3186560bb989d2a59fe9d1f43a4e1d3ba",
+    "dist/styles.css": "68c619dc2ef31f7b7c3f4fec6f5947ce5d4f62d72d50048e5ca9a14be01efb8c",
     "dist/test-scenarios.js": "895f84e1097cd2200a26e05c036667b3853293335b7b52a16a96c81fa9f5c894",
     "package.json": "be7e5f884e3f95253ff0e36590ae82c83ae1c5cbcf255f14bd7794f7332b9df0",
     "server.mjs": "ec0b1ab8f43acb0b16f49995d0ab9eb01e0927ba3acfc2749fe745e2cfbce765",
@@ -9419,7 +9388,7 @@
   "coverage": {
     "files": 89,
     "parsed": 86,
-    "operations": 256,
+    "operations": 254,
     "screens": 29,
     "dynamic": 29
   },
@@ -9441,53 +9410,15 @@
   ],
   "tests": {
     "unit": {
-      "status": "passed",
-      "fingerprint": "723906c1e0a6c1d1e0e1efae18de1dc42cf3d3225ffb3348693ed02321560be6",
-      "startedAt": "2026-10-09T07:42:46.773Z",
-      "finishedAt": "2026-10-09T07:42:56.676Z",
-      "total": 2346,
-      "passed": 2346,
-      "failed": 0,
-      "skipped": 0,
-      "failures": [],
-      "reason": null
+      "status": "pending",
+      "fingerprint": "6030c403199c8613efebc3fdce3a2aa33add918db10a8ed6d9803ae3935a6359"
     },
     "browser": {
-      "status": "running",
-      "fingerprint": "723906c1e0a6c1d1e0e1efae18de1dc42cf3d3225ffb3348693ed02321560be6",
-      "startedAt": "2026-10-09T07:42:56.694Z",
-      "total": 25,
-      "passed": 14,
-      "failed": 3,
-      "failures": [
-        {
-          "name": "tests/browser-message-access.cjs",
-          "source": {
-            "file": "tests/browser-message-access.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-message-sections.cjs",
-          "source": {
-            "file": "tests/browser-message-sections.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        },
-        {
-          "name": "tests/browser-partner-profile.cjs",
-          "source": {
-            "file": "tests/browser-partner-profile.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        }
-      ],
-      "completed": 17
+      "status": "pending",
+      "fingerprint": "6030c403199c8613efebc3fdce3a2aa33add918db10a8ed6d9803ae3935a6359"
     }
   },
-  "heartbeatAt": "2026-10-09T07:58:32.462Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-09T07:59:55.844Z",
+  "publishError": null,
+  "pendingSource": true
 }
