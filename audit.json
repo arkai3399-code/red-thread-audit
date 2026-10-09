@@ -9385,8 +9385,8 @@
       "fingerprint": "6c30b6c13ece90844aed25fdca45f9a686437c851f6ca82d2efff3254f919501",
       "startedAt": "2026-10-09T02:54:35.494Z",
       "total": 24,
-      "passed": 11,
-      "failed": 1,
+      "passed": 14,
+      "failed": 2,
       "failures": [
         {
           "name": "tests/browser-message-access.cjs",
@@ -9395,11 +9395,19 @@
             "line": 1
           },
           "reason": "実行時間の上限を超えました"
+        },
+        {
+          "name": "tests/browser-partner-profile.cjs",
+          "source": {
+            "file": "tests/browser-partner-profile.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 12
+      "completed": 16
     }
   },
-  "heartbeatAt": "2026-10-09T03:06:46.026Z",
+  "heartbeatAt": "2026-10-09T03:07:56.109Z",
   "publishError": null
 }
