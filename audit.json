@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
-  "fingerprint": "ef5c919b72d2bebdb1bf0c81acb90613b063ac05bdda28c7a5c080948dfcc751",
+  "fingerprint": "3ac26fe43b2c54d61e79968439972a2b22cec1b310be5414c1afd290b63897d0",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-09T06:35:35.431Z",
-  "workerStatus": "testing",
+  "checkedAt": "2026-10-09T06:45:17.736Z",
+  "workerStatus": "queued",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -9305,11 +9305,13 @@
     "baseline": false,
     "added": 0,
     "removed": 0,
-    "files": [],
+    "files": [
+      "dist/app.js"
+    ],
     "removedFiles": []
   },
   "fileHashes": {
-    "dist/app.js": "ed1522089393a4837ce00fe084cf8cba4a8b94ece524ad2bc003302c234b0c39",
+    "dist/app.js": "14b97918bff20c2a552df8b44129c700ef74ecffa0487d8eb26b9e5b17bd68aa",
     "dist/compatibility.js": "b3b9264cac766f8a3fd87a676960b2ac9112263fefdbbb8c13c053d246a42b48",
     "dist/data.js": "84f3beffe00e497a5bb08028b22cfc91a6807b7aa2b0e512b2de26ff55b7f752",
     "dist/demo-public-profiles.js": "c96d141023e116fd27cbf31f3150aebe9d86e778e350f8b817510dc4f40a7ae8",
@@ -9422,28 +9424,15 @@
   ],
   "tests": {
     "unit": {
-      "status": "passed",
-      "fingerprint": "ef5c919b72d2bebdb1bf0c81acb90613b063ac05bdda28c7a5c080948dfcc751",
-      "startedAt": "2026-10-09T06:35:40.829Z",
-      "finishedAt": "2026-10-09T06:35:49.577Z",
-      "total": 1823,
-      "passed": 1823,
-      "failed": 0,
-      "skipped": 0,
-      "failures": [],
-      "reason": null
+      "status": "pending",
+      "fingerprint": "3ac26fe43b2c54d61e79968439972a2b22cec1b310be5414c1afd290b63897d0"
     },
     "browser": {
-      "status": "running",
-      "fingerprint": "ef5c919b72d2bebdb1bf0c81acb90613b063ac05bdda28c7a5c080948dfcc751",
-      "startedAt": "2026-10-09T06:35:49.590Z",
-      "total": 25,
-      "passed": 10,
-      "failed": 0,
-      "failures": [],
-      "completed": 10
+      "status": "pending",
+      "fingerprint": "3ac26fe43b2c54d61e79968439972a2b22cec1b310be5414c1afd290b63897d0"
     }
   },
-  "heartbeatAt": "2026-10-09T06:44:46.072Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-09T06:58:24.852Z",
+  "publishError": null,
+  "pendingSource": true
 }
