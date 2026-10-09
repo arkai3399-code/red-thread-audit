@@ -9457,11 +9457,12 @@
       "fingerprint": "723906c1e0a6c1d1e0e1efae18de1dc42cf3d3225ffb3348693ed02321560be6",
       "startedAt": "2026-10-09T07:42:56.694Z",
       "total": 25,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "failures": [],
-      "completed": 1
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-10-09T07:43:48.661Z"
+  "heartbeatAt": "2026-10-09T07:45:51.212Z",
+  "publishError": null
 }
