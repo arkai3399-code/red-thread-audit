@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "title": "赤い糸 / 全経路点検",
-  "fingerprint": "0d13ff2e7f8ad8105add35164f3e5ebe86352823f4717ff37446e06d3cb0af61",
+  "fingerprint": "723906c1e0a6c1d1e0e1efae18de1dc42cf3d3225ffb3348693ed02321560be6",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-09T07:20:33.631Z",
-  "workerStatus": "testing",
+  "checkedAt": "2026-10-09T07:35:43.926Z",
+  "workerStatus": "queued",
   "syncMode": "local",
   "source": {
     "commit": "b87fa5af46657ba429cc79195026edc5aa9ed018",
@@ -79,6 +79,7 @@
       "tests/help-controls.cjs": false,
       "tests/identity-submission-controls.cjs": false,
       "tests/identity-submission.test.mjs": false,
+      "tests/independent-submission.test.mjs": false,
       "tests/message-access.test.mjs": false,
       "tests/message-approval.test.mjs": false,
       "tests/message-sections-controls.cjs": false,
@@ -94,6 +95,7 @@
       "tests/profile-completion.test.mjs": false,
       "tests/profile-presentation.test.mjs": false,
       "tests/registration-demo.test.mjs": false,
+      "tests/review-fixtures.mjs": false,
       "tests/review-lifecycle.test.mjs": false,
       "tests/search.test.mjs": false,
       "tests/skeleton.test.mjs": false,
@@ -109,7 +111,7 @@
       "fn": "startView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
@@ -127,7 +129,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 934,
+            "line": 933,
             "effects": []
           },
           "effects": [],
@@ -165,7 +167,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 860,
+            "line": 859,
             "effects": []
           },
           "effects": [],
@@ -323,7 +325,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 868,
+            "line": 867,
             "effects": []
           },
           "effects": [],
@@ -344,7 +346,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 868,
+            "line": 867,
             "effects": []
           },
           "effects": [],
@@ -407,7 +409,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -428,7 +430,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -449,7 +451,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -470,7 +472,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -491,7 +493,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -512,7 +514,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -533,7 +535,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -575,7 +577,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 868,
+            "line": 867,
             "effects": []
           },
           "effects": [],
@@ -638,7 +640,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -659,7 +661,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1520,
+            "line": 1519,
             "effects": []
           },
           "effects": [],
@@ -680,7 +682,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 868,
+            "line": 867,
             "effects": []
           },
           "effects": [],
@@ -722,7 +724,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 868,
+            "line": 867,
             "effects": []
           },
           "effects": [],
@@ -764,7 +766,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 877,
+            "line": 876,
             "effects": []
           },
           "effects": [],
@@ -785,7 +787,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 876,
+            "line": 875,
             "effects": []
           },
           "effects": [],
@@ -806,7 +808,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 868,
+            "line": 867,
             "effects": []
           },
           "effects": [],
@@ -841,7 +843,7 @@
       "fn": "loginView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
@@ -876,7 +878,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1269,
+            "line": 1268,
             "effects": [
               "complete",
               "startAuth"
@@ -903,7 +905,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -917,7 +919,7 @@
       "fn": "smsView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
@@ -952,7 +954,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1288,
+            "line": 1287,
             "effects": [
               "verifyAuth"
             ]
@@ -977,7 +979,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -998,7 +1000,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 969,
+            "line": 968,
             "effects": [
               "startAuth"
             ]
@@ -1016,12 +1018,12 @@
       "fn": "discoverView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 499,
+          "line": 498,
           "owner": "discoverView",
           "kind": "action",
           "target": "go",
@@ -1030,11 +1032,11 @@
           "id": "169270bb344f4f14",
           "source": {
             "file": "dist/app.js",
-            "line": 499
+            "line": 498
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 925,
+            "line": 924,
             "effects": []
           },
           "effects": [],
@@ -1042,7 +1044,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 499,
+          "line": 498,
           "owner": "discoverView",
           "kind": "navigation",
           "target": "plans",
@@ -1051,7 +1053,7 @@
           "id": "49a0fbe30645d4b1",
           "source": {
             "file": "dist/app.js",
-            "line": 499
+            "line": 498
           },
           "handler": null,
           "effects": [],
@@ -1059,7 +1061,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 504,
+          "line": 503,
           "owner": "discoverView",
           "kind": "input",
           "target": null,
@@ -1068,11 +1070,11 @@
           "id": "1d4828acd1cae236",
           "source": {
             "file": "dist/app.js",
-            "line": 504
+            "line": 503
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1080,7 +1082,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 504,
+          "line": 503,
           "owner": "discoverView",
           "kind": "input",
           "target": "minHeight",
@@ -1089,11 +1091,11 @@
           "id": "39bdb8066de17e46",
           "source": {
             "file": "dist/app.js",
-            "line": 504
+            "line": 503
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1101,7 +1103,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 504,
+          "line": 503,
           "owner": "discoverView",
           "kind": "input",
           "target": "maxHeight",
@@ -1110,11 +1112,32 @@
           "id": "768ccd3c2aba4a06",
           "source": {
             "file": "dist/app.js",
-            "line": 504
+            "line": 503
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
+            "effects": []
+          },
+          "effects": [],
+          "group": "discover"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 503,
+          "owner": "discoverView",
+          "kind": "input",
+          "target": "incomeVerified",
+          "label": "収入証明",
+          "dynamic": false,
+          "id": "f7fecc88a9198f16",
+          "source": {
+            "file": "dist/app.js",
+            "line": 503
+          },
+          "handler": {
+            "file": "dist/app.js",
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1125,17 +1148,17 @@
           "line": 504,
           "owner": "discoverView",
           "kind": "input",
-          "target": "incomeVerified",
-          "label": "収入証明",
+          "target": "sort",
+          "label": "並び替え",
           "dynamic": false,
-          "id": "f7fecc88a9198f16",
+          "id": "047cdbacd841a649",
           "source": {
             "file": "dist/app.js",
             "line": 504
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1145,27 +1168,6 @@
           "file": "dist/app.js",
           "line": 505,
           "owner": "discoverView",
-          "kind": "input",
-          "target": "sort",
-          "label": "並び替え",
-          "dynamic": false,
-          "id": "047cdbacd841a649",
-          "source": {
-            "file": "dist/app.js",
-            "line": 505
-          },
-          "handler": {
-            "file": "dist/app.js",
-            "line": 1512,
-            "effects": []
-          },
-          "effects": [],
-          "group": "discover"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 506,
-          "owner": "discoverView",
           "kind": "form",
           "target": "search",
           "label": "条件を適用",
@@ -1173,11 +1175,11 @@
           "id": "6d6cb172e9d0122d",
           "source": {
             "file": "dist/app.js",
-            "line": 506
+            "line": 505
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1372,
+            "line": 1371,
             "effects": [
               "searchPreferences",
               "saveSearchPreferences"
@@ -1191,7 +1193,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 506,
+          "line": 505,
           "owner": "discoverView",
           "kind": "input",
           "target": "region",
@@ -1200,11 +1202,11 @@
           "id": "92fc141f7f3b7d95",
           "source": {
             "file": "dist/app.js",
-            "line": 506
+            "line": 505
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1212,7 +1214,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 506,
+          "line": 505,
           "owner": "discoverView",
           "kind": "input",
           "target": "minAge",
@@ -1221,11 +1223,11 @@
           "id": "f8e79ef99afb3e1b",
           "source": {
             "file": "dist/app.js",
-            "line": 506
+            "line": 505
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1233,7 +1235,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 506,
+          "line": 505,
           "owner": "discoverView",
           "kind": "input",
           "target": "maxAge",
@@ -1242,11 +1244,11 @@
           "id": "a1b06405aab66118",
           "source": {
             "file": "dist/app.js",
-            "line": 506
+            "line": 505
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1254,7 +1256,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 506,
+          "line": 505,
           "owner": "discoverView",
           "kind": "navigation",
           "target": "plans",
@@ -1263,7 +1265,7 @@
           "id": "b80f6b79885fd59b",
           "source": {
             "file": "dist/app.js",
-            "line": 506
+            "line": 505
           },
           "handler": null,
           "effects": [],
@@ -1271,7 +1273,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 507,
+          "line": 506,
           "owner": "discoverView",
           "kind": "action",
           "target": "clear-search",
@@ -1280,11 +1282,11 @@
           "id": "e0da703c4384734a",
           "source": {
             "file": "dist/app.js",
-            "line": 507
+            "line": 506
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 907,
+            "line": 906,
             "effects": [
               "clearUnavailableSearch"
             ]
@@ -1296,13 +1298,30 @@
         },
         {
           "file": "dist/app.js",
-          "line": 507,
+          "line": 506,
           "owner": "discoverView",
           "kind": "navigation",
           "target": "plans",
           "label": "プランを確認",
           "dynamic": false,
           "id": "09c10a7b5649792d",
+          "source": {
+            "file": "dist/app.js",
+            "line": 506
+          },
+          "handler": null,
+          "effects": [],
+          "group": "discover"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 507,
+          "owner": "discoverView",
+          "kind": "navigation",
+          "target": "auth",
+          "label": "電話番号認証へ進む",
+          "dynamic": false,
+          "id": "ad2e9f2691e4a8d4",
           "source": {
             "file": "dist/app.js",
             "line": 507
@@ -1313,24 +1332,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 508,
-          "owner": "discoverView",
-          "kind": "navigation",
-          "target": "auth",
-          "label": "電話番号認証へ進む",
-          "dynamic": false,
-          "id": "ad2e9f2691e4a8d4",
-          "source": {
-            "file": "dist/app.js",
-            "line": 508
-          },
-          "handler": null,
-          "effects": [],
-          "group": "discover"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView",
           "kind": "navigation",
           "target": "diagnosis",
@@ -1339,7 +1341,7 @@
           "id": "85724e5c8e4d3e78",
           "source": {
             "file": "dist/app.js",
-            "line": 508
+            "line": 507
           },
           "handler": null,
           "effects": [],
@@ -1347,7 +1349,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView",
           "kind": "action",
           "target": "detail",
@@ -1356,11 +1358,11 @@
           "id": "756f47801118f7ed",
           "source": {
             "file": "dist/app.js",
-            "line": 508
+            "line": 507
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1012,
+            "line": 1011,
             "effects": [
               "visit"
             ]
@@ -1372,7 +1374,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView",
           "kind": "action",
           "target": "skip",
@@ -1381,11 +1383,11 @@
           "id": "5683257cd79ae5d0",
           "source": {
             "file": "dist/app.js",
-            "line": 508
+            "line": 507
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1020,
+            "line": 1019,
             "effects": [
               "skip"
             ]
@@ -1397,7 +1399,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView",
           "kind": "action",
           "target": null,
@@ -1406,7 +1408,7 @@
           "id": "5d4dd55609d557cd",
           "source": {
             "file": "dist/app.js",
-            "line": 508
+            "line": 507
           },
           "handler": null,
           "effects": [],
@@ -1420,7 +1422,7 @@
       "fn": "detailView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
@@ -1438,7 +1440,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1097,
+            "line": 1096,
             "effects": []
           },
           "effects": [],
@@ -1459,7 +1461,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1110,
+            "line": 1109,
             "effects": []
           },
           "effects": [],
@@ -1484,7 +1486,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 535,
+          "line": 534,
           "owner": "detailView",
           "kind": "navigation",
           "target": "discover",
@@ -1493,7 +1495,45 @@
           "id": "02d0ff86a52785f4",
           "source": {
             "file": "dist/app.js",
-            "line": 535
+            "line": 534
+          },
+          "handler": null,
+          "effects": [],
+          "group": "detail"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 538,
+          "owner": "detailView",
+          "kind": "action",
+          "target": "chat",
+          "label": "会話を開く",
+          "dynamic": false,
+          "id": "ecd99bf15515254e",
+          "source": {
+            "file": "dist/app.js",
+            "line": 538
+          },
+          "handler": {
+            "file": "dist/app.js",
+            "line": 1052,
+            "effects": []
+          },
+          "effects": [],
+          "group": "detail"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 538,
+          "owner": "detailView",
+          "kind": "action",
+          "target": null,
+          "label": "ラベルは動的",
+          "dynamic": true,
+          "id": "97d7244bf69fcdf7",
+          "source": {
+            "file": "dist/app.js",
+            "line": 538
           },
           "handler": null,
           "effects": [],
@@ -1503,32 +1543,11 @@
           "file": "dist/app.js",
           "line": 539,
           "owner": "detailView",
-          "kind": "action",
-          "target": "chat",
-          "label": "会話を開く",
-          "dynamic": false,
-          "id": "ecd99bf15515254e",
-          "source": {
-            "file": "dist/app.js",
-            "line": 539
-          },
-          "handler": {
-            "file": "dist/app.js",
-            "line": 1053,
-            "effects": []
-          },
-          "effects": [],
-          "group": "detail"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 539,
-          "owner": "detailView",
-          "kind": "action",
+          "kind": "navigation",
           "target": null,
-          "label": "ラベルは動的",
+          "label": "戻る",
           "dynamic": true,
-          "id": "97d7244bf69fcdf7",
+          "id": "4524772de16f5bcf",
           "source": {
             "file": "dist/app.js",
             "line": 539
@@ -1541,23 +1560,6 @@
           "file": "dist/app.js",
           "line": 540,
           "owner": "detailView",
-          "kind": "navigation",
-          "target": null,
-          "label": "戻る",
-          "dynamic": true,
-          "id": "4524772de16f5bcf",
-          "source": {
-            "file": "dist/app.js",
-            "line": 540
-          },
-          "handler": null,
-          "effects": [],
-          "group": "detail"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 541,
-          "owner": "detailView",
           "kind": "action",
           "target": "compat",
           "label": "相性の説明を見る",
@@ -1565,11 +1567,11 @@
           "id": "2501afb6072835c7",
           "source": {
             "file": "dist/app.js",
-            "line": 541
+            "line": 540
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1017,
+            "line": 1016,
             "effects": []
           },
           "effects": [],
@@ -1583,12 +1585,12 @@
       "fn": "likesView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 553,
+          "line": 552,
           "owner": "row",
           "kind": "action",
           "target": "detail",
@@ -1597,11 +1599,11 @@
           "id": "0c96e10edc5e1ccf",
           "source": {
             "file": "dist/app.js",
-            "line": 553
+            "line": 552
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1012,
+            "line": 1011,
             "effects": [
               "visit"
             ]
@@ -1613,7 +1615,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 553,
+          "line": 552,
           "owner": "row",
           "kind": "action",
           "target": "accept",
@@ -1622,11 +1624,11 @@
           "id": "7a2cf9e4c5d47d9c",
           "source": {
             "file": "dist/app.js",
-            "line": 553
+            "line": 552
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1063,
+            "line": 1062,
             "effects": [
               "acceptLike",
               "rollbackLikeAcceptance"
@@ -1640,13 +1642,30 @@
         },
         {
           "file": "dist/app.js",
-          "line": 553,
+          "line": 552,
           "owner": "row",
           "kind": "navigation",
           "target": "plans",
           "label": "プラン",
           "dynamic": false,
           "id": "ada1bf1ce8a15e3b",
+          "source": {
+            "file": "dist/app.js",
+            "line": 552
+          },
+          "handler": null,
+          "effects": [],
+          "group": "likes"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 553,
+          "owner": "likesView",
+          "kind": "navigation",
+          "target": "footprints",
+          "label": "足あとを見る",
+          "dynamic": false,
+          "id": "e008b8024b3cd89e",
           "source": {
             "file": "dist/app.js",
             "line": 553
@@ -1657,24 +1676,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 554,
-          "owner": "likesView",
-          "kind": "navigation",
-          "target": "footprints",
-          "label": "足あとを見る",
-          "dynamic": false,
-          "id": "e008b8024b3cd89e",
-          "source": {
-            "file": "dist/app.js",
-            "line": 554
-          },
-          "handler": null,
-          "effects": [],
-          "group": "likes"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 562,
+          "line": 561,
           "owner": "row",
           "kind": "navigation",
           "target": "plans",
@@ -1683,7 +1685,7 @@
           "id": "74aa5a06021fd508",
           "source": {
             "file": "dist/app.js",
-            "line": 562
+            "line": 561
           },
           "handler": null,
           "effects": [],
@@ -1691,7 +1693,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 566,
+          "line": 565,
           "owner": "row",
           "kind": "action",
           "target": "chat",
@@ -1700,11 +1702,11 @@
           "id": "98cba5c110bc2e00",
           "source": {
             "file": "dist/app.js",
-            "line": 566
+            "line": 565
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1053,
+            "line": 1052,
             "effects": []
           },
           "effects": [],
@@ -1718,12 +1720,12 @@
       "fn": "footprintsView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 731,
+          "line": 730,
           "owner": "footprintsView",
           "kind": "action",
           "target": "go",
@@ -1732,11 +1734,49 @@
           "id": "c15c5bd764d43f34",
           "source": {
             "file": "dist/app.js",
+            "line": 730
+          },
+          "handler": {
+            "file": "dist/app.js",
+            "line": 924,
+            "effects": []
+          },
+          "effects": [],
+          "group": "footprints"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 730,
+          "owner": "footprintsView",
+          "kind": "navigation",
+          "target": "plans",
+          "label": "基本プランで足あとの相手が見られます",
+          "dynamic": false,
+          "id": "4cb7b801aca5e96e",
+          "source": {
+            "file": "dist/app.js",
+            "line": 730
+          },
+          "handler": null,
+          "effects": [],
+          "group": "footprints"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 731,
+          "owner": "footprintsView",
+          "kind": "action",
+          "target": "go",
+          "label": "ボタン go",
+          "dynamic": false,
+          "id": "8fdf53ce19b8418c",
+          "source": {
+            "file": "dist/app.js",
             "line": 731
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 925,
+            "line": 924,
             "effects": []
           },
           "effects": [],
@@ -1746,44 +1786,6 @@
           "file": "dist/app.js",
           "line": 731,
           "owner": "footprintsView",
-          "kind": "navigation",
-          "target": "plans",
-          "label": "基本プランで足あとの相手が見られます",
-          "dynamic": false,
-          "id": "4cb7b801aca5e96e",
-          "source": {
-            "file": "dist/app.js",
-            "line": 731
-          },
-          "handler": null,
-          "effects": [],
-          "group": "footprints"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 732,
-          "owner": "footprintsView",
-          "kind": "action",
-          "target": "go",
-          "label": "ボタン go",
-          "dynamic": false,
-          "id": "8fdf53ce19b8418c",
-          "source": {
-            "file": "dist/app.js",
-            "line": 732
-          },
-          "handler": {
-            "file": "dist/app.js",
-            "line": 925,
-            "effects": []
-          },
-          "effects": [],
-          "group": "footprints"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 732,
-          "owner": "footprintsView",
           "kind": "action",
           "target": "detail",
           "label": "詳細",
@@ -1791,11 +1793,11 @@
           "id": "c72cf45608faa29f",
           "source": {
             "file": "dist/app.js",
-            "line": 732
+            "line": 731
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1012,
+            "line": 1011,
             "effects": [
               "visit"
             ]
@@ -1813,12 +1815,12 @@
       "fn": "messagesView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 558,
+          "line": 557,
           "owner": "messagesView",
           "kind": "action",
           "target": "message-section",
@@ -1827,11 +1829,11 @@
           "id": "f94d48e98e9440d6",
           "source": {
             "file": "dist/app.js",
-            "line": 558
+            "line": 557
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1050,
+            "line": 1049,
             "effects": []
           },
           "effects": [],
@@ -1845,12 +1847,12 @@
       "fn": "chatView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 578,
+          "line": 577,
           "owner": "messageHistory",
           "kind": "action",
           "target": "message-review",
@@ -1859,11 +1861,11 @@
           "id": "e777ae752f9a3448",
           "source": {
             "file": "dist/app.js",
-            "line": 578
+            "line": 577
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 980,
+            "line": 979,
             "effects": []
           },
           "effects": [],
@@ -1871,7 +1873,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 586,
+          "line": 585,
           "owner": "chatView",
           "kind": "navigation",
           "target": "messages",
@@ -1880,7 +1882,7 @@
           "id": "f2e2fe09d0812be8",
           "source": {
             "file": "dist/app.js",
-            "line": 586
+            "line": 585
           },
           "handler": null,
           "effects": [],
@@ -1888,7 +1890,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 588,
+          "line": 587,
           "owner": "chatView",
           "kind": "navigation",
           "target": "messages",
@@ -1897,7 +1899,24 @@
           "id": "f2e2fe09d0812be8",
           "source": {
             "file": "dist/app.js",
-            "line": 588
+            "line": 587
+          },
+          "handler": null,
+          "effects": [],
+          "group": "chat"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 600,
+          "owner": "chatView",
+          "kind": "navigation",
+          "target": null,
+          "label": "ラベルは動的",
+          "dynamic": true,
+          "id": "b65061df9fe51e47",
+          "source": {
+            "file": "dist/app.js",
+            "line": 600
           },
           "handler": null,
           "effects": [],
@@ -1908,10 +1927,10 @@
           "line": 601,
           "owner": "chatView",
           "kind": "navigation",
-          "target": null,
-          "label": "ラベルは動的",
-          "dynamic": true,
-          "id": "b65061df9fe51e47",
+          "target": "plans",
+          "label": "基本プランを見る",
+          "dynamic": false,
+          "id": "bb00dc30fd6237d9",
           "source": {
             "file": "dist/app.js",
             "line": 601
@@ -1922,24 +1941,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 602,
-          "owner": "chatView",
-          "kind": "navigation",
-          "target": "plans",
-          "label": "基本プランを見る",
-          "dynamic": false,
-          "id": "bb00dc30fd6237d9",
-          "source": {
-            "file": "dist/app.js",
-            "line": 602
-          },
-          "handler": null,
-          "effects": [],
-          "group": "chat"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 604,
+          "line": 603,
           "owner": "chatView",
           "kind": "input",
           "target": "text",
@@ -1948,11 +1950,11 @@
           "id": "21a996d1ecd2b579",
           "source": {
             "file": "dist/app.js",
-            "line": 604
+            "line": 603
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -1960,7 +1962,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 604,
+          "line": 603,
           "owner": "chatView",
           "kind": "action",
           "target": "example",
@@ -1969,11 +1971,11 @@
           "id": "5da14eae0c7902d7",
           "source": {
             "file": "dist/app.js",
-            "line": 604
+            "line": 603
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1090,
+            "line": 1089,
             "effects": [
               "messageStats"
             ]
@@ -1985,7 +1987,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 606,
+          "line": 605,
           "owner": "chatView",
           "kind": "action",
           "target": "message-block",
@@ -1994,11 +1996,11 @@
           "id": "1a86ab6c31ec6674",
           "source": {
             "file": "dist/app.js",
-            "line": 606
+            "line": 605
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1113,
+            "line": 1112,
             "effects": [
               "pendingMessageApproval"
             ]
@@ -2010,7 +2012,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 606,
+          "line": 605,
           "owner": "chatView",
           "kind": "action",
           "target": "approve-message",
@@ -2019,11 +2021,11 @@
           "id": "bbc2e33b134e64b8",
           "source": {
             "file": "dist/app.js",
-            "line": 606
+            "line": 605
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1074,
+            "line": 1073,
             "effects": [
               "acceptMessage",
               "rollbackMessageAcceptance"
@@ -2037,7 +2039,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 607,
+          "line": 606,
           "owner": "chatView",
           "kind": "action",
           "target": "accept",
@@ -2046,11 +2048,11 @@
           "id": "5c58d7cb5b3cc1bd",
           "source": {
             "file": "dist/app.js",
-            "line": 607
+            "line": 606
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1063,
+            "line": 1062,
             "effects": [
               "acceptLike",
               "rollbackLikeAcceptance"
@@ -2064,7 +2066,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 610,
+          "line": 609,
           "owner": "chatView",
           "kind": "action",
           "target": "chat-back",
@@ -2073,11 +2075,11 @@
           "id": "01434308d03af025",
           "source": {
             "file": "dist/app.js",
-            "line": 610
+            "line": 609
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1043,
+            "line": 1042,
             "effects": []
           },
           "effects": [],
@@ -2085,7 +2087,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 610,
+          "line": 609,
           "owner": "chatView",
           "kind": "action",
           "target": "detail",
@@ -2094,11 +2096,11 @@
           "id": "e58c4ed05d12edbf",
           "source": {
             "file": "dist/app.js",
-            "line": 610
+            "line": 609
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1012,
+            "line": 1011,
             "effects": [
               "visit"
             ]
@@ -2110,7 +2112,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 611,
+          "line": 610,
           "owner": "chatView",
           "kind": "navigation",
           "target": "schedule",
@@ -2119,7 +2121,7 @@
           "id": "5f408616bfd535b1",
           "source": {
             "file": "dist/app.js",
-            "line": 611
+            "line": 610
           },
           "handler": null,
           "effects": [],
@@ -2127,7 +2129,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 611,
+          "line": 610,
           "owner": "chatView",
           "kind": "action",
           "target": "swap",
@@ -2136,11 +2138,11 @@
           "id": "2e3babdae121c61d",
           "source": {
             "file": "dist/app.js",
-            "line": 611
+            "line": 610
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1057,
+            "line": 1056,
             "effects": []
           },
           "effects": [],
@@ -2154,12 +2156,12 @@
       "fn": "scheduleView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 615,
+          "line": 614,
           "owner": "scheduleView",
           "kind": "navigation",
           "target": "chat",
@@ -2168,11 +2170,11 @@
           "id": "0ab37e15a39d592b",
           "source": {
             "file": "dist/app.js",
-            "line": 615
+            "line": 614
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1053,
+            "line": 1052,
             "effects": []
           },
           "effects": [],
@@ -2180,7 +2182,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "navigation",
           "target": "chat",
@@ -2189,11 +2191,11 @@
           "id": "0ab37e15a39d592b",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1053,
+            "line": 1052,
             "effects": []
           },
           "effects": [],
@@ -2201,7 +2203,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "navigation",
           "target": "plans",
@@ -2210,7 +2212,7 @@
           "id": "3e0baf107c11e22b",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": null,
           "effects": [],
@@ -2218,7 +2220,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "form",
           "target": "candidate",
@@ -2227,11 +2229,11 @@
           "id": "22c445b422047732",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1396,
+            "line": 1395,
             "effects": [
               "addCandidate"
             ]
@@ -2243,7 +2245,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "input",
           "target": "at",
@@ -2252,11 +2254,11 @@
           "id": "b9448594194d795f",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2264,7 +2266,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "action",
           "target": "choose",
@@ -2273,11 +2275,11 @@
           "id": "4d55c3f63f796c9b",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1142,
+            "line": 1141,
             "effects": [
               "chooseCandidate"
             ]
@@ -2289,7 +2291,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "action",
           "target": "propose",
@@ -2298,11 +2300,11 @@
           "id": "21d58a8ecb19f374",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1150,
+            "line": 1149,
             "effects": [
               "propose"
             ]
@@ -2314,7 +2316,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "action",
           "target": "extend",
@@ -2323,11 +2325,11 @@
           "id": "95e3b71695254d1c",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1146,
+            "line": 1145,
             "effects": [
               "extendSchedule"
             ]
@@ -2339,7 +2341,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "action",
           "target": "approve-date",
@@ -2348,11 +2350,11 @@
           "id": "8a2518a67c93a2e3",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1154,
+            "line": 1153,
             "effects": [
               "approveProposal"
             ]
@@ -2364,7 +2366,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "form",
           "target": "preferences",
@@ -2373,11 +2375,11 @@
           "id": "5556c700624a20e8",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1403,
+            "line": 1402,
             "effects": [
               "savePreferences"
             ]
@@ -2389,7 +2391,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "input",
           "target": null,
@@ -2398,11 +2400,11 @@
           "id": "e4823fe48bb12223",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2410,7 +2412,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 617,
+          "line": 616,
           "owner": "scheduleView",
           "kind": "input",
           "target": "stations",
@@ -2419,11 +2421,11 @@
           "id": "ba35f53cfdd2754a",
           "source": {
             "file": "dist/app.js",
-            "line": 617
+            "line": 616
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2437,12 +2439,12 @@
       "fn": "settingsView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 625,
+          "line": 624,
           "owner": "ownPhoto",
           "kind": "action",
           "target": "go",
@@ -2451,11 +2453,11 @@
           "id": "35c9e42a144d7d32",
           "source": {
             "file": "dist/app.js",
-            "line": 625
+            "line": 624
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 925,
+            "line": 924,
             "effects": []
           },
           "effects": [],
@@ -2463,7 +2465,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 631,
+          "line": 630,
           "owner": "settingsView",
           "kind": "navigation",
           "target": "settings-menu",
@@ -2472,7 +2474,7 @@
           "id": "3171ccdb0226c7c7",
           "source": {
             "file": "dist/app.js",
-            "line": 631
+            "line": 630
           },
           "handler": null,
           "effects": [],
@@ -2480,7 +2482,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 631,
+          "line": 630,
           "owner": "settingsView",
           "kind": "navigation",
           "target": "profile",
@@ -2489,7 +2491,7 @@
           "id": "88a4cb0847fafbfd",
           "source": {
             "file": "dist/app.js",
-            "line": 631
+            "line": 630
           },
           "handler": null,
           "effects": [],
@@ -2497,16 +2499,16 @@
         },
         {
           "file": "dist/app.js",
-          "line": 631,
+          "line": 630,
           "owner": "settingsView",
           "kind": "navigation",
           "target": "reviews",
-          "label": "提出の状況を見る",
+          "label": "本人確認・年収証明",
           "dynamic": false,
-          "id": "e089673913989d30",
+          "id": "888c807527cb0891",
           "source": {
             "file": "dist/app.js",
-            "line": 631
+            "line": 630
           },
           "handler": null,
           "effects": [],
@@ -2514,7 +2516,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 631,
+          "line": 630,
           "owner": "settingsView",
           "kind": "action",
           "target": "go",
@@ -2523,11 +2525,11 @@
           "id": "dfc20b0d06ceda55",
           "source": {
             "file": "dist/app.js",
-            "line": 631
+            "line": 630
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 925,
+            "line": 924,
             "effects": []
           },
           "effects": [],
@@ -2535,7 +2537,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 631,
+          "line": 630,
           "owner": "settingsView",
           "kind": "navigation",
           "target": "plans",
@@ -2544,7 +2546,7 @@
           "id": "2b85a892a4485b26",
           "source": {
             "file": "dist/app.js",
-            "line": 631
+            "line": 630
           },
           "handler": null,
           "effects": [],
@@ -2552,7 +2554,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 631,
+          "line": 630,
           "owner": "settingsView",
           "kind": "navigation",
           "target": "diagnosis",
@@ -2561,7 +2563,7 @@
           "id": "9d31a738ff7c8d39",
           "source": {
             "file": "dist/app.js",
-            "line": 631
+            "line": 630
           },
           "handler": null,
           "effects": [],
@@ -2569,7 +2571,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 631,
+          "line": 630,
           "owner": "settingsView",
           "kind": "navigation",
           "target": "footprints",
@@ -2578,7 +2580,7 @@
           "id": "e3eeed3c33cb0637",
           "source": {
             "file": "dist/app.js",
-            "line": 631
+            "line": 630
           },
           "handler": null,
           "effects": [],
@@ -2592,12 +2594,12 @@
       "fn": "profileView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 336,
+          "line": 338,
           "owner": "photoEditor",
           "kind": "form",
           "target": "face-review-form",
@@ -2606,11 +2608,11 @@
           "id": "3f1e91bfaf29dc3b",
           "source": {
             "file": "dist/app.js",
-            "line": 336
+            "line": 338
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1295,
+            "line": 1294,
             "effects": [
               "submitFacePhoto"
             ]
@@ -2622,7 +2624,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 336,
+          "line": 338,
           "owner": "photoEditor",
           "kind": "input",
           "target": "sample",
@@ -2631,11 +2633,11 @@
           "id": "1ecbe60f679acb22",
           "source": {
             "file": "dist/app.js",
-            "line": 336
+            "line": 338
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2643,7 +2645,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 338,
+          "line": 339,
           "owner": "photoEditor",
           "kind": "form",
           "target": "nonface-review-form",
@@ -2652,11 +2654,11 @@
           "id": "fef1593ca7388c03",
           "source": {
             "file": "dist/app.js",
-            "line": 338
+            "line": 339
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1301,
+            "line": 1300,
             "effects": [
               "submitNonFace"
             ]
@@ -2668,7 +2670,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 338,
+          "line": 339,
           "owner": "photoEditor",
           "kind": "input",
           "target": "sample",
@@ -2677,11 +2679,11 @@
           "id": "81d1d6a9a3aacd8c",
           "source": {
             "file": "dist/app.js",
-            "line": 338
+            "line": 339
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2689,7 +2691,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "navigation",
           "target": null,
@@ -2698,7 +2700,7 @@
           "id": "6c7aa1fb535f19b3",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": null,
           "effects": [],
@@ -2706,7 +2708,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "navigation",
           "target": "profile-preview",
@@ -2715,7 +2717,7 @@
           "id": "8363157721aefbf4",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": null,
           "effects": [],
@@ -2723,7 +2725,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "action",
           "target": "sample-profile",
@@ -2732,11 +2734,11 @@
           "id": "6b9fbedc065010a1",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 993,
+            "line": 992,
             "effects": []
           },
           "effects": [],
@@ -2744,7 +2746,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "form",
           "target": "profile",
@@ -2753,11 +2755,11 @@
           "id": "71d6d9df63ea72c1",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1337,
+            "line": 1336,
             "effects": [
               "saveProfile"
             ]
@@ -2769,7 +2771,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "input",
           "target": "name",
@@ -2778,11 +2780,11 @@
           "id": "d10a7fa4897c77b0",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2790,7 +2792,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "input",
           "target": "intro",
@@ -2799,11 +2801,11 @@
           "id": "48511bd8dbeaff72",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2811,7 +2813,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "input",
           "target": "prefecture",
@@ -2820,11 +2822,11 @@
           "id": "5cea8e1768f6cf11",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2832,7 +2834,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "input",
           "target": "income",
@@ -2841,11 +2843,11 @@
           "id": "aab06659c27c55f8",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2853,7 +2855,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 350,
+          "line": 351,
           "owner": "profileView",
           "kind": "input",
           "target": "height",
@@ -2862,11 +2864,11 @@
           "id": "d01ddba1dcb46f31",
           "source": {
             "file": "dist/app.js",
-            "line": 350
+            "line": 351
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -2880,12 +2882,12 @@
       "fn": "profilePreviewView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 357,
+          "line": 358,
           "owner": "profilePreviewView",
           "kind": "navigation",
           "target": "profile",
@@ -2894,7 +2896,7 @@
           "id": "c3a6f69f31e6b59a",
           "source": {
             "file": "dist/app.js",
-            "line": 357
+            "line": 358
           },
           "handler": null,
           "effects": [],
@@ -2908,39 +2910,18 @@
       "fn": "reviewsView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 395,
+          "line": 396,
           "owner": "identityApplication",
           "kind": "action",
           "target": "identity-document",
           "label": "ラベルは動的",
           "dynamic": false,
           "id": "42e4877085c3914f",
-          "source": {
-            "file": "dist/app.js",
-            "line": 395
-          },
-          "handler": {
-            "file": "dist/app.js",
-            "line": 904,
-            "effects": []
-          },
-          "effects": [],
-          "group": "reviews"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 396,
-          "owner": "identityApplication",
-          "kind": "action",
-          "target": "identity-document-change",
-          "label": "変更する",
-          "dynamic": false,
-          "id": "1a846ad6f23857c4",
           "source": {
             "file": "dist/app.js",
             "line": 396
@@ -2955,7 +2936,28 @@
         },
         {
           "file": "dist/app.js",
-          "line": 400,
+          "line": 397,
+          "owner": "identityApplication",
+          "kind": "action",
+          "target": "identity-document-change",
+          "label": "変更する",
+          "dynamic": false,
+          "id": "1a846ad6f23857c4",
+          "source": {
+            "file": "dist/app.js",
+            "line": 397
+          },
+          "handler": {
+            "file": "dist/app.js",
+            "line": 902,
+            "effects": []
+          },
+          "effects": [],
+          "group": "reviews"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 401,
           "owner": "identityApplication",
           "kind": "action",
           "target": "identity-document-sample",
@@ -2964,7 +2966,28 @@
           "id": "a17cb9dcce2f1c4f",
           "source": {
             "file": "dist/app.js",
-            "line": 400
+            "line": 401
+          },
+          "handler": {
+            "file": "dist/app.js",
+            "line": 897,
+            "effects": []
+          },
+          "effects": [],
+          "group": "reviews"
+        },
+        {
+          "file": "dist/app.js",
+          "line": 405,
+          "owner": "identityApplication",
+          "kind": "action",
+          "target": "identity-applicant-sample",
+          "label": "入力例を入れる",
+          "dynamic": false,
+          "id": "530cc0d172f007d0",
+          "source": {
+            "file": "dist/app.js",
+            "line": 405
           },
           "handler": {
             "file": "dist/app.js",
@@ -2976,28 +2999,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 404,
-          "owner": "identityApplication",
-          "kind": "action",
-          "target": "identity-applicant-sample",
-          "label": "入力例を入れる",
-          "dynamic": false,
-          "id": "530cc0d172f007d0",
-          "source": {
-            "file": "dist/app.js",
-            "line": 404
-          },
-          "handler": {
-            "file": "dist/app.js",
-            "line": 899,
-            "effects": []
-          },
-          "effects": [],
-          "group": "reviews"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 427,
+          "line": 428,
           "owner": "reviewsView",
           "kind": "action",
           "target": "submit-review",
@@ -3006,11 +3008,11 @@
           "id": "cb389eafac312b1f",
           "source": {
             "file": "dist/app.js",
-            "line": 427
+            "line": 428
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1008,
+            "line": 1007,
             "effects": [
               "submitReview"
             ]
@@ -3022,7 +3024,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 429,
+          "line": 430,
           "owner": "reviewsView",
           "kind": "action",
           "target": "message-review-back",
@@ -3031,11 +3033,11 @@
           "id": "740c4473f25c0867",
           "source": {
             "file": "dist/app.js",
-            "line": 429
+            "line": 430
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 987,
+            "line": 986,
             "effects": []
           },
           "effects": [],
@@ -3043,7 +3045,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 429,
+          "line": 430,
           "owner": "reviewsView",
           "kind": "navigation",
           "target": null,
@@ -3052,7 +3054,7 @@
           "id": "0e118ca02c895539",
           "source": {
             "file": "dist/app.js",
-            "line": 429
+            "line": 430
           },
           "handler": null,
           "effects": [],
@@ -3066,12 +3068,12 @@
       "fn": "diagnosisView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 364,
+          "line": 365,
           "owner": "diagnosisFields",
           "kind": "input",
           "target": "birthDate",
@@ -3080,11 +3082,11 @@
           "id": "18c50b5e8aee66ee",
           "source": {
             "file": "dist/app.js",
-            "line": 364
+            "line": 365
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3092,7 +3094,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 364,
+          "line": 365,
           "owner": "diagnosisFields",
           "kind": "input",
           "target": "birthTime",
@@ -3101,11 +3103,11 @@
           "id": "83353094a0117e2b",
           "source": {
             "file": "dist/app.js",
-            "line": 364
+            "line": 365
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3113,7 +3115,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 364,
+          "line": 365,
           "owner": "diagnosisFields",
           "kind": "input",
           "target": "birthPlace",
@@ -3122,11 +3124,11 @@
           "id": "5d00b82ad389855c",
           "source": {
             "file": "dist/app.js",
-            "line": 364
+            "line": 365
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3134,7 +3136,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 364,
+          "line": 365,
           "owner": "diagnosisFields",
           "kind": "input",
           "target": "mbti",
@@ -3143,11 +3145,11 @@
           "id": "a530a725380cbc1c",
           "source": {
             "file": "dist/app.js",
-            "line": 364
+            "line": 365
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3155,7 +3157,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 364,
+          "line": 365,
           "owner": "diagnosisFields",
           "kind": "input",
           "target": null,
@@ -3164,11 +3166,11 @@
           "id": "a5217ba5052ebbe8",
           "source": {
             "file": "dist/app.js",
-            "line": 364
+            "line": 365
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3176,7 +3178,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 376,
+          "line": 377,
           "owner": "diagnosisView",
           "kind": "navigation",
           "target": null,
@@ -3185,7 +3187,7 @@
           "id": "5327210d8bb30622",
           "source": {
             "file": "dist/app.js",
-            "line": 376
+            "line": 377
           },
           "handler": null,
           "effects": [],
@@ -3193,7 +3195,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 376,
+          "line": 377,
           "owner": "diagnosisView",
           "kind": "navigation",
           "target": "correction",
@@ -3202,7 +3204,7 @@
           "id": "6fb0f86a930f6a19",
           "source": {
             "file": "dist/app.js",
-            "line": 376
+            "line": 377
           },
           "handler": null,
           "effects": [],
@@ -3210,7 +3212,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 376,
+          "line": 377,
           "owner": "diagnosisView",
           "kind": "form",
           "target": "diagnosis",
@@ -3219,11 +3221,11 @@
           "id": "d566f9db84689971",
           "source": {
             "file": "dist/app.js",
-            "line": 376
+            "line": 377
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1346,
+            "line": 1345,
             "effects": [
               "validateDiagnosis"
             ]
@@ -3235,7 +3237,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 376,
+          "line": 377,
           "owner": "diagnosisView",
           "kind": "navigation",
           "target": "panda",
@@ -3244,7 +3246,7 @@
           "id": "138894a6e5cad906",
           "source": {
             "file": "dist/app.js",
-            "line": 376
+            "line": 377
           },
           "handler": null,
           "effects": [],
@@ -3258,12 +3260,12 @@
       "fn": "diagnosisConfirmView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 382,
+          "line": 383,
           "owner": "diagnosisConfirmView",
           "kind": "navigation",
           "target": "diagnosis",
@@ -3272,7 +3274,7 @@
           "id": "c3a0a4b444c45947",
           "source": {
             "file": "dist/app.js",
-            "line": 382
+            "line": 383
           },
           "handler": null,
           "effects": [],
@@ -3280,7 +3282,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 382,
+          "line": 383,
           "owner": "diagnosisConfirmView",
           "kind": "action",
           "target": "confirm-diagnosis",
@@ -3289,11 +3291,11 @@
           "id": "b373ed2b674ba973",
           "source": {
             "file": "dist/app.js",
-            "line": 382
+            "line": 383
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 997,
+            "line": 996,
             "effects": [
               "confirmDiagnosis"
             ]
@@ -3311,12 +3313,12 @@
       "fn": "correctionView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 385,
+          "line": 386,
           "owner": "correctionView",
           "kind": "navigation",
           "target": "diagnosis",
@@ -3325,7 +3327,7 @@
           "id": "51c6a39afa516ef2",
           "source": {
             "file": "dist/app.js",
-            "line": 385
+            "line": 386
           },
           "handler": null,
           "effects": [],
@@ -3333,7 +3335,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 385,
+          "line": 386,
           "owner": "correctionView",
           "kind": "form",
           "target": "correction",
@@ -3342,11 +3344,11 @@
           "id": "73be2afdf0a0054b",
           "source": {
             "file": "dist/app.js",
-            "line": 385
+            "line": 386
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1353,
+            "line": 1352,
             "effects": [
               "requestCorrection"
             ]
@@ -3364,12 +3366,12 @@
       "fn": "pandaView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 388,
+          "line": 389,
           "owner": "pandaView",
           "kind": "navigation",
           "target": "diagnosis",
@@ -3378,7 +3380,7 @@
           "id": "ff173412c844ec6c",
           "source": {
             "file": "dist/app.js",
-            "line": 388
+            "line": 389
           },
           "handler": null,
           "effects": [],
@@ -3386,7 +3388,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 388,
+          "line": 389,
           "owner": "pandaView",
           "kind": "form",
           "target": "panda",
@@ -3395,11 +3397,11 @@
           "id": "f041194fd5cdb800",
           "source": {
             "file": "dist/app.js",
-            "line": 388
+            "line": 389
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1359,
+            "line": 1358,
             "effects": [
               "checkFailure"
             ]
@@ -3417,12 +3419,12 @@
       "fn": "settingsMenuView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "settings",
@@ -3431,7 +3433,7 @@
           "id": "e87a7ef2fe5d9ace",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3439,7 +3441,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "profile",
@@ -3448,7 +3450,7 @@
           "id": "dc144a294bbe726e",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3456,16 +3458,16 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "reviews",
-          "label": "本人確認・写真・収入証明",
+          "label": "本人確認・年収証明",
           "dynamic": false,
-          "id": "2c7b4cc3c96e9e4c",
+          "id": "b012d65f4410d7de",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3473,7 +3475,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "diagnosis",
@@ -3482,7 +3484,7 @@
           "id": "45ebb91513eb5793",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3490,7 +3492,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "auth",
@@ -3499,7 +3501,7 @@
           "id": "36e5f1351fe919f1",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3507,7 +3509,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "plans",
@@ -3516,7 +3518,7 @@
           "id": "e3ef5be69bc0eb77",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3524,7 +3526,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "private",
@@ -3533,7 +3535,7 @@
           "id": "2b3c97d164007aad",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3541,7 +3543,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "footprints",
@@ -3550,7 +3552,7 @@
           "id": "df8902cfa34eff24",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3558,7 +3560,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "notifications",
@@ -3567,7 +3569,7 @@
           "id": "7849d0d9e0198661",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3575,7 +3577,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "safety",
@@ -3584,7 +3586,7 @@
           "id": "58acf1f550d91f8e",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3592,7 +3594,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "reports",
@@ -3601,7 +3603,7 @@
           "id": "11d3c234a9aa41dc",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3609,7 +3611,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "navigation",
           "target": "account",
@@ -3618,7 +3620,7 @@
           "id": "0d841df666079374",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": null,
           "effects": [],
@@ -3626,7 +3628,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 634,
+          "line": 633,
           "owner": "settingsMenuView",
           "kind": "action",
           "target": "registration-open",
@@ -3635,11 +3637,11 @@
           "id": "240e1f53da7d6bd3",
           "source": {
             "file": "dist/app.js",
-            "line": 634
+            "line": 633
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 860,
+            "line": 859,
             "effects": []
           },
           "effects": [],
@@ -3653,12 +3655,12 @@
       "fn": "authView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 638,
+          "line": 637,
           "owner": "authView",
           "kind": "navigation",
           "target": null,
@@ -3667,7 +3669,7 @@
           "id": "fe1921b69feb5116",
           "source": {
             "file": "dist/app.js",
-            "line": 638
+            "line": 637
           },
           "handler": null,
           "effects": [],
@@ -3675,7 +3677,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 638,
+          "line": 637,
           "owner": "authView",
           "kind": "form",
           "target": "link-auth",
@@ -3684,11 +3686,11 @@
           "id": "7fdb64a3eb91c478",
           "source": {
             "file": "dist/app.js",
-            "line": 638
+            "line": 637
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1325,
+            "line": 1324,
             "effects": [
               "startAuth"
             ]
@@ -3700,7 +3702,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 638,
+          "line": 637,
           "owner": "authView",
           "kind": "input",
           "target": "phone",
@@ -3709,11 +3711,11 @@
           "id": "d4d53a08c4a741a8",
           "source": {
             "file": "dist/app.js",
-            "line": 638
+            "line": 637
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3727,7 +3729,7 @@
       "fn": "plansView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
@@ -3745,7 +3747,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1158,
+            "line": 1157,
             "effects": []
           },
           "effects": [],
@@ -3759,12 +3761,12 @@
       "fn": "privateView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 724,
+          "line": 723,
           "owner": "privateView",
           "kind": "navigation",
           "target": null,
@@ -3773,7 +3775,7 @@
           "id": "41c3850741bdeff1",
           "source": {
             "file": "dist/app.js",
-            "line": 724
+            "line": 723
           },
           "handler": null,
           "effects": [],
@@ -3781,7 +3783,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 724,
+          "line": 723,
           "owner": "privateView",
           "kind": "action",
           "target": "private-toggle",
@@ -3790,11 +3792,11 @@
           "id": "6a55aaae1ba16d53",
           "source": {
             "file": "dist/app.js",
-            "line": 724
+            "line": 723
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1207,
+            "line": 1206,
             "effects": [
               "setPrivate",
               "privateMode"
@@ -3814,12 +3816,12 @@
       "fn": "notificationsView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView",
           "kind": "navigation",
           "target": null,
@@ -3828,7 +3830,7 @@
           "id": "012c5661dc7e2b23",
           "source": {
             "file": "dist/app.js",
-            "line": 770
+            "line": 769
           },
           "handler": null,
           "effects": [],
@@ -3836,7 +3838,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView",
           "kind": "form",
           "target": "notifications",
@@ -3845,11 +3847,11 @@
           "id": "ab84b8547bc1a80a",
           "source": {
             "file": "dist/app.js",
-            "line": 770
+            "line": 769
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1408,
+            "line": 1407,
             "effects": [
               "checkFailure"
             ]
@@ -3861,7 +3863,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView",
           "kind": "input",
           "target": null,
@@ -3870,11 +3872,11 @@
           "id": "5c31cc0ba751d0fd",
           "source": {
             "file": "dist/app.js",
-            "line": 770
+            "line": 769
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3882,7 +3884,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView",
           "kind": "input",
           "target": "footprint",
@@ -3891,11 +3893,11 @@
           "id": "89f201442f48bf44",
           "source": {
             "file": "dist/app.js",
-            "line": 770
+            "line": 769
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -3903,7 +3905,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView",
           "kind": "navigation",
           "target": "footprints",
@@ -3912,7 +3914,7 @@
           "id": "016b05cb248128e9",
           "source": {
             "file": "dist/app.js",
-            "line": 770
+            "line": 769
           },
           "handler": null,
           "effects": [],
@@ -3920,7 +3922,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView",
           "kind": "navigation",
           "target": "discover",
@@ -3929,7 +3931,7 @@
           "id": "0c752883f5217d4f",
           "source": {
             "file": "dist/app.js",
-            "line": 770
+            "line": 769
           },
           "handler": null,
           "effects": [],
@@ -3937,7 +3939,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView",
           "kind": "action",
           "target": "chat",
@@ -3946,11 +3948,11 @@
           "id": "b33b976eafa256ee",
           "source": {
             "file": "dist/app.js",
-            "line": 770
+            "line": 769
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1053,
+            "line": 1052,
             "effects": []
           },
           "effects": [],
@@ -3964,12 +3966,12 @@
       "fn": "safetyView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 773,
+          "line": 772,
           "owner": "safetyView",
           "kind": "navigation",
           "target": null,
@@ -3978,7 +3980,7 @@
           "id": "d4f0c0e339d23576",
           "source": {
             "file": "dist/app.js",
-            "line": 773
+            "line": 772
           },
           "handler": null,
           "effects": [],
@@ -3986,7 +3988,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 773,
+          "line": 772,
           "owner": "safetyView",
           "kind": "action",
           "target": "unhide",
@@ -3995,11 +3997,11 @@
           "id": "5ebacb4a3dc5efbc",
           "source": {
             "file": "dist/app.js",
-            "line": 773
+            "line": 772
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1106,
+            "line": 1105,
             "effects": [
               "unhide"
             ]
@@ -4011,7 +4013,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 775,
+          "line": 774,
           "owner": "safetyView",
           "kind": "navigation",
           "target": "evidence",
@@ -4020,7 +4022,7 @@
           "id": "5ebafc9c9d89f2b7",
           "source": {
             "file": "dist/app.js",
-            "line": 775
+            "line": 774
           },
           "handler": null,
           "effects": [],
@@ -4034,12 +4036,12 @@
       "fn": "evidenceView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 779,
+          "line": 778,
           "owner": "evidenceView",
           "kind": "navigation",
           "target": "safety",
@@ -4048,7 +4050,7 @@
           "id": "e4b477b9204cc565",
           "source": {
             "file": "dist/app.js",
-            "line": 779
+            "line": 778
           },
           "handler": null,
           "effects": [],
@@ -4056,7 +4058,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 779,
+          "line": 778,
           "owner": "evidenceView",
           "kind": "navigation",
           "target": "report",
@@ -4065,7 +4067,7 @@
           "id": "5358a9da8ea62fb9",
           "source": {
             "file": "dist/app.js",
-            "line": 779
+            "line": 778
           },
           "handler": null,
           "effects": [],
@@ -4079,12 +4081,12 @@
       "fn": "reportView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 782,
+          "line": 781,
           "owner": "reportView",
           "kind": "navigation",
           "target": null,
@@ -4093,7 +4095,7 @@
           "id": "74c38edbe8cb053a",
           "source": {
             "file": "dist/app.js",
-            "line": 782
+            "line": 781
           },
           "handler": null,
           "effects": [],
@@ -4101,7 +4103,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 782,
+          "line": 781,
           "owner": "reportView",
           "kind": "form",
           "target": "report",
@@ -4110,11 +4112,11 @@
           "id": "ced8653051db3a68",
           "source": {
             "file": "dist/app.js",
-            "line": 782
+            "line": 781
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1414,
+            "line": 1413,
             "effects": [
               "report"
             ]
@@ -4126,7 +4128,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 782,
+          "line": 781,
           "owner": "reportView",
           "kind": "input",
           "target": "reason",
@@ -4135,11 +4137,11 @@
           "id": "737d59398ec43b31",
           "source": {
             "file": "dist/app.js",
-            "line": 782
+            "line": 781
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -4153,12 +4155,12 @@
       "fn": "reportsView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 785,
+          "line": 784,
           "owner": "reportsView",
           "kind": "navigation",
           "target": null,
@@ -4167,7 +4169,7 @@
           "id": "569c663e5068c431",
           "source": {
             "file": "dist/app.js",
-            "line": 785
+            "line": 784
           },
           "handler": null,
           "effects": [],
@@ -4175,7 +4177,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 785,
+          "line": 784,
           "owner": "reportsView",
           "kind": "form",
           "target": "appeal",
@@ -4184,11 +4186,11 @@
           "id": "366eaf922f15c636",
           "source": {
             "file": "dist/app.js",
-            "line": 785
+            "line": 784
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1421,
+            "line": 1420,
             "effects": [
               "appeal"
             ]
@@ -4200,7 +4202,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 785,
+          "line": 784,
           "owner": "reportsView",
           "kind": "input",
           "target": "reason",
@@ -4209,11 +4211,11 @@
           "id": "925d02991a801064",
           "source": {
             "file": "dist/app.js",
-            "line": 785
+            "line": 784
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -4227,12 +4229,12 @@
       "fn": "accountView",
       "source": {
         "file": "dist/app.js",
-        "line": 794
+        "line": 793
       },
       "ops": [
         {
           "file": "dist/app.js",
-          "line": 788,
+          "line": 787,
           "owner": "accountView",
           "kind": "navigation",
           "target": null,
@@ -4241,7 +4243,7 @@
           "id": "a1c517229d280af4",
           "source": {
             "file": "dist/app.js",
-            "line": 788
+            "line": 787
           },
           "handler": null,
           "effects": [],
@@ -4249,7 +4251,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 788,
+          "line": 787,
           "owner": "accountView",
           "kind": "action",
           "target": "withdraw-confirm",
@@ -4258,11 +4260,11 @@
           "id": "7c2226a0f79b6ace",
           "source": {
             "file": "dist/app.js",
-            "line": 788
+            "line": 787
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1243,
+            "line": 1242,
             "effects": []
           },
           "effects": [],
@@ -4270,7 +4272,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 788,
+          "line": 787,
           "owner": "accountView",
           "kind": "navigation",
           "target": "reports",
@@ -4279,7 +4281,7 @@
           "id": "fe1d4bc4e007702f",
           "source": {
             "file": "dist/app.js",
-            "line": 788
+            "line": 787
           },
           "handler": null,
           "effects": [],
@@ -4307,7 +4309,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1050,
+            "line": 1049,
             "effects": []
           },
           "effects": [],
@@ -4328,7 +4330,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 913,
+            "line": 912,
             "effects": []
           },
           "effects": [],
@@ -4383,7 +4385,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1053,
+            "line": 1052,
             "effects": []
           },
           "effects": [],
@@ -4391,7 +4393,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 345,
+          "line": 346,
           "owner": "optionalControl",
           "kind": "input",
           "target": null,
@@ -4400,11 +4402,11 @@
           "id": "7d3f019fe798e72f",
           "source": {
             "file": "dist/app.js",
-            "line": 345
+            "line": 346
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -4412,7 +4414,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 672,
+          "line": 671,
           "owner": "setPage",
           "kind": "action",
           "target": "plan-benefit",
@@ -4421,11 +4423,11 @@
           "id": "5e65220d88544915",
           "source": {
             "file": "dist/app.js",
-            "line": 672
+            "line": 671
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1165,
+            "line": 1164,
             "effects": []
           },
           "effects": [],
@@ -4433,7 +4435,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 714,
+          "line": 713,
           "owner": "showPurchaseWarning",
           "kind": "action",
           "target": "premium-warning-accept",
@@ -4442,11 +4444,11 @@
           "id": "910ee87859f080c4",
           "source": {
             "file": "dist/app.js",
-            "line": 714
+            "line": 713
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1174,
+            "line": 1173,
             "effects": []
           },
           "effects": [],
@@ -4454,7 +4456,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 714,
+          "line": 713,
           "owner": "showPurchaseWarning",
           "kind": "action",
           "target": "plan-kind",
@@ -4463,11 +4465,11 @@
           "id": "6521c71f0c498b93",
           "source": {
             "file": "dist/app.js",
-            "line": 714
+            "line": 713
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1158,
+            "line": 1157,
             "effects": []
           },
           "effects": [],
@@ -4475,7 +4477,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 714,
+          "line": 713,
           "owner": "showPurchaseWarning",
           "kind": "action",
           "target": "plan-cancel",
@@ -4484,11 +4486,11 @@
           "id": "5162f97b2c9004ac",
           "source": {
             "file": "dist/app.js",
-            "line": 714
+            "line": 713
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1171,
+            "line": 1170,
             "effects": []
           },
           "effects": [],
@@ -4496,7 +4498,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 721,
+          "line": 720,
           "owner": "showPurchaseConfirmation",
           "kind": "action",
           "target": "purchase",
@@ -4505,11 +4507,11 @@
           "id": "225600d6f1efb88b",
           "source": {
             "file": "dist/app.js",
-            "line": 721
+            "line": 720
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1190,
+            "line": 1189,
             "effects": [
               "purchase"
             ]
@@ -4521,7 +4523,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 721,
+          "line": 720,
           "owner": "showPurchaseConfirmation",
           "kind": "action",
           "target": "plan-cancel",
@@ -4530,11 +4532,11 @@
           "id": "107c038366afb94d",
           "source": {
             "file": "dist/app.js",
-            "line": 721
+            "line": 720
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1171,
+            "line": 1170,
             "effects": []
           },
           "effects": [],
@@ -4542,7 +4544,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 792,
+          "line": 791,
           "owner": "restrictedView",
           "kind": "action",
           "target": "reregister",
@@ -4551,11 +4553,11 @@
           "id": "4b70836cb0e07045",
           "source": {
             "file": "dist/app.js",
-            "line": 792
+            "line": 791
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1251,
+            "line": 1250,
             "effects": [
               "reregister"
             ]
@@ -4567,7 +4569,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 792,
+          "line": 791,
           "owner": "restrictedView",
           "kind": "form",
           "target": "appeal",
@@ -4576,11 +4578,11 @@
           "id": "fd2c4a3ea34a5ca0",
           "source": {
             "file": "dist/app.js",
-            "line": 792
+            "line": 791
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1421,
+            "line": 1420,
             "effects": [
               "appeal"
             ]
@@ -4592,7 +4594,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 792,
+          "line": 791,
           "owner": "restrictedView",
           "kind": "input",
           "target": "reason",
@@ -4601,11 +4603,11 @@
           "id": "a4a27a9608e92a34",
           "source": {
             "file": "dist/app.js",
-            "line": 792
+            "line": 791
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -4613,7 +4615,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 792,
+          "line": 791,
           "owner": "restrictedView",
           "kind": "action",
           "target": "logout",
@@ -4622,11 +4624,11 @@
           "id": "404135ca1bf77521",
           "source": {
             "file": "dist/app.js",
-            "line": 792
+            "line": 791
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 941,
+            "line": 940,
             "effects": []
           },
           "effects": [],
@@ -4634,7 +4636,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 799,
+          "line": 798,
           "owner": "testScenarioPanel",
           "kind": "input",
           "target": "test-scenario",
@@ -4643,11 +4645,11 @@
           "id": "b51de91c662b256a",
           "source": {
             "file": "dist/app.js",
-            "line": 799
+            "line": 798
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -4655,7 +4657,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 799,
+          "line": 798,
           "owner": "testScenarioPanel",
           "kind": "action",
           "target": "run-test-scenario",
@@ -4664,7 +4666,7 @@
           "id": "47bce2b06a49cc1b",
           "source": {
             "file": "dist/app.js",
-            "line": 799
+            "line": 798
           },
           "handler": null,
           "effects": [],
@@ -4672,7 +4674,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "action",
           "target": "time",
@@ -4681,11 +4683,11 @@
           "id": "e8ef7061afab2d59",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 964,
+            "line": 963,
             "effects": [
               "advance"
             ]
@@ -4697,7 +4699,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "input",
           "target": "auth-outcome",
@@ -4706,11 +4708,11 @@
           "id": "38c196d57ed80205",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -4718,7 +4720,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "action",
           "target": "correction-result",
@@ -4727,11 +4729,11 @@
           "id": "c60139b0b18f981c",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1004,
+            "line": 1003,
             "effects": [
               "decideCorrection"
             ]
@@ -4743,7 +4745,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "action",
           "target": "seed-like",
@@ -4752,11 +4754,11 @@
           "id": "27d3ab9c5ad31bb0",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1211,
+            "line": 1210,
             "effects": [
               "eligible",
               "canView",
@@ -4778,7 +4780,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "action",
           "target": "reply-like",
@@ -4787,11 +4789,11 @@
           "id": "9c2ad038fca7c87c",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1219,
+            "line": 1218,
             "effects": [
               "outgoing",
               "acceptLike"
@@ -4805,7 +4807,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "action",
           "target": "seed-footprint",
@@ -4814,11 +4816,11 @@
           "id": "c32a80c744ed67e8",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1227,
+            "line": 1226,
             "effects": [
               "canView",
               "visit"
@@ -4832,7 +4834,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "action",
           "target": "seed-notification",
@@ -4841,11 +4843,11 @@
           "id": "f76d6c66ab875fb6",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1235,
+            "line": 1234,
             "effects": [
               "discover",
               "emit"
@@ -4859,7 +4861,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel",
           "kind": "input",
           "target": "account-state",
@@ -4868,11 +4870,11 @@
           "id": "50bec3a9ad6dcd4d",
           "source": {
             "file": "dist/app.js",
-            "line": 802
+            "line": 801
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1512,
+            "line": 1511,
             "effects": []
           },
           "effects": [],
@@ -4880,7 +4882,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 805,
+          "line": 804,
           "owner": "testPanel",
           "kind": "action",
           "target": "reset",
@@ -4889,11 +4891,11 @@
           "id": "a7f378f04107908d",
           "source": {
             "file": "dist/app.js",
-            "line": 805
+            "line": 804
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 952,
+            "line": 951,
             "effects": []
           },
           "effects": [],
@@ -4901,7 +4903,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 815,
+          "line": 814,
           "owner": "render",
           "kind": "action",
           "target": "registration-exit",
@@ -4910,11 +4912,11 @@
           "id": "68d25e0c5fd4dacf",
           "source": {
             "file": "dist/app.js",
-            "line": 815
+            "line": 814
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 868,
+            "line": 867,
             "effects": []
           },
           "effects": [],
@@ -4922,7 +4924,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 834,
+          "line": 833,
           "owner": "render",
           "kind": "navigation",
           "target": null,
@@ -4931,7 +4933,7 @@
           "id": "bc5d3969cd42cc34",
           "source": {
             "file": "dist/app.js",
-            "line": 834
+            "line": 833
           },
           "handler": null,
           "effects": [],
@@ -4939,7 +4941,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 841,
+          "line": 840,
           "owner": "render",
           "kind": "action",
           "target": "logout",
@@ -4948,11 +4950,11 @@
           "id": "819545f4e0f4f455",
           "source": {
             "file": "dist/app.js",
-            "line": 841
+            "line": 840
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 941,
+            "line": 940,
             "effects": []
           },
           "effects": [],
@@ -4960,7 +4962,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 841,
+          "line": 840,
           "owner": "render",
           "kind": "action",
           "target": "go",
@@ -4969,11 +4971,11 @@
           "id": "df33d0d502b7d655",
           "source": {
             "file": "dist/app.js",
-            "line": 841
+            "line": 840
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 925,
+            "line": 924,
             "effects": []
           },
           "effects": [],
@@ -4981,7 +4983,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 841,
+          "line": 840,
           "owner": "render",
           "kind": "action",
           "target": "home",
@@ -4990,11 +4992,11 @@
           "id": "3bbbd2ed6854f008",
           "source": {
             "file": "dist/app.js",
-            "line": 841
+            "line": 840
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 921,
+            "line": 920,
             "effects": []
           },
           "effects": [],
@@ -5002,7 +5004,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 863,
+          "line": 862,
           "owner": "action",
           "kind": "transition",
           "target": "registration-demo",
@@ -5011,7 +5013,7 @@
           "id": "b3f1fbb1d083cada",
           "source": {
             "file": "dist/app.js",
-            "line": 863
+            "line": 862
           },
           "handler": null,
           "effects": [],
@@ -5019,7 +5021,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 873,
+          "line": 872,
           "owner": "action",
           "kind": "transition",
           "target": null,
@@ -5028,7 +5030,7 @@
           "id": "874028191bef8b34",
           "source": {
             "file": "dist/app.js",
-            "line": 873
+            "line": 872
           },
           "handler": null,
           "effects": [],
@@ -5036,7 +5038,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 922,
+          "line": 921,
           "owner": "action",
           "kind": "transition",
           "target": null,
@@ -5045,7 +5047,7 @@
           "id": "874028191bef8b34",
           "source": {
             "file": "dist/app.js",
-            "line": 922
+            "line": 921
           },
           "handler": null,
           "effects": [],
@@ -5053,7 +5055,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 931,
+          "line": 930,
           "owner": "action",
           "kind": "transition",
           "target": null,
@@ -5062,7 +5064,7 @@
           "id": "874028191bef8b34",
           "source": {
             "file": "dist/app.js",
-            "line": 931
+            "line": 930
           },
           "handler": null,
           "effects": [],
@@ -5070,7 +5072,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 949,
+          "line": 948,
           "owner": "action",
           "kind": "transition",
           "target": "start",
@@ -5079,7 +5081,7 @@
           "id": "92fff09b54ffded3",
           "source": {
             "file": "dist/app.js",
-            "line": 949
+            "line": 948
           },
           "handler": null,
           "effects": [],
@@ -5087,7 +5089,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 953,
+          "line": 952,
           "owner": "action",
           "kind": "action",
           "target": "confirm-reset",
@@ -5096,11 +5098,11 @@
           "id": "244a560fcd51ba3d",
           "source": {
             "file": "dist/app.js",
-            "line": 953
+            "line": 952
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 956,
+            "line": 955,
             "effects": [
               "reset"
             ]
@@ -5112,7 +5114,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 961,
+          "line": 960,
           "owner": "action",
           "kind": "transition",
           "target": "start",
@@ -5121,7 +5123,7 @@
           "id": "92fff09b54ffded3",
           "source": {
             "file": "dist/app.js",
-            "line": 961
+            "line": 960
           },
           "handler": null,
           "effects": [],
@@ -5129,7 +5131,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 983,
+          "line": 982,
           "owner": "action",
           "kind": "transition",
           "target": "reviews",
@@ -5138,7 +5140,7 @@
           "id": "3794b58bc4d4af6e",
           "source": {
             "file": "dist/app.js",
-            "line": 983
+            "line": 982
           },
           "handler": null,
           "effects": [],
@@ -5146,7 +5148,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 990,
+          "line": 989,
           "owner": "action",
           "kind": "transition",
           "target": null,
@@ -5155,7 +5157,7 @@
           "id": "874028191bef8b34",
           "source": {
             "file": "dist/app.js",
-            "line": 990
+            "line": 989
           },
           "handler": null,
           "effects": [],
@@ -5163,7 +5165,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1001,
+          "line": 1000,
           "owner": "action",
           "kind": "transition",
           "target": "discover",
@@ -5172,7 +5174,7 @@
           "id": "f8462541238b084d",
           "source": {
             "file": "dist/app.js",
-            "line": 1001
+            "line": 1000
           },
           "handler": null,
           "effects": [],
@@ -5180,7 +5182,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1015,
+          "line": 1014,
           "owner": "action",
           "kind": "transition",
           "target": "detail",
@@ -5189,11 +5191,11 @@
           "id": "d8a3421c7ffbc436",
           "source": {
             "file": "dist/app.js",
-            "line": 1015
+            "line": 1014
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1012,
+            "line": 1011,
             "effects": [
               "visit"
             ]
@@ -5205,7 +5207,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1047,
+          "line": 1046,
           "owner": "action",
           "kind": "transition",
           "target": null,
@@ -5214,7 +5216,7 @@
           "id": "874028191bef8b34",
           "source": {
             "file": "dist/app.js",
-            "line": 1047
+            "line": 1046
           },
           "handler": null,
           "effects": [],
@@ -5222,7 +5224,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1098,
+          "line": 1097,
           "owner": "action",
           "kind": "action",
           "target": "confirm-hide",
@@ -5231,11 +5233,11 @@
           "id": "93e8fca2fb7e6e31",
           "source": {
             "file": "dist/app.js",
-            "line": 1098
+            "line": 1097
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1100,
+            "line": 1099,
             "effects": [
               "hide"
             ]
@@ -5247,7 +5249,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1103,
+          "line": 1102,
           "owner": "action",
           "kind": "transition",
           "target": "messages",
@@ -5256,7 +5258,7 @@
           "id": "94b5b7f376371899",
           "source": {
             "file": "dist/app.js",
-            "line": 1103
+            "line": 1102
           },
           "handler": null,
           "effects": [],
@@ -5264,7 +5266,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1111,
+          "line": 1110,
           "owner": "action",
           "kind": "action",
           "target": "confirm-block",
@@ -5273,11 +5275,11 @@
           "id": "eef298d9558e30b3",
           "source": {
             "file": "dist/app.js",
-            "line": 1111
+            "line": 1110
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1136,
+            "line": 1135,
             "effects": [
               "block"
             ]
@@ -5289,7 +5291,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1115,
+          "line": 1114,
           "owner": "action",
           "kind": "action",
           "target": "confirm-message-block",
@@ -5298,11 +5300,11 @@
           "id": "ca2bca171060e5f6",
           "source": {
             "file": "dist/app.js",
-            "line": 1115
+            "line": 1114
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1117,
+            "line": 1116,
             "effects": [
               "pendingMessageApproval",
               "conversation",
@@ -5318,7 +5320,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1132,
+          "line": 1131,
           "owner": "action",
           "kind": "transition",
           "target": "messages",
@@ -5327,7 +5329,7 @@
           "id": "94b5b7f376371899",
           "source": {
             "file": "dist/app.js",
-            "line": 1132
+            "line": 1131
           },
           "handler": null,
           "effects": [],
@@ -5335,7 +5337,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1139,
+          "line": 1138,
           "owner": "action",
           "kind": "transition",
           "target": "safety",
@@ -5344,7 +5346,7 @@
           "id": "c53af584198efb18",
           "source": {
             "file": "dist/app.js",
-            "line": 1139
+            "line": 1138
           },
           "handler": null,
           "effects": [],
@@ -5352,7 +5354,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1244,
+          "line": 1243,
           "owner": "action",
           "kind": "action",
           "target": "withdraw",
@@ -5361,11 +5363,11 @@
           "id": "0991dd6ded7afb66",
           "source": {
             "file": "dist/app.js",
-            "line": 1244
+            "line": 1243
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1246,
+            "line": 1245,
             "effects": [
               "withdraw"
             ]
@@ -5377,7 +5379,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1249,
+          "line": 1248,
           "owner": "action",
           "kind": "transition",
           "target": "account",
@@ -5386,7 +5388,7 @@
           "id": "490c1d34ca6e9b1c",
           "source": {
             "file": "dist/app.js",
-            "line": 1249
+            "line": 1248
           },
           "handler": null,
           "effects": [],
@@ -5394,7 +5396,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1254,
+          "line": 1253,
           "owner": "action",
           "kind": "transition",
           "target": "login",
@@ -5403,7 +5405,7 @@
           "id": "52c6c171d036d7b6",
           "source": {
             "file": "dist/app.js",
-            "line": 1254
+            "line": 1253
           },
           "handler": null,
           "effects": [],
@@ -5411,7 +5413,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1283,
+          "line": 1282,
           "owner": "submitForm",
           "kind": "transition",
           "target": "sms",
@@ -5420,7 +5422,7 @@
           "id": "a42c7c69a1d6428f",
           "source": {
             "file": "dist/app.js",
-            "line": 1283
+            "line": 1282
           },
           "handler": null,
           "effects": [],
@@ -5428,7 +5430,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1332,
+          "line": 1331,
           "owner": "submitForm",
           "kind": "transition",
           "target": "sms",
@@ -5437,7 +5439,7 @@
           "id": "a42c7c69a1d6428f",
           "source": {
             "file": "dist/app.js",
-            "line": 1332
+            "line": 1331
           },
           "handler": null,
           "effects": [],
@@ -5445,7 +5447,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1342,
+          "line": 1341,
           "owner": "submitForm",
           "kind": "transition",
           "target": null,
@@ -5454,7 +5456,7 @@
           "id": "0d4ab2d8ec2473b4",
           "source": {
             "file": "dist/app.js",
-            "line": 1342
+            "line": 1341
           },
           "handler": null,
           "effects": [],
@@ -5462,7 +5464,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1350,
+          "line": 1349,
           "owner": "submitForm",
           "kind": "transition",
           "target": "diagnosis-confirm",
@@ -5471,7 +5473,7 @@
           "id": "4ea113f287eff17f",
           "source": {
             "file": "dist/app.js",
-            "line": 1350
+            "line": 1349
           },
           "handler": null,
           "effects": [],
@@ -5479,7 +5481,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1355,
+          "line": 1354,
           "owner": "submitForm",
           "kind": "transition",
           "target": "diagnosis",
@@ -5488,7 +5490,7 @@
           "id": "09760e389ba06a9f",
           "source": {
             "file": "dist/app.js",
-            "line": 1355
+            "line": 1354
           },
           "handler": null,
           "effects": [],
@@ -5496,7 +5498,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1368,
+          "line": 1367,
           "owner": "submitForm",
           "kind": "transition",
           "target": "diagnosis",
@@ -5505,7 +5507,7 @@
           "id": "09760e389ba06a9f",
           "source": {
             "file": "dist/app.js",
-            "line": 1368
+            "line": 1367
           },
           "handler": null,
           "effects": [],
@@ -5513,7 +5515,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1417,
+          "line": 1416,
           "owner": "submitForm",
           "kind": "transition",
           "target": "reports",
@@ -5522,7 +5524,7 @@
           "id": "dfd936b651108098",
           "source": {
             "file": "dist/app.js",
-            "line": 1417
+            "line": 1416
           },
           "handler": null,
           "effects": [],
@@ -5530,7 +5532,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1592,
+          "line": 1587,
           "owner": "共通",
           "kind": "action",
           "target": "message-section",
@@ -5539,11 +5541,11 @@
           "id": "027cddcb839b3d72",
           "source": {
             "file": "dist/app.js",
-            "line": 1592
+            "line": 1587
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1050,
+            "line": 1049,
             "effects": []
           },
           "effects": [],
@@ -5551,7 +5553,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1677,
+          "line": 1672,
           "owner": "refreshRuntimeState",
           "kind": "action",
           "target": "message-section",
@@ -5560,11 +5562,11 @@
           "id": "9826a188b8f591c1",
           "source": {
             "file": "dist/app.js",
-            "line": 1677
+            "line": 1672
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1050,
+            "line": 1049,
             "effects": []
           },
           "effects": [],
@@ -5572,7 +5574,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1679,
+          "line": 1674,
           "owner": "refreshRuntimeState",
           "kind": "action",
           "target": "message-section",
@@ -5581,11 +5583,11 @@
           "id": "9826a188b8f591c1",
           "source": {
             "file": "dist/app.js",
-            "line": 1679
+            "line": 1674
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1050,
+            "line": 1049,
             "effects": []
           },
           "effects": [],
@@ -5606,7 +5608,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1165,
+            "line": 1164,
             "effects": []
           },
           "effects": [],
@@ -5627,7 +5629,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1202,
+            "line": 1201,
             "effects": [
               "stopRenewal"
             ]
@@ -5652,7 +5654,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1179,
+            "line": 1178,
             "effects": [
               "subscription"
             ]
@@ -5677,7 +5679,7 @@
           },
           "handler": {
             "file": "dist/app.js",
-            "line": 1179,
+            "line": 1178,
             "effects": [
               "subscription"
             ]
@@ -5949,7 +5951,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 959,
+          "line": 958,
           "owner": "action"
         }
       ]
@@ -5970,12 +5972,12 @@
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 19,
+          "line": 18,
           "owner": "rejectedWithoutChange"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 24,
+          "line": 23,
           "owner": "rejectedWithoutChange"
         }
       ]
@@ -6098,27 +6100,27 @@
         },
         {
           "file": "dist/app.js",
-          "line": 410,
+          "line": 411,
           "owner": "reviewsView"
         },
         {
           "file": "dist/app.js",
-          "line": 628,
+          "line": 627,
           "owner": "settingsView"
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel"
         },
         {
           "file": "dist/app.js",
-          "line": 809,
+          "line": 808,
           "owner": "accountStateSnapshot"
         },
         {
           "file": "dist/app.js",
-          "line": 841,
+          "line": 840,
           "owner": "render"
         }
       ]
@@ -6195,7 +6197,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 622,
+          "line": 621,
           "owner": "ownPhoto"
         }
       ]
@@ -6221,7 +6223,7 @@
       "callers": [
         {
           "file": "dist/test-scenarios.js",
-          "line": 27,
+          "line": 26,
           "owner": "record"
         }
       ]
@@ -6277,12 +6279,12 @@
       "callers": [
         {
           "file": "dist/test-scenarios.js",
-          "line": 35,
+          "line": 39,
           "owner": "approveInitial"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 36,
+          "line": 40,
           "owner": "approveInitial"
         }
       ]
@@ -6308,7 +6310,7 @@
       "callers": [
         {
           "file": "dist/test-scenarios.js",
-          "line": 46,
+          "line": 50,
           "owner": "receive"
         }
       ]
@@ -6349,32 +6351,32 @@
         },
         {
           "file": "dist/app.js",
-          "line": 512,
+          "line": 511,
           "owner": "face"
         },
         {
           "file": "dist/app.js",
-          "line": 553,
+          "line": 552,
           "owner": "row"
         },
         {
           "file": "dist/app.js",
-          "line": 560,
+          "line": 559,
           "owner": "row"
         },
         {
           "file": "dist/app.js",
-          "line": 732,
+          "line": 731,
           "owner": "footprintsView"
         },
         {
           "file": "dist/app.js",
-          "line": 773,
+          "line": 772,
           "owner": "safetyView"
         },
         {
           "file": "dist/app.js",
-          "line": 804,
+          "line": 803,
           "owner": "testPanel"
         }
       ]
@@ -6390,27 +6392,27 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 585,
+          "line": 584,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 655,
+          "line": 654,
           "owner": "openPlanDetails"
         },
         {
           "file": "dist/app.js",
-          "line": 831,
+          "line": 830,
           "owner": "render"
         },
         {
           "file": "dist/app.js",
-          "line": 839,
+          "line": 838,
           "owner": "render"
         },
         {
           "file": "dist/app.js",
-          "line": 1661,
+          "line": 1656,
           "owner": "quotaSnapshot"
         }
       ]
@@ -6456,17 +6458,17 @@
         },
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView"
         },
         {
           "file": "dist/app.js",
-          "line": 1212,
+          "line": 1211,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1280,
+          "line": 1279,
           "owner": "submitForm"
         }
       ]
@@ -6482,7 +6484,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 628,
+          "line": 627,
           "owner": "settingsView"
         }
       ]
@@ -6528,12 +6530,12 @@
         },
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView"
         },
         {
           "file": "dist/app.js",
-          "line": 538,
+          "line": 537,
           "owner": "detailView"
         }
       ]
@@ -6559,7 +6561,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 546,
+          "line": 545,
           "owner": "compatibilityDetails"
         }
       ]
@@ -6585,7 +6587,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView"
         }
       ]
@@ -6601,12 +6603,12 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 651,
+          "line": 650,
           "owner": "plansView"
         },
         {
           "file": "dist/app.js",
-          "line": 1182,
+          "line": 1181,
           "owner": "action"
         }
       ]
@@ -6622,32 +6624,32 @@
       "callers": [
         {
           "file": "dist/app.js",
+          "line": 601,
+          "owner": "chatView"
+        },
+        {
+          "file": "dist/app.js",
           "line": 602,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 603,
-          "owner": "chatView"
-        },
-        {
-          "file": "dist/app.js",
-          "line": 616,
+          "line": 615,
           "owner": "scheduleView"
         },
         {
           "file": "dist/app.js",
-          "line": 651,
+          "line": 650,
           "owner": "plansView"
         },
         {
           "file": "dist/app.js",
-          "line": 658,
+          "line": 657,
           "owner": "openPlanDetails"
         },
         {
           "file": "dist/app.js",
-          "line": 707,
+          "line": 706,
           "owner": "premiumWarningRequired"
         }
       ]
@@ -6663,7 +6665,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 651,
+          "line": 650,
           "owner": "plansView"
         }
       ]
@@ -6694,7 +6696,7 @@
         },
         {
           "file": "dist/app.js",
-          "line": 498,
+          "line": 497,
           "owner": "discoverView"
         }
       ]
@@ -6720,7 +6722,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1193,
+          "line": 1192,
           "owner": "action"
         }
       ]
@@ -6736,7 +6738,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1203,
+          "line": 1202,
           "owner": "action"
         }
       ]
@@ -6772,17 +6774,17 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 724,
+          "line": 723,
           "owner": "privateView"
         },
         {
           "file": "dist/app.js",
-          "line": 724,
+          "line": 723,
           "owner": "privateView"
         },
         {
           "file": "dist/app.js",
-          "line": 1208,
+          "line": 1207,
           "owner": "action"
         }
       ]
@@ -6798,7 +6800,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1208,
+          "line": 1207,
           "owner": "action"
         }
       ]
@@ -6814,27 +6816,27 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 539,
+          "line": 538,
           "owner": "detailView"
         },
         {
           "file": "dist/app.js",
-          "line": 560,
+          "line": 559,
           "owner": "row"
         },
         {
           "file": "dist/app.js",
-          "line": 584,
+          "line": 583,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 1212,
+          "line": 1211,
           "owner": "action"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 43,
+          "line": 47,
           "owner": "match"
         }
       ]
@@ -6850,17 +6852,17 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 539,
+          "line": 538,
           "owner": "detailView"
         },
         {
           "file": "dist/app.js",
-          "line": 539,
+          "line": 538,
           "owner": "detailView"
         },
         {
           "file": "dist/app.js",
-          "line": 1212,
+          "line": 1211,
           "owner": "action"
         }
       ]
@@ -6876,32 +6878,32 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView"
         },
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView"
         },
         {
           "file": "dist/app.js",
-          "line": 539,
+          "line": 538,
           "owner": "detailView"
         },
         {
           "file": "dist/app.js",
-          "line": 539,
+          "line": 538,
           "owner": "detailView"
         },
         {
           "file": "dist/app.js",
-          "line": 553,
+          "line": 552,
           "owner": "row"
         },
         {
           "file": "dist/app.js",
-          "line": 607,
+          "line": 606,
           "owner": "chatView"
         }
       ]
@@ -6917,7 +6919,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 585,
+          "line": 584,
           "owner": "chatView"
         }
       ]
@@ -6933,12 +6935,12 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 585,
+          "line": 584,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 1212,
+          "line": 1211,
           "owner": "action"
         }
       ]
@@ -6964,42 +6966,42 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 534,
+          "line": 533,
           "owner": "detailView"
         },
         {
           "file": "dist/app.js",
-          "line": 553,
+          "line": 552,
           "owner": "row"
         },
         {
           "file": "dist/app.js",
-          "line": 561,
+          "line": 560,
           "owner": "row"
         },
         {
           "file": "dist/app.js",
-          "line": 587,
+          "line": 586,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 610,
+          "line": 609,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 773,
+          "line": 772,
           "owner": "safetyView"
         },
         {
           "file": "dist/app.js",
-          "line": 1212,
+          "line": 1211,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1228,
+          "line": 1227,
           "owner": "action"
         }
       ]
@@ -7025,7 +7027,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView"
         }
       ]
@@ -7051,7 +7053,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 508,
+          "line": 507,
           "owner": "discoverView"
         }
       ]
@@ -7072,12 +7074,12 @@
         },
         {
           "file": "dist/app.js",
-          "line": 1031,
+          "line": 1030,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1661,
+          "line": 1656,
           "owner": "quotaSnapshot"
         }
       ]
@@ -7113,7 +7115,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 497,
+          "line": 496,
           "owner": "discoverView"
         }
       ]
@@ -7129,12 +7131,12 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 497,
+          "line": 496,
           "owner": "discoverView"
         },
         {
           "file": "dist/app.js",
-          "line": 1373,
+          "line": 1372,
           "owner": "submitForm"
         }
       ]
@@ -7150,7 +7152,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 501,
+          "line": 500,
           "owner": "discoverView"
         }
       ]
@@ -7166,7 +7168,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1375,
+          "line": 1374,
           "owner": "submitForm"
         }
       ]
@@ -7182,7 +7184,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 908,
+          "line": 907,
           "owner": "action"
         }
       ]
@@ -7198,12 +7200,12 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1236,
+          "line": 1235,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1627,
+          "line": 1622,
           "owner": "共通"
         }
       ]
@@ -7219,7 +7221,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 501,
+          "line": 500,
           "owner": "discoverView"
         }
       ]
@@ -7245,7 +7247,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 554,
+          "line": 553,
           "owner": "likesView"
         }
       ]
@@ -7261,12 +7263,12 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 554,
+          "line": 553,
           "owner": "likesView"
         },
         {
           "file": "dist/app.js",
-          "line": 1220,
+          "line": 1219,
           "owner": "action"
         }
       ]
@@ -7362,17 +7364,17 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1065,
+          "line": 1064,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1223,
+          "line": 1222,
           "owner": "action"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 42,
+          "line": 46,
           "owner": "match"
         }
       ]
@@ -7388,7 +7390,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1067,
+          "line": 1066,
           "owner": "action"
         }
       ]
@@ -7414,17 +7416,17 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 605,
+          "line": 604,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 1114,
+          "line": 1113,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1119,
+          "line": 1118,
           "owner": "action"
         }
       ]
@@ -7440,7 +7442,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1077,
+          "line": 1076,
           "owner": "action"
         }
       ]
@@ -7456,7 +7458,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1079,
+          "line": 1078,
           "owner": "action"
         }
       ]
@@ -7472,17 +7474,17 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1029,
+          "line": 1028,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1215,
+          "line": 1214,
           "owner": "action"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 41,
+          "line": 45,
           "owner": "match"
         }
       ]
@@ -7498,7 +7500,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1022,
+          "line": 1021,
           "owner": "action"
         }
       ]
@@ -7514,7 +7516,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1338,
+          "line": 1337,
           "owner": "submitForm"
         }
       ]
@@ -7540,12 +7542,12 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 602,
+          "line": 601,
           "owner": "chatView"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 37,
+          "line": 41,
           "owner": "approveInitial"
         }
       ]
@@ -7587,7 +7589,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 528,
+          "line": 527,
           "owner": "publicNonFaceGallery"
         }
       ]
@@ -7603,13 +7605,13 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1302,
+          "line": 1301,
           "owner": "submitForm"
         }
       ]
     },
     {
-      "name": "submitInitialReview",
+      "name": "submitIdentityReview",
       "file": "dist/model.js",
       "line": 1021,
       "source": {
@@ -7619,28 +7621,38 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1310,
+          "line": 1309,
           "owner": "submitForm"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 33,
-          "owner": "approveInitial"
+          "line": 32,
+          "owner": "submitIndependentReviews"
         }
       ]
     },
     {
-      "name": "resubmitIdentityReview",
+      "name": "submitInitialReview",
       "file": "dist/model.js",
-      "line": 1042,
+      "line": 1037,
       "source": {
         "file": "dist/model.js",
-        "line": 1042
+        "line": 1037
+      },
+      "callers": []
+    },
+    {
+      "name": "resubmitIdentityReview",
+      "file": "dist/model.js",
+      "line": 1040,
+      "source": {
+        "file": "dist/model.js",
+        "line": 1040
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1319,
+          "line": 1318,
           "owner": "submitForm"
         }
       ]
@@ -7648,31 +7660,36 @@
     {
       "name": "submitFacePhoto",
       "file": "dist/model.js",
-      "line": 1055,
+      "line": 1047,
       "source": {
         "file": "dist/model.js",
-        "line": 1055
+        "line": 1047
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1296,
+          "line": 1295,
           "owner": "submitForm"
+        },
+        {
+          "file": "dist/test-scenarios.js",
+          "line": 33,
+          "owner": "submitIndependentReviews"
         }
       ]
     },
     {
       "name": "submitReview",
       "file": "dist/model.js",
-      "line": 1061,
+      "line": 1053,
       "source": {
         "file": "dist/model.js",
-        "line": 1061
+        "line": 1053
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1009,
+          "line": 1008,
           "owner": "action"
         }
       ]
@@ -7680,25 +7697,25 @@
     {
       "name": "setReview",
       "file": "dist/model.js",
-      "line": 1090,
+      "line": 1084,
       "source": {
         "file": "dist/model.js",
-        "line": 1090
+        "line": 1084
       },
       "callers": []
     },
     {
       "name": "incomeReviewState",
       "file": "dist/model.js",
-      "line": 1137,
+      "line": 1131,
       "source": {
         "file": "dist/model.js",
-        "line": 1137
+        "line": 1131
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 424,
+          "line": 425,
           "owner": "reviewsView"
         }
       ]
@@ -7706,20 +7723,20 @@
     {
       "name": "incomeVerified",
       "file": "dist/model.js",
-      "line": 1153,
+      "line": 1147,
       "source": {
         "file": "dist/model.js",
-        "line": 1153
+        "line": 1147
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 355,
+          "line": 356,
           "owner": "profilePreviewView"
         },
         {
           "file": "dist/app.js",
-          "line": 514,
+          "line": 513,
           "owner": "publicProfileBody"
         }
       ]
@@ -7727,10 +7744,10 @@
     {
       "name": "conversation",
       "file": "dist/model.js",
-      "line": 1161,
+      "line": 1155,
       "source": {
         "file": "dist/model.js",
-        "line": 1161
+        "line": 1155
       },
       "callers": [
         {
@@ -7740,17 +7757,17 @@
         },
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel"
         },
         {
           "file": "dist/app.js",
-          "line": 1121,
+          "line": 1120,
           "owner": "action"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 60,
+          "line": 64,
           "owner": "historyUnchanged"
         }
       ]
@@ -7758,25 +7775,25 @@
     {
       "name": "messageStats",
       "file": "dist/model.js",
-      "line": 1164,
+      "line": 1158,
       "source": {
         "file": "dist/model.js",
-        "line": 1164
+        "line": 1158
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 600,
+          "line": 599,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 803,
+          "line": 802,
           "owner": "testPanel"
         },
         {
           "file": "dist/app.js",
-          "line": 1091,
+          "line": 1090,
           "owner": "action"
         }
       ]
@@ -7784,20 +7801,20 @@
     {
       "name": "conversationMessageFacts",
       "file": "dist/model.js",
-      "line": 1168,
+      "line": 1162,
       "source": {
         "file": "dist/model.js",
-        "line": 1168
+        "line": 1162
       },
       "callers": []
     },
     {
       "name": "pendingMessageCount",
       "file": "dist/model.js",
-      "line": 1181,
+      "line": 1175,
       "source": {
         "file": "dist/model.js",
-        "line": 1181
+        "line": 1175
       },
       "callers": [
         {
@@ -7810,10 +7827,10 @@
     {
       "name": "messageSections",
       "file": "dist/model.js",
-      "line": 1186,
+      "line": 1180,
       "source": {
         "file": "dist/model.js",
-        "line": 1186
+        "line": 1180
       },
       "callers": [
         {
@@ -7828,12 +7845,12 @@
         },
         {
           "file": "dist/app.js",
-          "line": 557,
+          "line": 556,
           "owner": "messagesView"
         },
         {
           "file": "dist/app.js",
-          "line": 841,
+          "line": 840,
           "owner": "render"
         }
       ]
@@ -7841,10 +7858,10 @@
     {
       "name": "acknowledgeMessages",
       "file": "dist/model.js",
-      "line": 1217,
+      "line": 1211,
       "source": {
         "file": "dist/model.js",
-        "line": 1217
+        "line": 1211
       },
       "callers": [
         {
@@ -7857,10 +7874,10 @@
     {
       "name": "rollbackMessageAcknowledgement",
       "file": "dist/model.js",
-      "line": 1242,
+      "line": 1236,
       "source": {
         "file": "dist/model.js",
-        "line": 1242
+        "line": 1236
       },
       "callers": [
         {
@@ -7873,6 +7890,16 @@
     {
       "name": "assertConversation",
       "file": "dist/model.js",
+      "line": 1246,
+      "source": {
+        "file": "dist/model.js",
+        "line": 1246
+      },
+      "callers": []
+    },
+    {
+      "name": "canReadMessages",
+      "file": "dist/model.js",
       "line": 1252,
       "source": {
         "file": "dist/model.js",
@@ -7881,37 +7908,27 @@
       "callers": []
     },
     {
-      "name": "canReadMessages",
-      "file": "dist/model.js",
-      "line": 1258,
-      "source": {
-        "file": "dist/model.js",
-        "line": 1258
-      },
-      "callers": []
-    },
-    {
       "name": "canReadReceivedMessages",
       "file": "dist/model.js",
-      "line": 1261,
+      "line": 1255,
       "source": {
         "file": "dist/model.js",
-        "line": 1261
+        "line": 1255
       },
       "callers": []
     },
     {
       "name": "canAccessMessageHistory",
       "file": "dist/model.js",
-      "line": 1269,
+      "line": 1263,
       "source": {
         "file": "dist/model.js",
-        "line": 1269
+        "line": 1263
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 561,
+          "line": 560,
           "owner": "row"
         }
       ]
@@ -7919,35 +7936,35 @@
     {
       "name": "canReadMessageBody",
       "file": "dist/model.js",
-      "line": 1281,
+      "line": 1275,
       "source": {
         "file": "dist/model.js",
-        "line": 1281
+        "line": 1275
       },
       "callers": []
     },
     {
       "name": "projectMessageApprovalEvent",
       "file": "dist/model.js",
-      "line": 1292,
+      "line": 1286,
       "source": {
         "file": "dist/model.js",
-        "line": 1292
+        "line": 1286
       },
       "callers": []
     },
     {
       "name": "projectMessages",
       "file": "dist/model.js",
-      "line": 1306,
+      "line": 1300,
       "source": {
         "file": "dist/model.js",
-        "line": 1306
+        "line": 1300
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 564,
+          "line": 563,
           "owner": "row"
         }
       ]
@@ -7955,21 +7972,42 @@
     {
       "name": "prematchMessages",
       "file": "dist/model.js",
-      "line": 1322,
+      "line": 1316,
       "source": {
         "file": "dist/model.js",
-        "line": 1322
+        "line": 1316
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 597,
+          "line": 596,
           "owner": "chatView"
         }
       ]
     },
     {
       "name": "readMessages",
+      "file": "dist/model.js",
+      "line": 1320,
+      "source": {
+        "file": "dist/model.js",
+        "line": 1320
+      },
+      "callers": [
+        {
+          "file": "dist/app.js",
+          "line": 596,
+          "owner": "chatView"
+        },
+        {
+          "file": "dist/test-scenarios.js",
+          "line": 53,
+          "owner": "body"
+        }
+      ]
+    },
+    {
+      "name": "checkSendMessage",
       "file": "dist/model.js",
       "line": 1326,
       "source": {
@@ -7979,28 +8017,7 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 597,
-          "owner": "chatView"
-        },
-        {
-          "file": "dist/test-scenarios.js",
-          "line": 49,
-          "owner": "body"
-        }
-      ]
-    },
-    {
-      "name": "checkSendMessage",
-      "file": "dist/model.js",
-      "line": 1332,
-      "source": {
-        "file": "dist/model.js",
-        "line": 1332
-      },
-      "callers": [
-        {
-          "file": "dist/app.js",
-          "line": 591,
+          "line": 590,
           "owner": "chatView"
         }
       ]
@@ -8008,20 +8025,20 @@
     {
       "name": "sendMessage",
       "file": "dist/model.js",
-      "line": 1355,
+      "line": 1349,
       "source": {
         "file": "dist/model.js",
-        "line": 1355
+        "line": 1349
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1389,
+          "line": 1388,
           "owner": "submitForm"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 46,
+          "line": 50,
           "owner": "receive"
         }
       ]
@@ -8029,45 +8046,45 @@
     {
       "name": "acceptConversation",
       "file": "dist/model.js",
-      "line": 1384,
+      "line": 1378,
       "source": {
         "file": "dist/model.js",
-        "line": 1384
+        "line": 1378
       },
       "callers": []
     },
     {
       "name": "conversationPeers",
       "file": "dist/model.js",
-      "line": 1387,
+      "line": 1381,
       "source": {
         "file": "dist/model.js",
-        "line": 1387
+        "line": 1381
       },
       "callers": []
     },
     {
       "name": "canViewFace",
       "file": "dist/model.js",
-      "line": 1393,
+      "line": 1387,
       "source": {
         "file": "dist/model.js",
-        "line": 1393
+        "line": 1387
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 511,
+          "line": 510,
           "owner": "face"
         },
         {
           "file": "dist/app.js",
-          "line": 608,
+          "line": 607,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 1095,
+          "line": 1094,
           "owner": "action"
         }
       ]
@@ -8075,35 +8092,35 @@
     {
       "name": "evaluatePhotoUnlock",
       "file": "dist/model.js",
-      "line": 1396,
+      "line": 1390,
       "source": {
         "file": "dist/model.js",
-        "line": 1396
+        "line": 1390
       },
       "callers": []
     },
     {
       "name": "prepareMessageDemo",
       "file": "dist/model.js",
-      "line": 1404,
+      "line": 1398,
       "source": {
         "file": "dist/model.js",
-        "line": 1404
+        "line": 1398
       },
       "callers": []
     },
     {
       "name": "hide",
       "file": "dist/model.js",
-      "line": 1428,
+      "line": 1422,
       "source": {
         "file": "dist/model.js",
-        "line": 1428
+        "line": 1422
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1101,
+          "line": 1100,
           "owner": "action"
         }
       ]
@@ -8111,15 +8128,15 @@
     {
       "name": "unhide",
       "file": "dist/model.js",
-      "line": 1433,
+      "line": 1427,
       "source": {
         "file": "dist/model.js",
-        "line": 1433
+        "line": 1427
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1107,
+          "line": 1106,
           "owner": "action"
         }
       ]
@@ -8127,30 +8144,30 @@
     {
       "name": "preserveMessageScope",
       "file": "dist/model.js",
-      "line": 1436,
+      "line": 1430,
       "source": {
         "file": "dist/model.js",
-        "line": 1436
+        "line": 1430
       },
       "callers": []
     },
     {
       "name": "block",
       "file": "dist/model.js",
-      "line": 1442,
+      "line": 1436,
       "source": {
         "file": "dist/model.js",
-        "line": 1442
+        "line": 1436
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1122,
+          "line": 1121,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1137,
+          "line": 1136,
           "owner": "action"
         }
       ]
@@ -8158,15 +8175,15 @@
     {
       "name": "evidence",
       "file": "dist/model.js",
-      "line": 1455,
+      "line": 1449,
       "source": {
         "file": "dist/model.js",
-        "line": 1455
+        "line": 1449
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 779,
+          "line": 778,
           "owner": "evidenceView"
         }
       ]
@@ -8174,15 +8191,15 @@
     {
       "name": "report",
       "file": "dist/model.js",
-      "line": 1460,
+      "line": 1454,
       "source": {
         "file": "dist/model.js",
-        "line": 1460
+        "line": 1454
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1415,
+          "line": 1414,
           "owner": "submitForm"
         }
       ]
@@ -8190,20 +8207,20 @@
     {
       "name": "visit",
       "file": "dist/model.js",
-      "line": 1467,
+      "line": 1461,
       "source": {
         "file": "dist/model.js",
-        "line": 1467
+        "line": 1461
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1013,
+          "line": 1012,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1231,
+          "line": 1230,
           "owner": "action"
         }
       ]
@@ -8211,40 +8228,40 @@
     {
       "name": "footprints",
       "file": "dist/model.js",
-      "line": 1482,
+      "line": 1476,
       "source": {
         "file": "dist/model.js",
-        "line": 1482
+        "line": 1476
       },
       "callers": []
     },
     {
       "name": "footprintConfirmed",
       "file": "dist/model.js",
-      "line": 1486,
+      "line": 1480,
       "source": {
         "file": "dist/model.js",
-        "line": 1486
+        "line": 1480
       },
       "callers": []
     },
     {
       "name": "pendingFootprintCount",
       "file": "dist/model.js",
-      "line": 1491,
+      "line": 1485,
       "source": {
         "file": "dist/model.js",
-        "line": 1491
+        "line": 1485
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 735,
+          "line": 734,
           "owner": "footprintCountBadge"
         },
         {
           "file": "dist/app.js",
-          "line": 741,
+          "line": 740,
           "owner": "refreshFootprintCount"
         }
       ]
@@ -8252,25 +8269,25 @@
     {
       "name": "footprintReceipt",
       "file": "dist/model.js",
-      "line": 1495,
+      "line": 1489,
       "source": {
         "file": "dist/model.js",
-        "line": 1495
+        "line": 1489
       },
       "callers": []
     },
     {
       "name": "readFootprints",
       "file": "dist/model.js",
-      "line": 1503,
+      "line": 1497,
       "source": {
         "file": "dist/model.js",
-        "line": 1503
+        "line": 1497
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 727,
+          "line": 726,
           "owner": "footprintsView"
         }
       ]
@@ -8278,15 +8295,15 @@
     {
       "name": "acknowledgeFootprints",
       "file": "dist/model.js",
-      "line": 1517,
+      "line": 1511,
       "source": {
         "file": "dist/model.js",
-        "line": 1517
+        "line": 1511
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 755,
+          "line": 754,
           "owner": "queueDisplayedFootprintAcknowledgement"
         }
       ]
@@ -8294,15 +8311,15 @@
     {
       "name": "rollbackFootprintAcknowledgement",
       "file": "dist/model.js",
-      "line": 1537,
+      "line": 1531,
       "source": {
         "file": "dist/model.js",
-        "line": 1537
+        "line": 1531
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 757,
+          "line": 756,
           "owner": "queueDisplayedFootprintAcknowledgement"
         }
       ]
@@ -8310,15 +8327,15 @@
     {
       "name": "emit",
       "file": "dist/model.js",
-      "line": 1551,
+      "line": 1545,
       "source": {
         "file": "dist/model.js",
-        "line": 1551
+        "line": 1545
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1239,
+          "line": 1238,
           "owner": "action"
         }
       ]
@@ -8326,15 +8343,15 @@
     {
       "name": "notifications",
       "file": "dist/model.js",
-      "line": 1556,
+      "line": 1550,
       "source": {
         "file": "dist/model.js",
-        "line": 1556
+        "line": 1550
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 770,
+          "line": 769,
           "owner": "notificationsView"
         }
       ]
@@ -8342,26 +8359,42 @@
     {
       "name": "tick",
       "file": "dist/model.js",
-      "line": 1559,
+      "line": 1553,
       "source": {
         "file": "dist/model.js",
-        "line": 1559
+        "line": 1553
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 826,
+          "line": 825,
           "owner": "render"
         },
         {
           "file": "dist/app.js",
-          "line": 1665,
+          "line": 1660,
           "owner": "refreshRuntimeState"
         }
       ]
     },
     {
       "name": "advance",
+      "file": "dist/model.js",
+      "line": 1579,
+      "source": {
+        "file": "dist/model.js",
+        "line": 1579
+      },
+      "callers": [
+        {
+          "file": "dist/app.js",
+          "line": 964,
+          "owner": "action"
+        }
+      ]
+    },
+    {
+      "name": "startAuth",
       "file": "dist/model.js",
       "line": 1585,
       "source": {
@@ -8371,33 +8404,17 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 965,
-          "owner": "action"
-        }
-      ]
-    },
-    {
-      "name": "startAuth",
-      "file": "dist/model.js",
-      "line": 1591,
-      "source": {
-        "file": "dist/model.js",
-        "line": 1591
-      },
-      "callers": [
-        {
-          "file": "dist/app.js",
-          "line": 973,
+          "line": 972,
           "owner": "action"
         },
         {
           "file": "dist/app.js",
-          "line": 1281,
+          "line": 1280,
           "owner": "submitForm"
         },
         {
           "file": "dist/app.js",
-          "line": 1330,
+          "line": 1329,
           "owner": "submitForm"
         }
       ]
@@ -8405,15 +8422,15 @@
     {
       "name": "verifyAuth",
       "file": "dist/model.js",
-      "line": 1601,
+      "line": 1595,
       "source": {
         "file": "dist/model.js",
-        "line": 1601
+        "line": 1595
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1289,
+          "line": 1288,
           "owner": "submitForm"
         }
       ]
@@ -8421,25 +8438,25 @@
     {
       "name": "newRegistration",
       "file": "dist/model.js",
-      "line": 1617,
+      "line": 1611,
       "source": {
         "file": "dist/model.js",
-        "line": 1617
+        "line": 1611
       },
       "callers": []
     },
     {
       "name": "confirmDiagnosis",
       "file": "dist/model.js",
-      "line": 1623,
+      "line": 1617,
       "source": {
         "file": "dist/model.js",
-        "line": 1623
+        "line": 1617
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 998,
+          "line": 997,
           "owner": "action"
         }
       ]
@@ -8447,25 +8464,25 @@
     {
       "name": "age",
       "file": "dist/model.js",
-      "line": 1636,
+      "line": 1630,
       "source": {
         "file": "dist/model.js",
-        "line": 1636
+        "line": 1630
       },
       "callers": []
     },
     {
       "name": "validateDiagnosis",
       "file": "dist/model.js",
-      "line": 1640,
+      "line": 1634,
       "source": {
         "file": "dist/model.js",
-        "line": 1640
+        "line": 1634
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1348,
+          "line": 1347,
           "owner": "submitForm"
         }
       ]
@@ -8473,15 +8490,15 @@
     {
       "name": "requestCorrection",
       "file": "dist/model.js",
-      "line": 1647,
+      "line": 1641,
       "source": {
         "file": "dist/model.js",
-        "line": 1647
+        "line": 1641
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1354,
+          "line": 1353,
           "owner": "submitForm"
         }
       ]
@@ -8489,15 +8506,15 @@
     {
       "name": "decideCorrection",
       "file": "dist/model.js",
-      "line": 1655,
+      "line": 1649,
       "source": {
         "file": "dist/model.js",
-        "line": 1655
+        "line": 1649
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1005,
+          "line": 1004,
           "owner": "action"
         }
       ]
@@ -8505,20 +8522,20 @@
     {
       "name": "schedule",
       "file": "dist/model.js",
-      "line": 1673,
+      "line": 1667,
       "source": {
         "file": "dist/model.js",
-        "line": 1673
+        "line": 1667
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 598,
+          "line": 597,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 616,
+          "line": 615,
           "owner": "scheduleView"
         }
       ]
@@ -8526,26 +8543,36 @@
     {
       "name": "canReadSchedule",
       "file": "dist/model.js",
-      "line": 1676,
+      "line": 1670,
       "source": {
         "file": "dist/model.js",
-        "line": 1676
+        "line": 1670
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 611,
+          "line": 610,
           "owner": "chatView"
         },
         {
           "file": "dist/app.js",
-          "line": 614,
+          "line": 613,
           "owner": "scheduleView"
         }
       ]
     },
     {
       "name": "checkSchedule",
+      "file": "dist/model.js",
+      "line": 1673,
+      "source": {
+        "file": "dist/model.js",
+        "line": 1673
+      },
+      "callers": []
+    },
+    {
+      "name": "ensureSchedule",
       "file": "dist/model.js",
       "line": 1679,
       "source": {
@@ -8555,27 +8582,17 @@
       "callers": []
     },
     {
-      "name": "ensureSchedule",
-      "file": "dist/model.js",
-      "line": 1685,
-      "source": {
-        "file": "dist/model.js",
-        "line": 1685
-      },
-      "callers": []
-    },
-    {
       "name": "addCandidate",
       "file": "dist/model.js",
-      "line": 1688,
+      "line": 1682,
       "source": {
         "file": "dist/model.js",
-        "line": 1688
+        "line": 1682
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1398,
+          "line": 1397,
           "owner": "submitForm"
         }
       ]
@@ -8583,15 +8600,15 @@
     {
       "name": "chooseCandidate",
       "file": "dist/model.js",
-      "line": 1703,
+      "line": 1697,
       "source": {
         "file": "dist/model.js",
-        "line": 1703
+        "line": 1697
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1143,
+          "line": 1142,
           "owner": "action"
         }
       ]
@@ -8599,15 +8616,15 @@
     {
       "name": "extendSchedule",
       "file": "dist/model.js",
-      "line": 1714,
+      "line": 1708,
       "source": {
         "file": "dist/model.js",
-        "line": 1714
+        "line": 1708
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1147,
+          "line": 1146,
           "owner": "action"
         }
       ]
@@ -8615,15 +8632,15 @@
     {
       "name": "propose",
       "file": "dist/model.js",
-      "line": 1722,
+      "line": 1716,
       "source": {
         "file": "dist/model.js",
-        "line": 1722
+        "line": 1716
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1151,
+          "line": 1150,
           "owner": "action"
         }
       ]
@@ -8631,15 +8648,15 @@
     {
       "name": "approveProposal",
       "file": "dist/model.js",
-      "line": 1733,
+      "line": 1727,
       "source": {
         "file": "dist/model.js",
-        "line": 1733
+        "line": 1727
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1155,
+          "line": 1154,
           "owner": "action"
         }
       ]
@@ -8647,15 +8664,15 @@
     {
       "name": "savePreferences",
       "file": "dist/model.js",
-      "line": 1746,
+      "line": 1740,
       "source": {
         "file": "dist/model.js",
-        "line": 1746
+        "line": 1740
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1404,
+          "line": 1403,
           "owner": "submitForm"
         }
       ]
@@ -8663,15 +8680,15 @@
     {
       "name": "genreResult",
       "file": "dist/model.js",
-      "line": 1756,
+      "line": 1750,
       "source": {
         "file": "dist/model.js",
-        "line": 1756
+        "line": 1750
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 616,
+          "line": 615,
           "owner": "scheduleView"
         }
       ]
@@ -8679,15 +8696,15 @@
     {
       "name": "projectMessagesForWithdrawn",
       "file": "dist/model.js",
-      "line": 1760,
+      "line": 1754,
       "source": {
         "file": "dist/model.js",
-        "line": 1760
+        "line": 1754
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 597,
+          "line": 596,
           "owner": "chatView"
         }
       ]
@@ -8695,21 +8712,37 @@
     {
       "name": "withdraw",
       "file": "dist/model.js",
-      "line": 1763,
+      "line": 1757,
       "source": {
         "file": "dist/model.js",
-        "line": 1763
+        "line": 1757
       },
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1247,
+          "line": 1246,
           "owner": "action"
         }
       ]
     },
     {
       "name": "reregister",
+      "file": "dist/model.js",
+      "line": 1772,
+      "source": {
+        "file": "dist/model.js",
+        "line": 1772
+      },
+      "callers": [
+        {
+          "file": "dist/app.js",
+          "line": 1251,
+          "owner": "action"
+        }
+      ]
+    },
+    {
+      "name": "restrict",
       "file": "dist/model.js",
       "line": 1778,
       "source": {
@@ -8719,13 +8752,13 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1252,
-          "owner": "action"
+          "line": 1577,
+          "owner": "共通"
         }
       ]
     },
     {
-      "name": "restrict",
+      "name": "appeal",
       "file": "dist/model.js",
       "line": 1784,
       "source": {
@@ -8735,13 +8768,13 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1582,
-          "owner": "共通"
+          "line": 1421,
+          "owner": "submitForm"
         }
       ]
     },
     {
-      "name": "appeal",
+      "name": "checkFailure",
       "file": "dist/model.js",
       "line": 1790,
       "source": {
@@ -8751,28 +8784,12 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 1422,
-          "owner": "submitForm"
-        }
-      ]
-    },
-    {
-      "name": "checkFailure",
-      "file": "dist/model.js",
-      "line": 1796,
-      "source": {
-        "file": "dist/model.js",
-        "line": 1796
-      },
-      "callers": [
-        {
-          "file": "dist/app.js",
-          "line": 1364,
+          "line": 1363,
           "owner": "submitForm"
         },
         {
           "file": "dist/app.js",
-          "line": 1409,
+          "line": 1408,
           "owner": "submitForm"
         }
       ]
@@ -8780,10 +8797,10 @@
     {
       "name": "log",
       "file": "dist/model.js",
-      "line": 1802,
+      "line": 1796,
       "source": {
         "file": "dist/model.js",
-        "line": 1802
+        "line": 1796
       },
       "callers": []
     },
@@ -8798,17 +8815,17 @@
       "callers": [
         {
           "file": "dist/app.js",
-          "line": 802,
+          "line": 801,
           "owner": "testPanel"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 56,
+          "line": 60,
           "owner": "at"
         },
         {
           "file": "dist/test-scenarios.js",
-          "line": 57,
+          "line": 61,
           "owner": "at"
         }
       ]
@@ -8817,157 +8834,157 @@
   "events": [
     {
       "file": "dist/app.js",
-      "line": 467,
+      "line": 466,
       "event": "animationend",
       "owner": "exitCandidate"
     },
     {
       "file": "dist/app.js",
-      "line": 676,
+      "line": 675,
       "event": "scroll",
       "owner": "bindPlanCarousel"
     },
     {
       "file": "dist/app.js",
-      "line": 677,
+      "line": 676,
       "event": "keydown",
       "owner": "bindPlanCarousel"
     },
     {
       "file": "dist/app.js",
-      "line": 1471,
+      "line": 1470,
       "event": "click",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1493,
+      "line": 1492,
       "event": "submit",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1512,
+      "line": 1511,
       "event": "input",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1520,
+      "line": 1519,
       "event": "change",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1591,
+      "line": 1586,
       "event": "keydown",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1599,
+      "line": 1594,
       "event": "toggle",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1605,
+      "line": 1600,
       "event": "pointerdown",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1615,
+      "line": 1610,
       "event": "pointermove",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1621,
+      "line": 1616,
       "event": "pointerup",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1632,
+      "line": 1627,
       "event": "pointercancel",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1633,
+      "line": 1628,
       "event": "lostpointercapture",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1635,
+      "line": 1630,
       "event": "scroll",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1639,
+      "line": 1634,
       "event": "cancel",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1642,
+      "line": 1637,
       "event": "close",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1643,
+      "line": 1638,
       "event": "visibilitychange",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1646,
+      "line": 1641,
       "event": "resize",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1647,
+      "line": 1642,
       "event": "pagehide",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1653,
+      "line": 1648,
       "event": "pageshow",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1687,
+      "line": 1682,
       "event": "pageshow",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1688,
+      "line": 1683,
       "event": "focus",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1704,
+      "line": 1699,
       "event": "focusin",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1707,
+      "line": 1702,
       "event": "resize",
       "owner": "共通"
     },
     {
       "file": "dist/app.js",
-      "line": 1708,
+      "line": 1703,
       "event": "resize",
       "owner": "共通"
     }
@@ -8975,14 +8992,14 @@
   "timers": [
     {
       "file": "dist/app.js",
-      "line": 473,
+      "line": 472,
       "type": "setTimeout",
       "delay": 420,
       "owner": "exitCandidate"
     },
     {
       "file": "dist/app.js",
-      "line": 1686,
+      "line": 1681,
       "type": "setInterval",
       "delay": 1000,
       "owner": "共通"
@@ -9041,7 +9058,7 @@
       "description": "optionalControl / input：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 345
+        "line": 346
       }
     },
     {
@@ -9051,7 +9068,7 @@
       "description": "profileView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 350
+        "line": 351
       }
     },
     {
@@ -9061,7 +9078,7 @@
       "description": "diagnosisFields / input：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 364
+        "line": 365
       }
     },
     {
@@ -9071,7 +9088,7 @@
       "description": "diagnosisView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 376
+        "line": 377
       }
     },
     {
@@ -9081,7 +9098,7 @@
       "description": "reviewsView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 429
+        "line": 430
       }
     },
     {
@@ -9091,7 +9108,7 @@
       "description": "discoverView / input：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 504
+        "line": 503
       }
     },
     {
@@ -9101,7 +9118,7 @@
       "description": "discoverView / action：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 508
+        "line": 507
       }
     },
     {
@@ -9111,7 +9128,7 @@
       "description": "detailView / action：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 539
+        "line": 538
       }
     },
     {
@@ -9121,7 +9138,7 @@
       "description": "detailView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 540
+        "line": 539
       }
     },
     {
@@ -9131,7 +9148,7 @@
       "description": "chatView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 601
+        "line": 600
       }
     },
     {
@@ -9141,7 +9158,7 @@
       "description": "scheduleView / input：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 617
+        "line": 616
       }
     },
     {
@@ -9151,7 +9168,7 @@
       "description": "authView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 638
+        "line": 637
       }
     },
     {
@@ -9161,7 +9178,7 @@
       "description": "privateView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 724
+        "line": 723
       }
     },
     {
@@ -9171,7 +9188,7 @@
       "description": "notificationsView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 770
+        "line": 769
       }
     },
     {
@@ -9181,7 +9198,7 @@
       "description": "notificationsView / input：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 770
+        "line": 769
       }
     },
     {
@@ -9191,7 +9208,7 @@
       "description": "safetyView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 773
+        "line": 772
       }
     },
     {
@@ -9201,7 +9218,7 @@
       "description": "reportView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 782
+        "line": 781
       }
     },
     {
@@ -9211,7 +9228,7 @@
       "description": "reportsView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 785
+        "line": 784
       }
     },
     {
@@ -9221,7 +9238,7 @@
       "description": "accountView / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 788
+        "line": 787
       }
     },
     {
@@ -9231,7 +9248,7 @@
       "description": "render / navigation：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 834
+        "line": 833
       }
     },
     {
@@ -9241,7 +9258,7 @@
       "description": "action / transition：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 1047
+        "line": 1046
       }
     },
     {
@@ -9251,7 +9268,7 @@
       "description": "submitForm / transition：入力や状態により対象が変わるため、静的解析では断定できません。",
       "source": {
         "file": "dist/app.js",
-        "line": 1342
+        "line": 1341
       }
     },
     {
@@ -9303,21 +9320,44 @@
   ],
   "changes": {
     "baseline": false,
-    "added": 0,
-    "removed": 0,
-    "files": [],
+    "added": 2,
+    "removed": 2,
+    "files": [
+      "dist/app.js",
+      "dist/identity-submission.js",
+      "dist/model.js",
+      "dist/test-scenarios.js",
+      "tests/account-coverage.test.mjs",
+      "tests/browser-help.cjs",
+      "tests/browser-identity-submission.cjs",
+      "tests/browser-journey.cjs",
+      "tests/browser-message-access.cjs",
+      "tests/browser-photo-editor.cjs",
+      "tests/browser-prematch.cjs",
+      "tests/browser-smoke.cjs",
+      "tests/browser-test-accounts.cjs",
+      "tests/female-prematch.test.mjs",
+      "tests/identity-submission-controls.cjs",
+      "tests/identity-submission.test.mjs",
+      "tests/independent-submission.test.mjs",
+      "tests/permission-accounts.test.mjs",
+      "tests/review-fixtures.mjs",
+      "tests/review-lifecycle.test.mjs",
+      "tests/test-accounts.test.mjs",
+      "tests/test-scenarios.test.mjs"
+    ],
     "removedFiles": []
   },
   "fileHashes": {
-    "dist/app.js": "42c2faebad52a6950e3e4bf317cb7b2806bfe4b8130433557e785c0f71072cef",
+    "dist/app.js": "5cc8b05f9696268ad354ed0f6dde6d2f317cb0719aa14cb401b11c0da3f4a69c",
     "dist/compatibility.js": "b3b9264cac766f8a3fd87a676960b2ac9112263fefdbbb8c13c053d246a42b48",
     "dist/data.js": "84f3beffe00e497a5bb08028b22cfc91a6807b7aa2b0e512b2de26ff55b7f752",
     "dist/demo-public-profiles.js": "c96d141023e116fd27cbf31f3150aebe9d86e778e350f8b817510dc4f40a7ae8",
     "dist/domain.js": "efd46f69891219e82fc4177ceada50c278edcf7009c234934dd4cbea4d1af216",
     "dist/help-ui.js": "2bb57fb6dfcd518519362b630d893633f8bc135f8a995cfe407315c3dd7e0ad1",
-    "dist/identity-submission.js": "92836d684be0bba66bc5f335a7dfa743ddb472246310823b6a5e07376a906baf",
+    "dist/identity-submission.js": "f3d8f4130e4b084104d3c1874fc8e38f1a9cd2ecb0257d85bfaf116643467c83",
     "dist/index.html": "50c41b3e5d465650dd701108b8e8b90efaa8145e556c7fb7a43188c96b4b4bd1",
-    "dist/model.js": "19fb77ab8980fd09f1d05e1f31c9458b0ca4d57b48537492f9b8e29bda3b5e09",
+    "dist/model.js": "b4c2b65440af6bdca7a894842f924cd66653864dd2d0b0c4e2485daad71d40f9",
     "dist/panda-personality/compatibility-source-manifest.js": "0077483da4b7befe17aaa4943cdff0398c3b5f9261586bc7b5b40692d2fff259",
     "dist/panda-personality/source-manifest.js": "ae9d57516731bf5c7dc529d90ab97ac6d6616f59f2002158991420063e003058",
     "dist/panda-personality/src/data/genmeiText.js": "69883f3c76321401d3a31bf2822cf51ef6e8f9717d27928599b70b3b9c03e3b5",
@@ -9335,46 +9375,47 @@
     "dist/registration-questions.js": "a9fdfd1b49a0079d2346c2e6e657e2f914bc82a4d41dec3e99f7a24675f8992e",
     "dist/search.js": "bc51361f5ae9d153712227ee0cd5a5e86fe8ff7ddaa8205a357eaa14e3e9b6aa",
     "dist/styles.css": "ffa4339685cff71fe31d488e7fd854e3186560bb989d2a59fe9d1f43a4e1d3ba",
-    "dist/test-scenarios.js": "5b0c503e9d796bd3adca65ff7665697ef559047c83271e3a79fe8c9fc03d66bd",
+    "dist/test-scenarios.js": "895f84e1097cd2200a26e05c036667b3853293335b7b52a16a96c81fa9f5c894",
     "package.json": "be7e5f884e3f95253ff0e36590ae82c83ae1c5cbcf255f14bd7794f7332b9df0",
     "server.mjs": "ec0b1ab8f43acb0b16f49995d0ab9eb01e0927ba3acfc2749fe745e2cfbce765",
-    "tests/account-coverage.test.mjs": "4c2cdbec6d15990ffb4297f69fac52dc7fab72c0ba956129abfefb600d3e6c1b",
+    "tests/account-coverage.test.mjs": "b0893949b7eac23f22e17d82f495c226d88f988c9ab963160e92333f6e3b4ec5",
     "tests/browser-billing-footprints-quota.cjs": "340351881e4ab0419c0ca70b1570baa6b1b264b9e48323b801a78408c5e11a94",
     "tests/browser-chat-layout.cjs": "f9bfe1296303d53de6edab403d8c879509c463f1500c4b8973829b9c077a2e1b",
     "tests/browser-compatibility.cjs": "eada89548ea69560ba521521de85047c611e7f0b77d7e5ccd6882c2e760e8e61",
     "tests/browser-diagnosis.cjs": "e91dd0a95613ff455767af1d4652dc3c4fa8e1f16c95a67152f15d1431651b45",
     "tests/browser-endless.cjs": "bbaf8c814dbee16a6df658ffc6f00aa1125f4dd51a6b27338bbd0d88d05dbb5f",
     "tests/browser-entry.cjs": "1b1bcfd52b3d9ec9100885b9f6276f9d0666f33aa4f31f025fc12cc56b8bb6f1",
-    "tests/browser-help.cjs": "12a303b1260fa0129caf55d2d3a085a8d84b4375b74431a7941cb7f846a8c794",
-    "tests/browser-identity-submission.cjs": "366971331dfa1634a53f442d9bfc5324335eb12bc2b990ed4000ef3c8516e04e",
-    "tests/browser-journey.cjs": "97692ef00e550a631f33d8b4410001e0b87fa4dc11c5d8426e705b2e06f23ce8",
+    "tests/browser-help.cjs": "b8a10b9439ae4c3c1baa208ba53ee579e68791455fd1826e8c6f9d78c5f3b059",
+    "tests/browser-identity-submission.cjs": "c05bc294273159013ecff1c87157f6d697322cc6e258d2aa4091d4e2ecf9a40c",
+    "tests/browser-journey.cjs": "c4c378dbf05c993fed0daf11360280b0008e87c048dc2a8d37f4ad89b8b573ed",
     "tests/browser-layout.cjs": "22aa7dc3200eaf3a7c245350ed3493a6759b612bb86f2629f03d44ab788d8813",
-    "tests/browser-message-access.cjs": "95dc6ff85c2251b9befdec7831de569b9ad277f34f08e0c095d3e006f0119f07",
+    "tests/browser-message-access.cjs": "c53d9ae6526e1f132bb609005222b9b2a644063c38d6fd256fc58463d8a0722c",
     "tests/browser-message-approval.cjs": "8908d98bbe8c8e7ce9ac47cd839c06a95a91b92b8ca271f3758f421e376f6a03",
     "tests/browser-message-sections.cjs": "df86f2e6c0b4c3d54917e5c5681fbc1a4b10f997ef82cb9c847ab179c7e3ed78",
     "tests/browser-mypage.cjs": "6b0c7b59f7b5fe6c8a666d1db16dae81abbbeb0d66e0f544ad9c525bf510f678",
     "tests/browser-partner-profile.cjs": "f2f4d24276cc54e1c14508d2e2ba4948dbf9e34decbd4011d5d669dae8788f50",
-    "tests/browser-photo-editor.cjs": "80beb4e812067a5ad49e097b1f9eafbb8911db79558de19f5ba3ccdb6a681f45",
+    "tests/browser-photo-editor.cjs": "c54f38e64f3230f0c5239f7b5d8d1da023a0ebd0f1ceb2611b3619c4c2b0201e",
     "tests/browser-policy.cjs": "0834c7df9e6f67b3b891d3a09898d1d5512db02b6de62ef4abe316c1d5a3363a",
-    "tests/browser-prematch.cjs": "727be299500814fdb16502d52094678b9beb3f4fc9663a287ab1e00d5ba5576f",
+    "tests/browser-prematch.cjs": "3ffc2853bc976470071186d42f9f27698e52d2d90ef803c4b0dac72477990fce",
     "tests/browser-profile-completion.cjs": "3169952ae19b7da6836656b81bb785acf9c3c0376400196ddd217ab6f4f21fbf",
     "tests/browser-registration-demo.cjs": "6c2b1cf32372f2beaf8870432e18bfc719f3106de1a4a0c6b12393f20f9852cb",
     "tests/browser-search.cjs": "68f5b88839eb219d09c2e25c233902ba09d0246d35bd967a69b9370dc065a3a9",
-    "tests/browser-smoke.cjs": "e3cff77f3c67afb4dafe01aa6eac2623af685fa011d9d341e7c5ec7050252e66",
+    "tests/browser-smoke.cjs": "9b23860a67e7fe7d1d4093ce22fbf7f0d0b1b0b2f9c431cf1c67e84c8b9054a9",
     "tests/browser-spec-sync.cjs": "b5852059319bea478c19f98209c777b7a73468367d03a57b73222fca4447bd7e",
-    "tests/browser-test-accounts.cjs": "a66619a84151a366da891b40628cc65ca6d4c57c13f79c7a29fe54c6c24ed29c",
+    "tests/browser-test-accounts.cjs": "598d539839409d528759d9017575dad8d7913684b45b5d14bc844314981d9d69",
     "tests/browser-upgrade-matches-counts.cjs": "0cf5427c9bf0e9f0906e8a0f2642c4643d49cff209b634753e01bb3cfe639107",
     "tests/compatibility-model.test.mjs": "7e30d6446d6ed782b95a12804da95336d2754a4663fa698b25b0af63fee2d983",
     "tests/compatibility.test.mjs": "e2df2be6078c04171d36cef03a93da5e63bc24ceb52de3a64b65624a53fd3d03",
     "tests/demo-public-profiles.test.mjs": "4e23f636b4e349c8e4696e11c1a1b68c6709bc04404774f3611344bd520c57aa",
     "tests/diagnosis-values.test.mjs": "214ac45286698acc5e11870e3a44804b088dcf004ec837660c0ce9ed17f9de20",
     "tests/endless-candidates.test.mjs": "67cbfb321a92b13c90a09ed92f57596cea29c87f7b9d372800de60910db24b03",
-    "tests/female-prematch.test.mjs": "1aeda29ac3a45cf344533bccf765599ee8277aeed9a2b242d7af36aa98ca1621",
+    "tests/female-prematch.test.mjs": "319cd8768e73418419f8c3bae916a4d1c9876a4b9612e1c33040d98a0dee3ffb",
     "tests/fixture-url.cjs": "88fdc0a13b6fc597b1c595c31c1e8cbc4e65b98bac1c7ad72977f959824ba65a",
     "tests/footprint-counts.test.mjs": "0f0071ec23efe19b793711bea1383d4958574cea5650f4dfe1cb821d67dab7a2",
     "tests/help-controls.cjs": "b80319485eec8893e8727448fe4a3482afe1ceacc246254b588b5b1f2e950d6a",
-    "tests/identity-submission-controls.cjs": "3e38b9a186c7986cef56babd6bb16ff8e56464b6635ad416aa6c4b18c03a9498",
-    "tests/identity-submission.test.mjs": "5fef1fc41803575b4166024606f36e52e7253e32f95dc425d3e08afefd9b3eb4",
+    "tests/identity-submission-controls.cjs": "fce68dc109fee5a62e2893c7dc393372d11503de17b8754d33934ffa0226841f",
+    "tests/identity-submission.test.mjs": "ac82467fc591dff94ea66cd74ec3e1529b9de8a294407e4aa01d7169cd4fb7be",
+    "tests/independent-submission.test.mjs": "37a813ed25aa22ed4d61ce387ad01d1403605b944cef4ed7ee50a099da086124",
     "tests/message-access.test.mjs": "a08fd5b7965e32dc28c5111ed8544125217cb0830a9e342a2e781a8c0b5e092c",
     "tests/message-approval.test.mjs": "3e1b5725f6ebf8a4822e77f1bcd07596b07d0984c2e7ab31aa0a3da9cbda2d2b",
     "tests/message-sections-controls.cjs": "ddcee6e74abaa5a25a858c97ee76e10c1238b9626b18ad47feb61fc7b1863bff",
@@ -9382,7 +9423,7 @@
     "tests/messages.test.mjs": "50df8c09470d359cf214f0b2d6899a74746f34101d5d11ae51f12582eb6d17d9",
     "tests/nonface-review.test.mjs": "53570d141c88ad5aeaf75d4ede6735ec42d3ae7857eeb549bad5b72470c93c76",
     "tests/pending-message-counts.test.mjs": "9b0f4e41bb5657ca112df57719c4f40dabf667579c2cfa9a6f88d6d583cb46a4",
-    "tests/permission-accounts.test.mjs": "d427ea403e30dc61f86599cce3e215d4a35c4eba616df1275485a39f7092e677",
+    "tests/permission-accounts.test.mjs": "163bb01a9ea20c9d71de3ab6ff1c0b0f7b002369ec443f3623eef2daec589c14",
     "tests/personality.test.mjs": "a65109d459c8b3a831e6752f6ea6392d956340c9ec501b4f085ade4f2f5143e2",
     "tests/phone-auth-assumption.test.mjs": "e5b70c6583701aa8259fdc0a349735c7e3b1fd4d2c4e6e286f28f63cdd5a6b9e",
     "tests/plan-ui.test.mjs": "59430f1ac571b5a2f8633e060c4bd18be180b0fa561508bab01e806b360369ec",
@@ -9390,16 +9431,17 @@
     "tests/profile-completion.test.mjs": "205781a26699a696b0d81db5a7b456084f324660622a5be28603a19b1c7c92d6",
     "tests/profile-presentation.test.mjs": "166aaa8105af357aa000f40f559d3ca5a44dc0ba91a060d055c3b5cdd7bf181d",
     "tests/registration-demo.test.mjs": "92fa33cbffc76851fb1a564c713df4bf9574cba3f9bd0bfbf9d13d36318005d0",
-    "tests/review-lifecycle.test.mjs": "683bb4ba387b339a4795019201ea11e64c0e4713d20b0bf229a5c24cb69176c7",
+    "tests/review-fixtures.mjs": "0fcbecc66aef0a51fec039bdaa4a3a5717c80b932fc4fd63abecbbeca02ec5e9",
+    "tests/review-lifecycle.test.mjs": "b4e3313091476114fe2eb201c5931afa03a01b0cfa306ef6d985c5ae2044d0fd",
     "tests/search.test.mjs": "67c79a1dbbcd25e68ae9602e630dfff6511f377e3dc1f00c049f9b2b5e728caf",
     "tests/skeleton.test.mjs": "74aaff22f48518e81a041c5c3caf067aaa88114e9d3f26fa39e38a6063958785",
     "tests/spec-sync.test.mjs": "940f46d18350afc36682929bf97dbabf444ecf7974e6fdf378dd51c2e24efe83",
-    "tests/test-accounts.test.mjs": "c8d4474ad3fa5ef3712d8596aad0c456eca0fdb59ad616c144888f1032fa96fe",
-    "tests/test-scenarios.test.mjs": "36b2f80d2ca670a58df0f658375ed7d21abac88eea257c8843d9bfc94615f23e"
+    "tests/test-accounts.test.mjs": "a89bfecdaa3c09a5390e10934899bf53a4a6c165b93636ac49ba674856528dfc",
+    "tests/test-scenarios.test.mjs": "f3a697f3b75efc5d61821c16fc774c22b1cb468465ce1c72fda6dd9fb58783c4"
   },
   "coverage": {
-    "files": 87,
-    "parsed": 84,
+    "files": 89,
+    "parsed": 86,
     "operations": 256,
     "screens": 29,
     "dynamic": 29
@@ -9422,37 +9464,15 @@
   ],
   "tests": {
     "unit": {
-      "status": "passed",
-      "fingerprint": "0d13ff2e7f8ad8105add35164f3e5ebe86352823f4717ff37446e06d3cb0af61",
-      "startedAt": "2026-10-09T07:20:39.550Z",
-      "finishedAt": "2026-10-09T07:21:08.862Z",
-      "total": 1823,
-      "passed": 1823,
-      "failed": 0,
-      "skipped": 0,
-      "failures": [],
-      "reason": null
+      "status": "pending",
+      "fingerprint": "723906c1e0a6c1d1e0e1efae18de1dc42cf3d3225ffb3348693ed02321560be6"
     },
     "browser": {
-      "status": "running",
-      "fingerprint": "0d13ff2e7f8ad8105add35164f3e5ebe86352823f4717ff37446e06d3cb0af61",
-      "startedAt": "2026-10-09T07:21:08.879Z",
-      "total": 25,
-      "passed": 12,
-      "failed": 1,
-      "failures": [
-        {
-          "name": "tests/browser-message-access.cjs",
-          "source": {
-            "file": "tests/browser-message-access.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        }
-      ],
-      "completed": 13
+      "status": "pending",
+      "fingerprint": "723906c1e0a6c1d1e0e1efae18de1dc42cf3d3225ffb3348693ed02321560be6"
     }
   },
-  "heartbeatAt": "2026-10-09T07:35:02.954Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-09T07:36:16.462Z",
+  "publishError": null,
+  "pendingSource": true
 }
