@@ -9407,7 +9407,7 @@
       "startedAt": "2026-10-22T06:58:03.519Z",
       "total": 25,
       "passed": 6,
-      "failed": 1,
+      "failed": 2,
       "failures": [
         {
           "name": "tests/browser-help.cjs",
@@ -9416,11 +9416,19 @@
             "line": 1
           },
           "reason": "実行時間の上限を超えました"
+        },
+        {
+          "name": "tests/browser-identity-submission.cjs",
+          "source": {
+            "file": "tests/browser-identity-submission.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 7
+      "completed": 8
     }
   },
-  "heartbeatAt": "2026-10-22T07:06:12.148Z",
+  "heartbeatAt": "2026-10-22T07:08:12.173Z",
   "publishError": null
 }
