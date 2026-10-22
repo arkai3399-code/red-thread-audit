@@ -9407,11 +9407,20 @@
       "startedAt": "2026-10-22T01:13:38.952Z",
       "total": 25,
       "passed": 6,
-      "failed": 0,
-      "failures": [],
-      "completed": 6
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-help.cjs",
+          "source": {
+            "file": "tests/browser-help.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 7
     }
   },
-  "heartbeatAt": "2026-10-22T01:19:13.545Z",
+  "heartbeatAt": "2026-10-22T01:21:30.128Z",
   "publishError": null
 }
