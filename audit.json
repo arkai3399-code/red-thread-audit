@@ -9406,12 +9406,29 @@
       "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
       "startedAt": "2026-10-23T11:31:19.742Z",
       "total": 25,
-      "passed": 8,
-      "failed": 0,
-      "failures": [],
-      "completed": 8
+      "passed": 9,
+      "failed": 2,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-message-access.cjs",
+          "source": {
+            "file": "tests/browser-message-access.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 11
     }
   },
-  "heartbeatAt": "2026-10-23T11:39:27.252Z",
+  "heartbeatAt": "2026-10-23T11:42:21.985Z",
   "publishError": null
 }
