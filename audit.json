@@ -9407,7 +9407,7 @@
       "startedAt": "2026-10-25T10:53:13.070Z",
       "total": 25,
       "passed": 5,
-      "failed": 1,
+      "failed": 3,
       "failures": [
         {
           "name": "tests/browser-chat-layout.cjs",
@@ -9416,11 +9416,27 @@
             "line": 1
           },
           "reason": "実行時間の上限を超えました"
+        },
+        {
+          "name": "tests/browser-help.cjs",
+          "source": {
+            "file": "tests/browser-help.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-identity-submission.cjs",
+          "source": {
+            "file": "tests/browser-identity-submission.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 6
+      "completed": 8
     }
   },
-  "heartbeatAt": "2026-10-25T10:59:51.942Z",
+  "heartbeatAt": "2026-10-25T11:02:27.072Z",
   "publishError": null
 }
