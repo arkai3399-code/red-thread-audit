@@ -3,7 +3,7 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-10-25T12:19:13.841Z",
+  "checkedAt": "2026-10-25T12:36:15.260Z",
   "workerStatus": "testing",
   "syncMode": "local",
   "source": {
@@ -9392,8 +9392,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
-      "startedAt": "2026-10-25T12:19:20.247Z",
-      "finishedAt": "2026-10-25T12:19:30.780Z",
+      "startedAt": "2026-10-25T12:36:25.659Z",
+      "finishedAt": "2026-10-25T12:36:44.676Z",
       "total": 2346,
       "passed": 2346,
       "failed": 0,
@@ -9404,23 +9404,9 @@
     "browser": {
       "status": "running",
       "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
-      "startedAt": "2026-10-25T12:19:30.796Z",
-      "total": 25,
-      "passed": 1,
-      "failed": 1,
-      "failures": [
-        {
-          "name": "tests/browser-chat-layout.cjs",
-          "source": {
-            "file": "tests/browser-chat-layout.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        }
-      ],
-      "completed": 2
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-10-25T12:23:02.331Z",
-  "publishError": null
+  "heartbeatAt": "2026-10-25T12:36:44.687Z"
 }
