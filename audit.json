@@ -9406,12 +9406,12 @@
       "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
       "startedAt": "2026-10-29T08:38:38.485Z",
       "total": 25,
-      "passed": 4,
+      "passed": 6,
       "failed": 0,
       "failures": [],
-      "completed": 4
+      "completed": 6
     }
   },
-  "heartbeatAt": "2026-10-29T08:42:54.433Z",
+  "heartbeatAt": "2026-10-29T08:44:09.554Z",
   "publishError": null
 }
