@@ -9406,11 +9406,21 @@
       "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
       "startedAt": "2026-11-02T21:32:56.205Z",
       "total": 25,
-      "passed": 1,
-      "failed": 0,
-      "failures": [],
-      "completed": 1
+      "passed": 2,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-chat-layout.cjs",
+          "source": {
+            "file": "tests/browser-chat-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 3
     }
   },
-  "heartbeatAt": "2026-11-02T21:33:56.302Z"
+  "heartbeatAt": "2026-11-02T21:36:04.059Z",
+  "publishError": null
 }
