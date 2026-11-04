@@ -3,7 +3,7 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-11-03T20:29:30.864Z",
+  "checkedAt": "2026-11-04T02:19:37.914Z",
   "workerStatus": "testing",
   "syncMode": "local",
   "source": {
@@ -9390,27 +9390,14 @@
   ],
   "tests": {
     "unit": {
-      "status": "passed",
-      "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
-      "startedAt": "2026-11-03T20:29:36.693Z",
-      "finishedAt": "2026-11-03T20:29:46.393Z",
-      "total": 2346,
-      "passed": 2346,
-      "failed": 0,
-      "skipped": 0,
-      "failures": [],
-      "reason": null
+      "status": "running",
+      "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea"
     },
     "browser": {
-      "status": "running",
+      "status": "not-run",
       "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
-      "startedAt": "2026-11-03T20:29:46.420Z",
-      "total": 25,
-      "passed": 1,
-      "failed": 0,
-      "failures": [],
-      "completed": 1
+      "reason": "この版のブラウザ検証は未実行です"
     }
   },
-  "heartbeatAt": "2026-11-03T20:30:56.474Z"
+  "heartbeatAt": "2026-11-04T02:19:51.201Z"
 }
