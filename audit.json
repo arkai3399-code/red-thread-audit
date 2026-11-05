@@ -9407,11 +9407,20 @@
       "startedAt": "2026-11-05T10:20:17.612Z",
       "total": 25,
       "passed": 10,
-      "failed": 0,
-      "failures": [],
-      "completed": 10
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-message-access.cjs",
+          "source": {
+            "file": "tests/browser-message-access.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 11
     }
   },
-  "heartbeatAt": "2026-11-05T10:29:22.728Z",
+  "heartbeatAt": "2026-11-05T10:31:22.745Z",
   "publishError": null
 }
