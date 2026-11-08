@@ -9406,7 +9406,7 @@
       "fingerprint": "90698e761447b0372abdb4a25b93f2faf2556318b79e619c2a43a18a183e85ea",
       "startedAt": "2026-11-08T14:01:28.305Z",
       "total": 25,
-      "passed": 10,
+      "passed": 13,
       "failed": 8,
       "failures": [
         {
@@ -9474,9 +9474,9 @@
           "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 18
+      "completed": 21
     }
   },
-  "heartbeatAt": "2026-11-08T14:20:17.101Z",
+  "heartbeatAt": "2026-11-08T14:21:30.949Z",
   "publishError": null
 }
