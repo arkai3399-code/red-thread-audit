@@ -9407,7 +9407,7 @@
       "startedAt": "2026-11-11T01:40:50.933Z",
       "total": 25,
       "passed": 5,
-      "failed": 1,
+      "failed": 2,
       "failures": [
         {
           "name": "tests/browser-chat-layout.cjs",
@@ -9416,11 +9416,19 @@
             "line": 1
           },
           "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-help.cjs",
+          "source": {
+            "file": "tests/browser-help.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 6
+      "completed": 7
     }
   },
-  "heartbeatAt": "2026-11-11T01:46:07.578Z",
+  "heartbeatAt": "2026-11-11T01:48:14.604Z",
   "publishError": null
 }
