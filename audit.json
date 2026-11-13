@@ -9407,11 +9407,20 @@
       "startedAt": "2026-11-13T07:53:47.337Z",
       "total": 25,
       "passed": 9,
-      "failed": 0,
-      "failures": [],
-      "completed": 9
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        }
+      ],
+      "completed": 10
     }
   },
-  "heartbeatAt": "2026-11-13T08:03:04.532Z",
+  "heartbeatAt": "2026-11-13T08:03:34.760Z",
   "publishError": null
 }
