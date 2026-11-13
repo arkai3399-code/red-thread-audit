@@ -9406,8 +9406,8 @@
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
       "startedAt": "2026-11-13T10:47:10.346Z",
       "total": 25,
-      "passed": 7,
-      "failed": 6,
+      "passed": 8,
+      "failed": 7,
       "failures": [
         {
           "name": "tests/browser-chat-layout.cjs",
@@ -9456,11 +9456,19 @@
             "line": 1
           },
           "reason": "実行時間の上限を超えました"
+        },
+        {
+          "name": "tests/browser-partner-profile.cjs",
+          "source": {
+            "file": "tests/browser-partner-profile.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 13
+      "completed": 15
     }
   },
-  "heartbeatAt": "2026-11-13T11:04:08.846Z",
+  "heartbeatAt": "2026-11-13T11:04:59.084Z",
   "publishError": null
 }
