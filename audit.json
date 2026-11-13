@@ -9407,7 +9407,7 @@
       "startedAt": "2026-11-13T07:53:47.337Z",
       "total": 25,
       "passed": 14,
-      "failed": 3,
+      "failed": 4,
       "failures": [
         {
           "name": "tests/browser-layout.cjs",
@@ -9432,11 +9432,19 @@
             "line": 1
           },
           "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-prematch.cjs",
+          "source": {
+            "file": "tests/browser-prematch.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 17
+      "completed": 18
     }
   },
-  "heartbeatAt": "2026-11-13T08:11:15.111Z",
+  "heartbeatAt": "2026-11-13T08:13:15.130Z",
   "publishError": null
 }
