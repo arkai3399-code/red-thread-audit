@@ -3,7 +3,7 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-11-12T16:12:44.466Z",
+  "checkedAt": "2026-11-13T00:54:32.784Z",
   "workerStatus": "idle",
   "syncMode": "local",
   "source": {
@@ -8974,7 +8974,7 @@
       "automatic": true,
       "stale": false,
       "title": "ブラウザ操作のテストが失敗",
-      "description": "8件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
+      "description": "7件の失敗を検出しました。テスト欄の失敗箇所を確認してください。",
       "source": {
         "file": "tests/browser-chat-layout.cjs",
         "line": 1
@@ -9404,8 +9404,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-12T16:12:50.909Z",
-      "finishedAt": "2026-11-12T16:13:03.182Z",
+      "startedAt": "2026-11-13T00:54:39.264Z",
+      "finishedAt": "2026-11-13T00:54:51.930Z",
       "total": 2346,
       "passed": 2346,
       "failed": 0,
@@ -9416,10 +9416,10 @@
     "browser": {
       "status": "failed",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-12T16:13:03.197Z",
+      "startedAt": "2026-11-13T00:54:51.945Z",
       "total": 25,
-      "passed": 17,
-      "failed": 8,
+      "passed": 18,
+      "failed": 7,
       "failures": [
         {
           "name": "tests/browser-chat-layout.cjs",
@@ -9433,14 +9433,6 @@
           "name": "tests/browser-help.cjs",
           "source": {
             "file": "tests/browser-help.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-identity-submission.cjs",
-          "source": {
-            "file": "tests/browser-identity-submission.cjs",
             "line": 1
           },
           "reason": "実行時間の上限を超えました"
@@ -9487,10 +9479,10 @@
         }
       ],
       "completed": 25,
-      "finishedAt": "2026-11-12T16:40:25.397Z"
+      "finishedAt": "2026-11-13T01:21:22.569Z"
     }
   },
-  "heartbeatAt": "2026-11-12T16:40:25.397Z",
+  "heartbeatAt": "2026-11-13T01:34:47.648Z",
   "publishError": null,
   "pendingSource": false
 }
