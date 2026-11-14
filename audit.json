@@ -9406,7 +9406,7 @@
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
       "startedAt": "2026-11-14T02:00:34.095Z",
       "total": 25,
-      "passed": 17,
+      "passed": 18,
       "failed": 5,
       "failures": [
         {
@@ -9450,9 +9450,9 @@
           "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 22
+      "completed": 23
     }
   },
-  "heartbeatAt": "2026-11-14T02:21:31.300Z",
+  "heartbeatAt": "2026-11-14T02:22:12.582Z",
   "publishError": null
 }
