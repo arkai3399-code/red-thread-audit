@@ -9390,14 +9390,24 @@
   ],
   "tests": {
     "unit": {
-      "status": "running",
-      "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c"
+      "status": "passed",
+      "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
+      "startedAt": "2026-11-14T00:37:10.995Z",
+      "finishedAt": "2026-11-14T00:37:27.122Z",
+      "total": 2346,
+      "passed": 2346,
+      "failed": 0,
+      "skipped": 0,
+      "failures": [],
+      "reason": null
     },
     "browser": {
-      "status": "not-run",
+      "status": "running",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "reason": "この版のブラウザ検証は未実行です"
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-11-14T00:37:10.775Z"
+  "heartbeatAt": "2026-11-14T00:37:27.130Z",
+  "publishError": null
 }
