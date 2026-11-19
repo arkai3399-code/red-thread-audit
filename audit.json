@@ -3,7 +3,7 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-11-19T06:03:33.503Z",
+  "checkedAt": "2026-11-19T07:25:30.657Z",
   "workerStatus": "testing",
   "syncMode": "local",
   "source": {
@@ -9392,8 +9392,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-19T06:03:39.169Z",
-      "finishedAt": "2026-11-19T06:03:50.138Z",
+      "startedAt": "2026-11-19T07:25:36.929Z",
+      "finishedAt": "2026-11-19T07:25:47.508Z",
       "total": 2346,
       "passed": 2346,
       "failed": 0,
@@ -9404,11 +9404,35 @@
     "browser": {
       "status": "running",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-19T06:03:50.171Z",
+      "startedAt": "2026-11-19T07:25:47.524Z",
       "total": 25,
-      "passed": 22,
-      "failed": 2,
+      "passed": 11,
+      "failed": 5,
       "failures": [
+        {
+          "name": "tests/browser-chat-layout.cjs",
+          "source": {
+            "file": "tests/browser-chat-layout.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        },
+        {
+          "name": "tests/browser-help.cjs",
+          "source": {
+            "file": "tests/browser-help.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        },
+        {
+          "name": "tests/browser-layout.cjs",
+          "source": {
+            "file": "tests/browser-layout.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
+        },
         {
           "name": "tests/browser-message-access.cjs",
           "source": {
@@ -9426,9 +9450,9 @@
           "reason": "ブラウザ検証が失敗しました"
         }
       ],
-      "completed": 24
+      "completed": 16
     }
   },
-  "heartbeatAt": "2026-11-19T06:23:26.768Z",
+  "heartbeatAt": "2026-11-19T07:43:58.655Z",
   "publishError": null
 }
