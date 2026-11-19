@@ -9407,11 +9407,20 @@
       "startedAt": "2026-11-19T03:18:41.640Z",
       "total": 25,
       "passed": 7,
-      "failed": 0,
-      "failures": [],
-      "completed": 7
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-identity-submission.cjs",
+          "source": {
+            "file": "tests/browser-identity-submission.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 8
     }
   },
-  "heartbeatAt": "2026-11-19T03:24:59.968Z",
+  "heartbeatAt": "2026-11-19T03:27:00.072Z",
   "publishError": null
 }
