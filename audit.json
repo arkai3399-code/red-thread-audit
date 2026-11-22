@@ -3,7 +3,7 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-11-22T05:25:20.415Z",
+  "checkedAt": "2026-11-22T14:11:45.454Z",
   "workerStatus": "testing",
   "syncMode": "local",
   "source": {
@@ -9392,8 +9392,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-22T05:25:26.750Z",
-      "finishedAt": "2026-11-22T05:25:37.029Z",
+      "startedAt": "2026-11-22T14:11:57.625Z",
+      "finishedAt": "2026-11-22T14:12:17.713Z",
       "total": 2346,
       "passed": 2346,
       "failed": 0,
@@ -9404,63 +9404,9 @@
     "browser": {
       "status": "running",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-22T05:25:37.045Z",
-      "total": 25,
-      "passed": 6,
-      "failed": 6,
-      "failures": [
-        {
-          "name": "tests/browser-chat-layout.cjs",
-          "source": {
-            "file": "tests/browser-chat-layout.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-help.cjs",
-          "source": {
-            "file": "tests/browser-help.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-identity-submission.cjs",
-          "source": {
-            "file": "tests/browser-identity-submission.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-layout.cjs",
-          "source": {
-            "file": "tests/browser-layout.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        },
-        {
-          "name": "tests/browser-message-access.cjs",
-          "source": {
-            "file": "tests/browser-message-access.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-message-approval.cjs",
-          "source": {
-            "file": "tests/browser-message-approval.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
-        }
-      ],
-      "completed": 12
+      "total": 0,
+      "completed": 0
     }
   },
-  "heartbeatAt": "2026-11-22T05:41:15.864Z",
-  "publishError": null
+  "heartbeatAt": "2026-11-22T14:12:17.722Z"
 }
