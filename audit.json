@@ -3,7 +3,7 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-11-24T14:34:10.811Z",
+  "checkedAt": "2026-11-24T17:24:10.273Z",
   "workerStatus": "idle",
   "syncMode": "local",
   "source": {
@@ -9404,8 +9404,8 @@
     "unit": {
       "status": "passed",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-24T14:34:16.901Z",
-      "finishedAt": "2026-11-24T14:34:26.308Z",
+      "startedAt": "2026-11-24T17:24:16.372Z",
+      "finishedAt": "2026-11-24T17:24:25.834Z",
       "total": 2346,
       "passed": 2346,
       "failed": 0,
@@ -9416,7 +9416,7 @@
     "browser": {
       "status": "failed",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-24T14:34:26.327Z",
+      "startedAt": "2026-11-24T17:24:25.848Z",
       "total": 25,
       "passed": 18,
       "failed": 7,
@@ -9427,15 +9427,7 @@
             "file": "tests/browser-chat-layout.cjs",
             "line": 1
           },
-          "reason": "実行時間の上限を超えました"
-        },
-        {
-          "name": "tests/browser-help.cjs",
-          "source": {
-            "file": "tests/browser-help.cjs",
-            "line": 1
-          },
-          "reason": "実行時間の上限を超えました"
+          "reason": "ブラウザ検証が失敗しました"
         },
         {
           "name": "tests/browser-layout.cjs",
@@ -9452,6 +9444,14 @@
             "line": 1
           },
           "reason": "実行時間の上限を超えました"
+        },
+        {
+          "name": "tests/browser-message-sections.cjs",
+          "source": {
+            "file": "tests/browser-message-sections.cjs",
+            "line": 1
+          },
+          "reason": "ブラウザ検証が失敗しました"
         },
         {
           "name": "tests/browser-partner-profile.cjs",
@@ -9479,10 +9479,10 @@
         }
       ],
       "completed": 25,
-      "finishedAt": "2026-11-24T14:59:27.261Z"
+      "finishedAt": "2026-11-24T17:47:38.135Z"
     }
   },
-  "heartbeatAt": "2026-11-24T14:59:27.261Z",
+  "heartbeatAt": "2026-11-24T17:50:41.985Z",
   "publishError": null,
   "pendingSource": false
 }
