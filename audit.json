@@ -3,7 +3,7 @@
   "title": "赤い糸 / 全経路点検",
   "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
   "toolHash": "b163787541e1ee78d3ba95cf8b20378541aabc2e4426f77b3201b0f683625235",
-  "checkedAt": "2026-11-22T18:55:58.187Z",
+  "checkedAt": "2026-11-24T06:50:11.117Z",
   "workerStatus": "testing",
   "syncMode": "local",
   "source": {
@@ -9390,37 +9390,14 @@
   ],
   "tests": {
     "unit": {
-      "status": "passed",
-      "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-22T18:56:04.223Z",
-      "finishedAt": "2026-11-22T18:56:13.179Z",
-      "total": 2346,
-      "passed": 2346,
-      "failed": 0,
-      "skipped": 0,
-      "failures": [],
-      "reason": null
+      "status": "running",
+      "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c"
     },
     "browser": {
-      "status": "running",
+      "status": "not-run",
       "fingerprint": "ae8a0e24c06f0cab83c1ae7c48b8498c6c69baf6af4f0883a9d626607117122c",
-      "startedAt": "2026-11-22T18:56:13.194Z",
-      "total": 25,
-      "passed": 5,
-      "failed": 1,
-      "failures": [
-        {
-          "name": "tests/browser-chat-layout.cjs",
-          "source": {
-            "file": "tests/browser-chat-layout.cjs",
-            "line": 1
-          },
-          "reason": "ブラウザ検証が失敗しました"
-        }
-      ],
-      "completed": 6
+      "reason": "この版のブラウザ検証は未実行です"
     }
   },
-  "heartbeatAt": "2026-11-22T19:01:13.422Z",
-  "publishError": null
+  "heartbeatAt": "2026-11-24T06:50:19.379Z"
 }
