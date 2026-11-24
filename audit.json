@@ -9407,7 +9407,7 @@
       "startedAt": "2026-11-24T06:50:56.898Z",
       "total": 25,
       "passed": 10,
-      "failed": 5,
+      "failed": 6,
       "failures": [
         {
           "name": "tests/browser-message-access.cjs",
@@ -9448,11 +9448,19 @@
             "line": 1
           },
           "reason": "ブラウザ検証が失敗しました"
+        },
+        {
+          "name": "tests/browser-photo-editor.cjs",
+          "source": {
+            "file": "tests/browser-photo-editor.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
         }
       ],
-      "completed": 15
+      "completed": 16
     }
   },
-  "heartbeatAt": "2026-11-24T07:08:11.291Z",
+  "heartbeatAt": "2026-11-24T07:10:11.421Z",
   "publishError": null
 }
