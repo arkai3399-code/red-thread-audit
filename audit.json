@@ -9407,11 +9407,20 @@
       "startedAt": "2026-11-26T15:55:11.840Z",
       "total": 25,
       "passed": 1,
-      "failed": 0,
-      "failures": [],
-      "completed": 1
+      "failed": 1,
+      "failures": [
+        {
+          "name": "tests/browser-chat-layout.cjs",
+          "source": {
+            "file": "tests/browser-chat-layout.cjs",
+            "line": 1
+          },
+          "reason": "実行時間の上限を超えました"
+        }
+      ],
+      "completed": 2
     }
   },
-  "heartbeatAt": "2026-11-26T15:56:07.659Z",
+  "heartbeatAt": "2026-11-26T15:58:07.667Z",
   "publishError": null
 }
